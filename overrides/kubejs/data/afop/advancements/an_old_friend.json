@@ -1,0 +1,18 @@
+{
+    "display": {
+      "title": "我的一位故友，至今都没吃过羊肉...",
+      "description": "我还会回来的...",
+      "icon": {
+        "item": "kubejs:undigested_mutton"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "trigger": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

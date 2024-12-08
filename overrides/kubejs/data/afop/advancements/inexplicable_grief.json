@@ -1,0 +1,18 @@
+{
+    "display": {
+      "title": "为何我感到悲伤",
+      "description": "你，是谁呢？",
+      "icon": {
+        "item": "kubejs:broken_contract"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "trigger": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

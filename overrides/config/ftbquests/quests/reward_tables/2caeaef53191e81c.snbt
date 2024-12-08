@@ -1,0 +1,20 @@
+{
+	id: "2CAEAEF53191E81C"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "iceandfire:dragonscale_red" }
+		{ item: "iceandfire:dragonscale_green" }
+		{ item: "iceandfire:dragonscale_bronze" }
+		{ item: "iceandfire:dragonscale_gray" }
+		{ item: "iceandfire:dragonscale_blue" }
+		{ item: "iceandfire:dragonscale_white" }
+		{ item: "iceandfire:dragonscale_sapphire" }
+		{ item: "iceandfire:dragonscale_silver" }
+		{ item: "iceandfire:dragonscale_electric" }
+		{ item: "iceandfire:dragonscale_amythest" }
+		{ item: "iceandfire:dragonscale_copper" }
+		{ item: "iceandfire:dragonscale_black" }
+	]
+	title: "龙鳞块"
+}

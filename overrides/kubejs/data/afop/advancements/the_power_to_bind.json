@@ -1,0 +1,18 @@
+{
+    "display": {
+      "title": "别小瞧我们的羁绊啊",
+      "description": "村子，由我来守护",
+      "icon": {
+        "item": "simplyswords:emberblade"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "trigger": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

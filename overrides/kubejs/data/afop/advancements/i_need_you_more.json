@@ -1,0 +1,18 @@
+{
+    "display": {
+      "title": "比起晴天，我更需要你...",
+      "description": "希望你可以为我自私一回...",
+      "icon": {
+        "item": "kubejs:sunny_doll"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "trigger": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

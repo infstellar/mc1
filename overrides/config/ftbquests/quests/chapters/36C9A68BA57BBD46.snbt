@@ -1,0 +1,164 @@
+{
+	autofocus_id: "7AC8F2C8BC4D52CC"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "36C9A68BA57BBD46"
+	group: "7EBBEE73A93E306F"
+	icon: "ftbquests:barrier"
+	id: "36C9A68BA57BBD46"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"宁然一隅是个以种田养老为主，"
+				"轻冒险为辅的中度魔改整合包"
+				"&c任务系统只是为了引导玩家和增添趣味，&r"
+				"不过我们准备了许多彩蛋，你可以稍加注意哦~"
+				"因为按键设置每个人都有自己不同的习惯，"
+				"制作的时候我们也没有去刻意的调整。"
+				""
+				"&c任务并非是一定要完成的，它的推进只是一种参考，或是告诉你这个东西应该这样。"
+				""
+				"&4请勿自行更换整合包内模组，以防止出现问题，若因此出现问题，我们不负责解决此类问题。"
+				"&r"
+				"&c游玩前调整按键是个非常重要的步骤。&r"
+				""
+				"&4如果你的帧数没有达到显示器的刷新率，麻烦在视频设置中打开垂直同步，这样会有更好的体验！"
+				""
+				"&c在这个世界中，种田做饭也能变强，说不定还会有未知的神明为你降下护佑。&r"
+				""
+				""
+				"如果您有关于玩法的建议或想法可以加入交流群联系我们(在ESC菜单中有加入方式)"
+				""
+				"记得看常见问题"
+			]
+			id: "7AC8F2C8BC4D52CC"
+			tasks: [{
+				id: "4FADA04548634629"
+				title: "游玩前须知"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["588048AFC7F4CE90"]
+			description: ["本整合包有尸体mod，你可以选择死亡掉落，也可以选择死亡不掉落（地上会有尸体，&4尸体会保留物品&r）"]
+			id: "2BE2ED5E38DBDA2F"
+			rewards: [{
+				auto: "disabled"
+				command: "/gamerule keepInventory true"
+				id: "008349941E4DA4D9"
+				title: "死亡不掉落"
+				type: "command"
+			}]
+			tasks: [{
+				id: "65283DE571657532"
+				title: "死亡不掉落"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["588048AFC7F4CE90"]
+			description: ["本整合包有尸体mod，你可以选择死亡掉落，也可以选择死亡不掉落（地上会有尸体，&4尸体会保留物品&r）"]
+			id: "4A2862C1DF21F276"
+			rewards: [{
+				auto: "disabled"
+				command: "/gamerule keepInventory false"
+				id: "7DC73F7ABC8520CF"
+				title: "死亡掉落"
+				type: "command"
+			}]
+			tasks: [{
+				id: "6DB91D3547AF6237"
+				title: "死亡不掉落"
+				type: "checkmark"
+			}]
+			title: "死亡掉落"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7AC8F2C8BC4D52CC"]
+			description: [
+				"Q:没有骷髅哪来的骨粉"
+				"A:可以通过JEI查看合成获取"
+				"(其他物品也同理，如果常规获取方式没有了，先检查一下其他配方)"
+				""
+				"Q:为什么地狱门点不着?"
+				"A:为了你的养老生活，未知存在抹去了这两个维度，同时加入三个其他维度"
+				""
+				"Q:那怎么才算毕业呢？"
+				"A:养老包不是为了毕业而玩，是为了你在玩的时候能静下心去享受这个慢节奏的游戏"
+				""
+				"Q:模组界面看不全怎么办？"
+				"A:ESC-选项-视频设置-界面尺寸 调到合适的即可"
+				""
+				"(有其他问题请加入交流群询问)"
+			]
+			id: "386DBCDEEF5EA97E"
+			rewards: [{
+				id: "57072B29BF926B6B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "33F0D2B1320E6A4A"
+				title: "常见问题解答"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7AC8F2C8BC4D52CC"]
+			description: [
+				"带上你的朋友一起来养老，不论任何游戏，只要有知心的朋友一起，就一定会好玩！"
+				""
+				"如果你是使用樱花映射或RadminLan(小蓝盾)这类Frp工具进行联机，"
+				"出现的卡顿是因为Frp的质量或者你网络的问题，&c请不要甩锅给整合包！&r"
+				""
+				"如果你想要更好的联机体验，建议你使用服务器联机！"
+				"(可以看看咱官方推荐的服务商)"
+			]
+			id: "6FAFF0550D37A046"
+			subtitle: "“游戏的最好也是最贵配置，不是么”"
+			tasks: [{
+				id: "6AD22A1B99A10F5B"
+				title: "朋友和联机问题"
+				type: "checkmark"
+			}]
+			title: "朋友和联机问题"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7AC8F2C8BC4D52CC"]
+			id: "588048AFC7F4CE90"
+			tasks: [{
+				id: "0E7C580FD0FBAA18"
+				title: "指令设置"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7AC8F2C8BC4D52CC"]
+			description: ["由于末地和下界被抹去，神明将下界和末地的物品保留了下来，并通过特殊的方法给予身在主世界的你，以此让你弥补缺少末地和下界的遗憾"]
+			id: "7BDA830C2A2B11BE"
+			subtitle: "“神明的庇佑”"
+			tasks: [{
+				id: "0150DB889B856EB3"
+				title: "末地和下界"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+	]
+	title: "游玩前须知"
+}

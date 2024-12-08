@@ -1,0 +1,234 @@
+
+["TPA++ Messages"]
+	# 不知道Minecraft的 §<颜色代码> 格式是如何工作的吗？请查看：https://www.digminecraft.com/lists/color_list_pc.php
+	# 由于字符串在Java中是不可变的，因此此配置中的所有值都需要重启才能生效！
+	# 所有消息都支持Java语法格式化！如果您想在消息中换行，只需输入\n，或者如果您想在消息中添加双引号，只需输入\"。
+	#
+	# 当找不到传送请求时的消息。
+	ERR_REQUEST_NOT_FOUND = "§c找不到您的传送请求！"
+	#
+	# 当玩家尝试对自己使用 /tpa 或 /tpahere 时的消息
+	ERR_NO_SELF_TELEPORT = "§c您不能向自己发送传送请求！"
+	#
+	# 当发送者已经向该玩家发送了传送请求时发送给发送者的消息。
+	# 占位符: "${receiver_name}": "您试图发送传送请求的接收者的名字"
+	ALREADY_SENT_TELEPORT_REQUEST = "§c您已经向 ${receiver_name} 发送了TPA请求！"
+	#
+	# 当接收者启用了 /tptoggle 防止所有外部传送请求时发送给发送者的消息
+	# 占位符: "${receiverName}": "接收者的名字"
+	ERR_RECEIVER_TP_DISABLED = "§c${receiverName} 已禁用外部传送请求！"
+	#
+	# 当发送者（自己）启用了 /tptoggle 防止所有外部传送请求时发送给发送者的消息
+	# 如果在配置中禁用，此设置无效
+	ERR_SENDER_TP_DISABLED = "§c您已禁用外部传送请求！"
+	#
+	# 当发送者（自己）阻止了接收者时发送给发送者的消息
+	# 占位符: "${blocked_player}": "被发送者阻止的玩家的名字"
+	SENDER_BLOCKED_RECEIVER = "§6您已 §c阻止 ${blocked_player}§6！"
+	#
+	# 当接收者阻止了发送者时发送给发送者的消息
+	# 占位符: "${blocking_player}": "阻止发送者的玩家的名字"
+	RECEIVER_BLOCKED_SENDER = "§c${blocking_player} §6已 §c阻止 §6您！"
+
+	["TPA++ Messages"."/back"]
+		#
+		# 当 /back 在服务器配置文件中被禁用时的消息。
+		ERR_BACK_COMMAND_DISABLED = "§c此命令已被服务器管理员禁用。"
+		#
+		# 当找不到您最近的死亡位置时的消息。
+		ERR_DEATH_LOC_NOT_FOUND = "§c找不到您最近的死亡位置！"
+		#
+		# 当您被传送到最近的死亡位置时的消息
+		DEATH_BEING_TELEPORTED = "§6正在将您传送到您的 §c最近的死亡位置§6..."
+		#
+		# 当您被传送到最近的死亡位置时的消息
+		DEATH_TELEPORTED = "§6您已被传送！"
+
+	["TPA++ Messages"."/tpadeny"]
+		#
+		# 当玩家执行 /tpadeny 时发送给玩家的消息
+		# 占位符: "%s": "被拒绝的发送者的名字"
+		RECEIVER_DENIES_TPA = "§6拒绝了来自 §c%s 的传送请求"
+		#
+		# 当接收者执行 /tpadeny 时发送给发送者的消息
+		# 占位符: "%s": "拒绝传送请求的接收者的名字"
+		SENDER_GOT_DENIED_TPA = "§6您的传送请求被 §c%s §6拒绝了！"
+
+	["TPA++ Messages"."/tpacancel"]
+		#
+		# 当玩家执行 /tpacancel 时发送给玩家的消息
+		# 占位符: "%s": "发送者取消的传送请求的接收者的名字"
+		SENDER_CANCELS_TPA = "§6取消了对 §c%s 的传送请求"
+		#
+		# 当发送者执行 /tpacancel 时发送给接收者的消息
+		# 占位符: "%s": "取消请求的发送者的名字"
+		RECEIVER_GOT_CANCELLED_TPA = "§6您的传送请求已被 §c%s §6取消！"
+
+	["TPA++ Messages"."/tpaaccept"]
+		#
+		# 当玩家执行 /tpaaccept 时发送给玩家的消息
+		# 占位符: "%s": "发送请求的发送者的名字"
+		RECEIVER_ACCEPTS_TPA = "§6接受了来自 §c%s 的传送请求"
+		#
+		# 当玩家的TPA请求被接收时发送给发送者的消息
+		# 占位符: "%s": "接受请求的接收者的名字"
+		SENDER_GOT_ACCEPTED_TPA = "§6您的传送请求被 §c%s §6接受了！"
+
+	["TPA++ Messages"."/tpa"]
+		#
+		# 当玩家执行 /tpa 时发送给玩家的消息
+		# 占位符: "%s": "接收传送请求的接收者的名字"
+		SENDER_SENT_TPA = "§6成功发送传送请求给 §c%s"
+		#
+		# 当玩家接收传送请求时发送给接收者的消息
+		# 占位符: "%s": "发送传送请求的发送者的名字"
+		RECEIVER_GOT_TPA = "§c%s §6想要传送到您那里！"
+	["TPA++ Messages"."/tpahere"]
+		#
+		# 当玩家执行 /tpahere 时发送给玩家的消息
+		# 占位符: "%s": "接收传送到此请求的接收者名字"
+		SENDER_SENT_TPAHERE = "§6成功发送传送§c到此§6请求给§c%s"
+		#
+		# 当玩家接收传送到此请求时发送给接收者的消息
+		# 占位符: "%s": "发送传送到此请求的发送者名字"
+		RECEIVER_GOT_TPAHERE = "§c%s §6希望§c你§6传送到§c他们那里！"
+
+	["TPA++ Messages"."/tptoggle"]
+		#
+		# 当玩家执行 /tptoggle 时发送给玩家的消息，当他们的 tptoggle 启用时
+		TPTOGGLE_ENABLED = "§6您现在§c自动§6拒绝外部§c传送请求§6！"
+		#
+		# 当玩家执行 /tptoggle 时发送给玩家的消息，当他们的 tptoggle 禁用时
+		TPTOGGLE_DISABLED = "§6您不再§c自动§6拒绝外部§c传送请求§6！"
+
+	["TPA++ Messages"."/tpblock"]
+		#
+		# 当玩家执行 /tpblock 时发送给玩家的消息，当他们尝试阻止自己时
+		CANNOT_BLOCK_SELF = "§6您§c不能§6阻止§c自己§6！"
+		#
+		# 当玩家执行 /tpblock 时发送给玩家的消息，当他们尝试阻止一个他们已经阻止的玩家时
+		# 占位符: "${blocked_player}": "已经被阻止的玩家"
+		ALREADY_BLOCKED_PLAYER = "§6您已经§c阻止§6了§c${blocked_player}§6！"
+		#
+		# 当玩家执行 /tpblock 时发送给玩家的消息，当他们成功阻止时
+		# 占位符: "${blocked_player}": "被阻止的玩家"
+		SENDER_BLOCKED_PLAYER = "§6成功阻止§c${blocked_player}§6！"
+		#
+		# 当发送者阻止的玩家接收消息时
+		# 如果在配置中禁用，此设置无效。
+		# 占位符: "${sender_name}": "阻止接收者的玩家"
+		PLAYER_BLOCKED_BY_SENDER = "§6您已被§c${sender_name}§6阻止！"
+
+	["TPA++ Messages"."/tpunblock Messages"]
+		#
+		# 当玩家执行 /tpunblock 时发送给玩家的消息，当他们尝试取消阻止自己时
+		CANNOT_UNBLOCK_SELF = "§6您§c不能§6取消阻止§c自己§6！"
+		#
+		# 当玩家执行 /tpunblock 时发送给玩家的消息，当他们尝试取消阻止一个他们尚未阻止的玩家时
+		# 占位符: "${blocked_player}": "尚未被阻止的玩家"
+		HAVENT_BLOCKED_PLAYER = "§6您尚未§c阻止§6${blocked_player}"
+		#
+		# 当玩家执行 /tpunblock 时发送给玩家的消息，当他们成功取消阻止时
+		# 占位符: "${unblocked_player}": "被取消阻止的玩家"
+		SENDER_UNBLOCKED_PLAYER = "§6成功取消阻止§c${unblocked_player}§6！"
+		#
+		# 当发送者取消阻止的玩家接收消息时
+		# 如果在配置中禁用，此设置无效。
+		# 占位符: "${sender_name}": "取消阻止接收者的玩家"
+		PLAYER_UNBLOCKED_BY_SENDER = "§6您已被§c${sender_name}§6取消阻止！"
+
+	["TPA++ Messages"."TPA Request Timeout"]
+		#
+		# 当传送到此请求超时时发送给发送者的消息
+		# 占位符: "%s": "发送传送到此请求的接收者名字"
+		SENDER_TPA_TIMEOUT = "§6您的传送§c到此§6请求给§c%s §6已超时！"
+		#
+		# 当传送到此请求超时时发送给接收者的消息
+		# 占位符: "%s": "发送传送到此请求的发送者名字"
+		RECEIVER_TPA_TIMEOUT = "§6您的传送§c到此§6请求来自§c%s §6已超时！"
+
+	["TPA++ Messages".Limitations]
+		#
+		# 当接受或发送传送请求的玩家距离太远时显示的消息
+		# 占位符: "${distance}": "两个玩家之间的距离。"
+		#     "${expectedDistance}": "两个玩家传送之间的最大距离"
+		ERR_TOO_FAR_EXECUTOR = "§c您距离太远！您相距${distance}个方块！\n§c您必须相距最大${expectedDistance}个方块！"
+		#
+		# 当传送请求太远时显示给另一位玩家的消息
+		# 占位符: "${distance}": "两个玩家之间的距离。"
+		#     "${expectedDistance}": "两个玩家传送之间的最大距离"
+		#     "${otherPlayerName}": "执行者的名字。"
+		ERR_TOO_FAR_OTHER_PLAYER = "§c${otherPlayerName} 传送失败：您距离太远！您相距${distance}个方块！\n§c您必须相距最大${expectedDistance}个方块！"
+		#
+		# 当接受或发送传送请求的玩家距离太近时显示的消息
+		# 占位符: "${distance}": "两个玩家之间的距离。"
+		#     "${expectedDistance}": "两个玩家传送之间的最小距离"
+		ERR_TOO_CLOSE_EXECUTOR = "§c您距离太近！您相距${distance}个方块！\n§c您必须相距最小${expectedDistance}个方块！"
+		#
+		# 当传送请求太近时显示给另一位玩家的消息
+		# 占位符: "${distance}": "两个玩家之间的距离。"
+		#     "${expectedDistance}": "两个玩家传送之间的最小距离"
+		ERR_TOO_CLOSE_OTHER_PLAYER = "§c${otherPlayerName} 传送失败：您距离太近！您相距${distance}个方块！\n§c您必须相距最小${expectedDistance}个方块！"
+		#
+		# 当传送请求来自另一个维度时显示给另一位玩家的消息
+		# 占位符: "${executorDimension}": "执行者所在维度的名字"
+		#     "${otherPlayerDimension": "另一位玩家所在维度的名字"
+		ERR_DIFFERENT_DIMENSIONS_EXECUTOR = "§c您必须在同一个维度中！\n§c您在：${otherPlayerDimension}\n§c他们在：${executorDimension}"
+
+	["TPA++ Messages"."/tpaplusplus"]
+		#
+		# 当有人输入 /tpaplusplus version 时显示的消息
+		# 占位符: "%s": "mod 正在运行的版本"
+		TPAPLUSPLUS_VERSION = "§6您正在运行 TPAPlusPlus 版本 §c%s"
+		#
+		# 当有人输入 /tpaplusplus reload config -force 时显示的第一条消息
+		TPAPLUSPLUS_FORCE_RELOADING_CONFIG = "§6重新加载§c配置§6并清除旧数据（TPA 请求、死亡位置）..."
+		#
+		# 当有人输入 /tpaplusplus reload config -force 时显示的第二条消息
+		TPAPLUSPLUS_FORCE_RELOADED_CONFIG = "§6完成重新加载配置并清除数据！"
+		#
+		# 当有人输入 /tpaplusplus reload config 时显示的第一条消息
+		TPAPLUSPLUS_RELOADING_CONFIG = "§6重新加载§c配置§6..."
+		#
+		# 当有人输入 /tpaplusplus reload config 时显示的第二条消息
+		TPAPLUSPLUS_RELOADED_CONFIG = "§6完成重新加载配置！"
+		#
+		# 当有人运行 "/tpaplusplus refactor colors" 时，未指定足够的颜色时显示的消息
+		# 占位符: "%s": "玩家输入的颜色数量。"
+		ERR_TPAPLUSPLUS_COLORS_REQUIRE_SIX_COLORS = "§c非法参数！需要 6 种颜色，您输入了：%s"
+		#
+		# 当有人运行 "/tpaplusplus refactor colors" 时，主色和次色相同时显示的消息
+		ERR_TPAPLUSPLUS_COLORS_CANNOT_BE_THE_SAME = "§c主色和次色不能相同！"
+		#
+		# 当有人运行 "/tpaplusplus refactor colors" 时，颜色代码无效时显示的消息
+		# 占位符: "%s": "用户输入的无效颜色代码。"
+		ERR_TPAPLUSPLUS_COLORS_INVALID_COLORS = "§c非法参数！需要有效的 Minecraft 聊天颜色代码，您输入了：%s"
+		#
+		# 当有人运行 "/tpaplusplus refactor colors" 时，颜色代码无效时显示的第二条消息
+		# 占位符: "%s": "一个随机有效颜色代码"
+		ERR_TPAPLUSPLUS_COLORS_INVALID_COLORS_EXAMPLES = "§c示例：%s, %s, %s, %s, %s, %s"
+		#
+		# 当有人成功运行 "/tpaplusplus refactor colors" 时显示的消息
+		TPAPLUSPLUS_COLORS_SUCCESS = "§6成功§c重新格式化§6您的消息！您的§c颜色设置§6已被§c修改§6！"
+
+	["TPA++ Messages".Windups]
+		#
+		# 当命令在配置中启用后，执行命令期间显示的消息
+		# 占位符: "${time}": "剩余时间。"
+		COUNTDOWN_TIME_REMAINING = "§c${time}§6..."
+		#
+		# 当玩家在命令启动期间移动超过配置中允许的距离时显示的消息
+		# 占位符: "${command_used}": "玩家尝试执行但移动过远的命令。此占位符遵循配置中设置的命令名称。"
+		PLAYER_MOVED_DURING_WINDUP = "§c您在尝试执行${command_used}时移动过多，因此已取消。"
+
+	["TPA++ Messages".Cooldowns]
+		#
+		# 当玩家尝试执行命令但该命令当前处于冷却状态时显示的消息。
+		# 占位符: "${command_used}": "处于冷却状态的命令。此占位符遵循配置中设置的命令名称。"
+		#              "${time_remaining}": "冷却时间还剩多长（以秒为单位）"
+		COMMAND_ON_COOLDOWN_MESSAGE = "§6\"§c/${command_used}§6\"§c当前处于冷却状态，请等待§c${time_remaining}§6秒！"
+		#
+		# 当玩家尝试执行命令但他们当前处于冷却状态时显示的消息。
+		# 占位符: "${time_remaining}": "冷却时间还剩多长（以秒为单位）"
+		PLAYER_ON_GLOBAL_COOLDOWN_MESSAGE = "§c您§6当前处于冷却状态，请等待§c${time_remaining}§6秒后再运行另一个命令！"
+

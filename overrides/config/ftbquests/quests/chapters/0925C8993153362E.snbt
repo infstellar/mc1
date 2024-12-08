@@ -1,0 +1,806 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0925C8993153362E"
+	group: "04B9982908550744"
+	icon: "fruitfulfun:citrus_door"
+	id: "0925C8993153362E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["118934D32E73EE48"]
+			id: "1B3D598A930BCB74"
+			rewards: [{
+				id: "3256B85A05595534"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“刚来到这个世界不知道该去那里，那我建议你去村民家暂住一晚”"
+			tasks: [{
+				id: "728B6C3A3685EBAA"
+				title: "落脚点"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1B3D598A930BCB74"]
+			description: ["在村庄中，你可以找到这种指路石，这是一种便捷的传送石碑，当你激活了两个指路石后，你就可以在两地相互传送，并且可以随时把指路石拆下来带走，放在其他地方当做传送锚点"]
+			id: "195A0121EBB5BCC1"
+			rewards: [{
+				id: "38D395E7E15207AF"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			subtitle: "“记录你曾到过的地方”"
+			tasks: [
+				{
+					id: "15CBF31E9C5A7AA2"
+					title: "便捷的传送石碑"
+					type: "checkmark"
+				}
+				{
+					id: "18D88E83EB7493A4"
+					item: "waystones:waystone"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"1B3D598A930BCB74"
+				"195A0121EBB5BCC1"
+			]
+			description: ["相较于原版的村庄，整合包中的村庄更大且建筑种类更多，你能获得的食物和物品会更多，把握好这个机会吧"]
+			id: "7776BE2156FA4FEC"
+			rewards: [{
+				id: "2215C9FF43012828"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“村民不会介意的，肯定的”"
+			tasks: [{
+				count: 16L
+				id: "464DFB07A81C9B1A"
+				item: { Count: 16b, id: "minecraft:wheat" }
+				type: "item"
+			}]
+			title: "获得食物"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"686F72B2953F6C1F"
+				"5BC3B0ADE4A652C0"
+				"24E8F9684931865E"
+				"08A130B66E24F626"
+				"6A66942590BCBF94"
+				"0D8575D49CDE7CAD"
+				"08F278E85E6949F5"
+			]
+			dependency_requirement: "one_completed"
+			id: "118934D32E73EE48"
+			rewards: [
+				{
+					id: "17DCAA3FBD66CE2E"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+				{
+					id: "1199910CC255CE9B"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "19E3680DF028C230"
+				item: { Count: 8b, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			title: "简单的工具升级"
+			x: 4.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7776BE2156FA4FEC"]
+			description: ["获得一些矿物，这对你当下的发展会很有用的"]
+			id: "482CD4A6D770E171"
+			subtitle: "“矿物不论在哪里都是硬通货”"
+			tasks: [{
+				count: 8L
+				id: "7DFB4AA1F52D4504"
+				item: { Count: 8b, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			title: "下矿！"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["482CD4A6D770E171"]
+			description: ["嘿朋友，虽然这世界上没有什么强大的怪物，但我认为你依然需要一些装备来保护你不受其他危险伤害"]
+			id: "1A0337EB596562A9"
+			rewards: [
+				{
+					id: "6C2B344CACDB50AD"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46304095D28E342E"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "376E01F3B65F7A48"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4ED8F0479FA5FF60"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C29D0495A8D3013"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "“听着，你仍然需要一些东西来保护自己”"
+			tasks: [
+				{
+					id: "745D9FA2B857BEBB"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E6EE5C1F845DC0C"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1AC7A3CEE77CE712"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "598C599B2B6BE665"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "制作盔甲"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A0337EB596562A9"]
+			description: ["巨型火把可以让64格内不再刷怪，让你的家更安全与和平"]
+			id: "2EFE659346EE5E53"
+			subtitle: "“此地禁止怪物进入”"
+			tasks: [{
+				id: "302AC4C0DA6D40FC"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A0337EB596562A9"]
+			description: [
+				"一种闪亮昂贵且实用的矿物，有着许多的用途"
+				"可以将其作为送给村民的礼物，也可以用来合成一些有着特殊用途的道具"
+			]
+			id: "0AD73588CFDFB982"
+			rewards: [{
+				id: "62FA5268373245D9"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“闪闪发亮”"
+			tasks: [{
+				id: "1835A01D9A62FE2A"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7776BE2156FA4FEC"]
+			description: [
+				"展示台可以用于展示物品，大部分物品会悬浮在上面旋转，并显示物品的自定义名称（如果有的话）。"
+				""
+				"放置剑会直接插入展示台中。"
+				""
+				"观察者可以检测到从展示台上取下和放置物品。"
+				""
+				"特别的，手持麻布袋会直接替换展示台上的物品而不会被观察者检测到。"
+				""
+				"展示台上的末影水晶会有3D渲染并且为周围的附魔台提供三级的附魔（相当于三个书架）。"
+			]
+			id: "7E71F12F07A05525"
+			rewards: [{
+				id: "265C11443B4ECCFF"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "7A1F368471ACD59F"
+				item: "supplementaries:pedestal"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7776BE2156FA4FEC"]
+			description: [
+				"扬声器被激活后会向1~64格范围内所有玩家发送其预设的信息。"
+				""
+				"发送方式有聊天框文字信息和语音信息。"
+				""
+				"可在游戏内调整最大传播距离，和发送方式。"
+				""
+				"可以通过铁砧修改扬声器方块的名字来修改每条信息前的名字。"
+				""
+				"如果扬声器发出声音的面有方块阻挡，那么它将无法发送消息。"
+			]
+			id: "439B2E195B1E32FA"
+			rewards: [{
+				id: "1EEA8AFD233A3A32"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "30985A9034A76EA6"
+				item: "supplementaries:speaker_block"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7776BE2156FA4FEC"]
+			description: [
+				"沙漏是一个装饰品和红石组件。"
+				""
+				"可以用任何甚至是其它模组的沙子、粉尘或粉末填充它，并使它像真正的沙漏一样工作。沙漏中粉末漏下的消耗的时间取决于粉末的类型，例如糖将是最快的，红石粉是最慢的。"
+				""
+				"可以使用一个比较器来获得一个取决于漏下时间的红石信号。"
+				""
+				"可以使用漏斗或发射器重置沙漏，或者可以使用一个侧放的转盘来旋转它。"
+			]
+			id: "399C1B072E15FE18"
+			rewards: [{
+				id: "034272E5585F961D"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "47FDD81B84A5BD2C"
+				item: "supplementaries:hourglass"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7776BE2156FA4FEC"]
+			description: [
+				"地球仪是一种装饰品，有以下两种获得途径："
+				""
+				"从流浪的商人那里用10个绿宝石的价格买到，售卖地球仪的流浪商人只有两个存货。"
+				""
+				"从沉船、海底废墟的战利品箱中得到。"
+				""
+				"地球仪的外观是随机生成的（可配置），因为每个世界的种子都是独一无二的。如果你右键单击它或给它一个红石脉冲，它会旋转和显示此地球仪当前的X坐标和Z坐标。当然，高频红石并不能使地球仪一直旋转。"
+				""
+				"它还可以被比较器检测，根据当前转到的面提供1-4格强度的红石信号，并在旋转时提供完整的强度信号。"
+				""
+				"在铁砧中将其命名为“flat”（不带双引号），会使放下来的地球仪变平；命名为“earth”则会使地球仪上的图案变为现实中的世界地图；命名为“moon”会使图案变为月球；命名为“sun”会使图案变为太阳。当现实季节为冬季时，地球仪会转化为覆雪地球仪。"
+				""
+				"下方必须有方块才能放置，否则将变为掉落物。"
+				""
+				"以最快的速度（快速点击使用键）旋转地球仪时，会取得进度[你抱着我旋转不止]。"
+			]
+			id: "51B7938EC082C93A"
+			rewards: [{
+				id: "1F0C82D8567CDA9D"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "44C1FE5E9DA54481"
+				item: "supplementaries:globe"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7776BE2156FA4FEC"]
+			description: [
+				"时钟方块和原版时钟一样工作，但是是一个方块，上面会显示时间。如果右击，它还会在快捷栏上方显示游戏内的时间。"
+				"它可以和观察者、比较器相互作用：观察者会在每个整点时发出一次信号，比较器则会根据时间的不同发出不同强度的信号。"
+			]
+			id: "402B3AB5F798E983"
+			rewards: [{
+				id: "28134B0365DB6AEC"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "26F111A8B0E310BF"
+				item: "supplementaries:clock_block"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7776BE2156FA4FEC"]
+			id: "36E08D325D94226F"
+			rewards: [{
+				id: "3CCAF98597E7DEA8"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "“闪亮珍贵且富有力量”"
+			tasks: [{
+				id: "0BA3310E59060066"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["36E08D325D94226F"]
+			id: "466C2F2672A21DCC"
+			rewards: [{
+				id: "3D2163D984396ED3"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“让光柱直冲云霄”"
+			tasks: [{
+				id: "036EA7C5A227928C"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7776BE2156FA4FEC"]
+			description: [
+				"笼子可以用来捕捉小动物，比如鸡和兔子。可以在配置文件中添加更多的生物到白名单中。"
+				""
+				"要释放生物只需在地面上点击右键。"
+				""
+				"要放置笼子需要潜行并按右键。"
+				""
+				"笼子里的小动物仍有一些自定义动画和相关行为，例如：兔子和史莱姆会偶尔跳跃，而小鸡会时不时地下蛋。"
+			]
+			id: "0A7DCD347817E376"
+			rewards: [{
+				id: "23A82711EFC04449"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“别乱跑！”"
+			tasks: [{
+				id: "3D633BC5A4E5A657"
+				item: "supplementaries:cage"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7776BE2156FA4FEC"]
+			description: [
+				"滑轮方块是一个红石装置，里面可以容纳绳子、铁链和其它模组的绳子。滑轮方块只有轴水平放置时才可以正常工作。"
+				""
+				"滑轮方块使用转盘或曲柄旋转时，它将会放置或拉回它下面的绳子或铁链（需要调节转盘旋转方向），放出的铁链和绳子都会与本模组中绳子的功能相同。它的工作速度取决于转盘的转速。"
+				""
+				"如果滑轮方块中绳子/铁链全部放出或已经满组，那么它无法收回下面的绳子/铁链。玩家可以潜行并右键滑轮方块或者其下方的绳子来放下它们，或者右键下面的绳子将它们收起来（滑轮中没有绳子也可以回收）。但是铁链只能通过潜行右键滑轮方块的方式放出，无法手动收回。"
+				""
+				"曲柄和转盘可以一次旋转多个沿轴水平连接的滑轮方块。"
+			]
+			id: "0A37118695EAFE99"
+			rewards: [{
+				id: "296BEBFEC0BAD12C"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [
+				{
+					id: "125A2FCAC23F31D9"
+					item: "supplementaries:pulley_block"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "132E7FC385D02D6C"
+					item: { Count: 16b, id: "supplementaries:rope" }
+					type: "item"
+				}
+				{
+					id: "181A9049AEA9E1E9"
+					item: "supplementaries:crank"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7776BE2156FA4FEC"]
+			description: [
+				"当风箱激活时，会使得其两格前的火焰一直燃烧，但下雨仍会让火熄灭。"
+				""
+				"风箱还可以在平面推动实体，使其远离出风口最多五格的距离。"
+				""
+				"它还可以加速熔炉、高炉、烟熏炉、营火的工作速度。"
+				""
+				"离出风口越近，风箱接收的红石信号越强，推力越大。"
+				""
+				"玩家和部分较大的实体比如僵尸、苦力怕、村民等站在未激活的风箱上会压缩风箱使其吹一次风，正在工作中的风箱的不能被压缩。已经被玩家压住的风箱无法被红石信号激活工作。"
+				""
+				"玩家站在风箱上使其吹风后，在风箱上无法跳跃而且移动时会出现滑动直到离开风箱。"
+			]
+			id: "4606B14B13A6C8EB"
+			rewards: [{
+				id: "2375CC916323A3AA"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "509CDDD44B8183A5"
+				item: "supplementaries:bellows"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7776BE2156FA4FEC"]
+			description: [
+				"在有红石信号的充能下，转盘会旋转所在的面的方块或实体。例如可以给楼梯换个方向。"
+				""
+				"输入的信号强度越强，转盘转速越快。"
+				""
+				"右键转盘侧面可以改变它的旋转方向。"
+				""
+				"当使用转台旋转玩家时，被旋转的玩家会取得进度[转台好玩吗]。"
+				""
+				"彩蛋："
+				""
+				"让一只名为\"Tom\"的已驯服的猫在该方块上转有惊喜 自带BGM的猫"
+			]
+			id: "439D9686E7851942"
+			rewards: [{
+				id: "4A1955012A0221A9"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "42792B08148411C0"
+				item: "supplementaries:turn_table"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7776BE2156FA4FEC"]
+			description: [
+				"弹射台是一种能够代替黏性活塞和粘液块组成的弹射装置的方块。受红石信号激活。"
+				""
+				"它可以将实体推到两倍于普通活塞黏液块弹射装置的距离。"
+				""
+				"如果实体从足够高的地方落在已经激活的弹射台上使其收缩，弹射台会重新将实体弹起，弹射高度和刚开始激活弹射台的高度相同。"
+			]
+			id: "185254760374D064"
+			rewards: [{
+				id: "7FEAADD363B80277"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "438D71F08261A9B3"
+				item: "supplementaries:spring_launcher"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7776BE2156FA4FEC"]
+			description: [
+				"肥皂在游戏中的功能和现实相似，用于洗去物品颜色、吹泡泡等。"
+				""
+				"染色的羊毛、羊毛地毯、旗帜、蜡烛、床、陶瓦、硬化混凝土、混凝土粉末、潜影盒，本模组的横旗、礼物盒都可以用肥皂恢复原色，每次合成消耗一块肥皂且只能洗一个物品。"
+				""
+				"肥皂可以和泡泡环合成以补充其吹泡泡的次数，该合成不会消除工具上的附魔。"
+				""
+				"肥皂可为铜块除蜡、除锈。一次消耗一块肥皂，如铜块打过蜡则会除蜡；如铜块被氧化则会完全去除铜锈。"
+				""
+				"可以合成肥皂块以压缩存储。"
+				""
+				"肥皂可以吃，获得一个5秒的中毒III效果。首次吃下肥皂可以取得进度[汰渍洗衣球挑战]。进度解锁后就后就不能吃第二次了。"
+			]
+			id: "6AE2EE579AA12E7D"
+			rewards: [{
+				id: "3373E2D25F0494E5"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "4DEAC1D85AF388B3"
+				item: "supplementaries:soap"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7776BE2156FA4FEC"]
+			description: [
+				"水龙头是一种可用于运输等多种用途的装饰方块。"
+				""
+				"在水龙头后方两个方块中有存储方块时，右键点击水龙头打开会使它从存储方块中不断漏出物品。"
+				""
+				"把水龙头放在炼药锅、水源或含水方块前，打开它就会产生流水效果，流水颜色取决于背后液体的颜色。"
+				""
+				"可以用水龙头来将液体倒入或倒出罐子，同样也适用于其他盛装液体的容器（如炼药锅）"
+				""
+				"水龙头还可以与蜂巢和混凝土粉末等其他方块相互作用，可以产出蜂蜜（放置在蜂箱、蜂巢上并用罐收集）和转化成混凝土（放在水龙头的流水下）。"
+				""
+				"玩家可以通过右击流水的水龙头下方喝水、罐满玻璃瓶或者将玻璃瓶中的液体灌回容器。"
+			]
+			id: "12D3904434A72FD9"
+			rewards: [{
+				id: "755F0C1043CD96A8"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "43AD65E753D3A945"
+				item: "supplementaries:faucet"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"在整合包中，每个作物都有自己的生长季节，可以通过日历来查看。"
+				"日历的外观也会随着季节的变化而变化"
+			]
+			id: "075E28FCC0D84BAE"
+			rewards: [{
+				id: "04CC3A144659251E"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“活的明明白白的”"
+			tasks: [{
+				id: "5BA56DEE933B952A"
+				item: "sereneseasons:calendar"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			description: [
+				"不用担心错过了作物生长季节，这个东西有神奇的力量可以改变季节"
+				"每个季节分为3个阶段"
+			]
+			id: "050DC5C82A8DCB3A"
+			rewards: [{
+				id: "6271A1E2DCD20090"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "“四季，由我掌握”"
+			tasks: [{
+				id: "4F7636AAE597966A"
+				item: "kubejs:season_selector"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			id: "686F72B2953F6C1F"
+			rewards: [{
+				id: "6DB570DAABDC8A1C"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				count: 10L
+				id: "0618DD060AA6D861"
+				item: { Count: 10b, id: "minecraft:jungle_log" }
+				type: "item"
+			}]
+			title: "获得一些木头"
+			x: 3.0d
+			y: -12.5d
+		}
+		{
+			id: "5BC3B0ADE4A652C0"
+			rewards: [{
+				id: "2A0BB1EC9FEF8561"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“这不用我多说了吧”"
+			tasks: [{
+				count: 10L
+				id: "4BEE5B71B1D6BB5A"
+				item: { Count: 10b, id: "minecraft:spruce_log" }
+				type: "item"
+			}]
+			title: "获得一些木头"
+			x: 6.0d
+			y: -12.5d
+		}
+		{
+			id: "6A66942590BCBF94"
+			rewards: [{
+				id: "7B5F5290034AFB8A"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“这不用我多说了吧”"
+			tasks: [{
+				count: 10L
+				id: "62D4D4E67E92CEA5"
+				item: { Count: 10b, id: "minecraft:birch_log" }
+				type: "item"
+			}]
+			title: "获得一些木头"
+			x: 2.0d
+			y: -11.0d
+		}
+		{
+			id: "08A130B66E24F626"
+			rewards: [{
+				id: "28A95136087621E2"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“这不用我多说了吧”"
+			tasks: [{
+				count: 10L
+				id: "24B2933732C6C36E"
+				item: { Count: 10b, id: "minecraft:acacia_log" }
+				type: "item"
+			}]
+			title: "获得一些木头"
+			x: 7.0d
+			y: -11.0d
+		}
+		{
+			id: "24E8F9684931865E"
+			rewards: [{
+				id: "70502061942B4C8F"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“这不用我多说了吧”"
+			tasks: [{
+				count: 10L
+				id: "3A1CA607B3568D8D"
+				item: { Count: 10b, id: "minecraft:dark_oak_log" }
+				type: "item"
+			}]
+			title: "获得一些木头"
+			x: 2.0d
+			y: -9.5d
+		}
+		{
+			id: "0D8575D49CDE7CAD"
+			rewards: [{
+				id: "6118D254BF2B7ED6"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“这不用我多说了吧”"
+			tasks: [{
+				count: 10L
+				id: "4EF10021F4A2F190"
+				item: { Count: 10b, id: "minecraft:cherry_log" }
+				type: "item"
+			}]
+			title: "获得一些木头"
+			x: 7.0d
+			y: -9.5d
+		}
+		{
+			id: "08F278E85E6949F5"
+			rewards: [{
+				id: "10CA1055F9DEE746"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				count: 10L
+				id: "66997FC4E22C1799"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			title: "获得一些木头"
+			x: 4.5d
+			y: -13.0d
+		}
+	]
+	title: "初来乍到"
+}

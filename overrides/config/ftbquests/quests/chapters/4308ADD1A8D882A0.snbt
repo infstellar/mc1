@@ -1,0 +1,658 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4308ADD1A8D882A0"
+	group: "04B9982908550744"
+	icon: {
+		Count: 1b
+		id: "hamsters:hamster"
+		tag: {
+			Variant: 0
+		}
+	}
+	id: "4308ADD1A8D882A0"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7AC8F2C8BC4D52CC"
+				"2D8838C98BE702E4"
+			]
+			description: ["小猫小狗是人类的好朋友，希望你也这么认为"]
+			id: "2EF66131633EE309"
+			rewards: [{
+				id: "645E3685A1B58077"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "“带它回家”"
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				icon: "minecraft:bone"
+				id: "6D3F084D29B5CA72"
+				title: "驯服一只小动物"
+				type: "advancement"
+			}]
+			title: "这是我的第一个小伙伴"
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2EF66131633EE309"]
+			description: ["比起竹子，这个小家伙似乎更爱吃甜浆果呢，没错，它是一只小熊猫！"]
+			icon: "minecraft:sweet_berries"
+			id: "27B676A649D68CF6"
+			rewards: [{
+				id: "137CFA5567EA3DDA"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“黑眼圈的小动物”"
+			tasks: [
+				{
+					id: "6A64A93ED762B166"
+					item: "minecraft:sweet_berries"
+					type: "item"
+				}
+				{
+					id: "2FB2E3D710E59A11"
+					item: "minecraft:bamboo"
+					type: "item"
+				}
+			]
+			title: "驯服一只小熊猫"
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EF66131633EE309"]
+			description: ["跟我走，如何呢？"]
+			icon: {
+				Count: 1b
+				id: "hamsters:hamster"
+				tag: {
+					Variant: 0
+				}
+			}
+			id: "36F02C9ACD1F2888"
+			rewards: [{
+				id: "7740EE1A1FD2C4DD"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“可爱的小仓鼠”"
+			tasks: [
+				{
+					id: "1E0E3388F82B7727"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "4F0CC6AB29039ED1"
+					item: "minecraft:beetroot"
+					type: "item"
+				}
+				{
+					id: "5E77AC9713D7CFB4"
+					item: "minecraft:pumpkin_seeds"
+					type: "item"
+				}
+			]
+			title: "驯服一只仓鼠"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["36F02C9ACD1F2888"]
+			description: ["生活也是这样，心意大于一切。"]
+			id: "71F1B41E2427DF1F"
+			rewards: [{
+				id: "2CDCAD44C6ECA9AE"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "“多多运动有利于健康”"
+			tasks: [{
+				id: "1D25FA77065899B1"
+				item: "hamsters:hamster_wheel"
+				type: "item"
+			}]
+			title: "我手虽然不巧，但我有份心意"
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"你将它带到你的身边，你就是它唯一的亲人。"
+				"它也从来不去想，你会不会不要它，因为它觉得，你非常爱它。"
+				"爱是包容，也是理解，它的一些习性或许会让你不喜，"
+				"但它不知道，也或许这习性是烙印在基因难以克制。"
+				"不过有一点你不能否定，它绝对不会背叛你！"
+				""
+				"&c(不过生活中养动物还是安全第一啦)&r"
+			]
+			id: "2D8838C98BE702E4"
+			rewards: [{
+				id: "7DC77D556C745A09"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7DBBB47839990FE5"
+				title: "我们会一直走下去的，对吗？"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2EF66131633EE309"]
+			description: ["一只小鹦鹉，它会呆在你的肩头，随你度过每一个明天"]
+			id: "0ACB49938A1EC8DB"
+			rewards: [{
+				id: "42F0533D6ED4533A"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				count: 8L
+				id: "342AD5E8101E8FA3"
+				item: { Count: 8b, id: "minecraft:beetroot_seeds" }
+				type: "item"
+			}]
+			title: "驯服一只鹦鹉"
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EF66131633EE309"]
+			description: ["当你在野外遇见灰熊，你可以先丢给它一个蜂蜜瓶，灰熊会吃掉它，随后再给灰熊丢生鲑鱼，灰熊吃掉生鲑鱼后有概率会被驯服，驯服后的灰熊会跟着你，攻击与你敌对的任何生物，并且右键可以骑上去且不需要鞍"]
+			id: "4AE9C1B44FE41197"
+			rewards: [{
+				id: "53ADA74EF3532E12"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [
+				{
+					count: 3L
+					id: "2A13C4AF2B127FF5"
+					item: { Count: 3b, id: "minecraft:salmon" }
+					type: "item"
+				}
+				{
+					id: "2296DA38A256692E"
+					item: "minecraft:honey_bottle"
+					type: "item"
+				}
+			]
+			title: "驯服一只灰熊"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EF66131633EE309"]
+			description: [" 鳄鱼天生敌对玩家和中立生物，但你仍然可以对鳄鱼丢腐肉让两只鳄鱼繁殖，鳄鱼繁殖后会产下一个鳄鱼蛋，当鳄鱼蛋孵化后，孵化出的鳄鱼会绑定附近最近的一名玩家，跟随并保护这名玩家，同时玩家可以命令它原地休息或者跟随"]
+			id: "16AC49861A67F9FE"
+			rewards: [{
+				id: "28525F1F8B0B4AF6"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				count: 8L
+				id: "728E2DA319670B57"
+				item: { Count: 8b, id: "minecraft:rotten_flesh" }
+				type: "item"
+			}]
+			title: "驯服一只鳄鱼"
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EF66131633EE309"]
+			description: [
+				"当你获得足够的香蕉后，你就可以开始尝试驯服大猩猩，对着大猩猩扔出香蕉，大猩猩每一次被你喂食香蕉后，都会增加对你的好感度，当好感度达到一定程度后，大猩猩将不再主动攻击你，当好感度达到满格时，大猩猩会主动跟随玩家，并攻击靠近玩家的敌对生物，玩家也可以让大猩猩原地坐下或者在附近徘徊。"
+				""
+				"打掉丛林树叶可以获得香蕉"
+			]
+			id: "2C9585A1C9C08806"
+			rewards: [{
+				id: "23A12EBD281C46A8"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				count: 8L
+				id: "43B95B53D7D47EC1"
+				item: { Count: 8b, id: "alexsmobs:banana" }
+				type: "item"
+			}]
+			title: "驯服一只大猩猩"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EF66131633EE309"]
+			description: ["科莫多巨蜥常见于稀疏的丛林地区，当你给一只科莫多巨蜥喂食了很多很多腐肉后，这只科莫多巨蜥就会被你驯服，它将主动保护你不受外来侵害，同时你也可以骑上它"]
+			id: "0E1D9F7D85291ED6"
+			rewards: [{
+				id: "7A3EA0B60F997F89"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				count: 16L
+				id: "1F0B8CC92BC509AB"
+				item: { Count: 16b, id: "minecraft:rotten_flesh" }
+				type: "item"
+			}]
+			title: "驯服一只科莫多巨蜥"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EF66131633EE309"]
+			description: ["诡异蟾蜍出没于下界，可以通过绯红孑孓（jiejue）来驯服，驯服后诡异蟾蜍会主动跟随你，并攻击敌对生物，可以说有了它，你就可以不用再担心下界飞来飞去的绯红蚊子和大部分昆虫了"]
+			id: "414D2A13A87A8E41"
+			rewards: [{
+				id: "1A099775FE88BDF7"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				count: 8L
+				id: "1E37BC9AA4359226"
+				item: { Count: 8b, id: "alexsmobs:mosquito_larva" }
+				type: "item"
+			}]
+			title: "驯服一只诡异蟾蜍"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EF66131633EE309"]
+			description: ["想要驯服一只浣熊，就必须让浣熊附近有水源，在附近有水源的前提下，丢给浣熊鸡蛋，就可以将其驯服"]
+			id: "06F14E09A48125B7"
+			rewards: [{
+				id: "08069FECBFF25FBF"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [
+				{
+					id: "027369A7C05688BD"
+					item: {
+						Count: 1b
+						id: "minecraft:water_bucket"
+						tag: {
+							Purity: 3
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "699AC551AD001DC6"
+					item: { Count: 8b, id: "minecraft:egg" }
+					type: "item"
+				}
+			]
+			title: "驯服一只浣熊"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EF66131633EE309"]
+			description: ["螳螂虾出没与暖水海洋的珊瑚礁中，对它投喂10到30条热带鱼就可以驯服，驯服后的螳螂虾可以在原地待着也可以跟随玩家，手持方块对着螳螂虾右键，螳螂虾就会寻找这一类方块并破坏"]
+			id: "03F1518602CEED09"
+			rewards: [{
+				id: "060B10EA8A2E364E"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				count: 8L
+				id: "165D1C7A6EF3AC25"
+				item: { Count: 8b, id: "minecraft:tropical_fish" }
+				type: "item"
+			}]
+			title: "驯服一只螳螂虾"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EF66131633EE309"]
+			description: [
+				"对着乌鸦喂食南瓜种子可以将其驯服，乌鸦会尝试落在玩家的肩头跟着玩家一同移动，同时乌鸦也会主动攻击靠近的敌对生物，对亡灵生物会造成额外的伤害"
+				"将乌鸦放置在干草块上可以使乌鸦缓慢回复生命"
+				"如果你给予了乌鸦某样物品，乌鸦就会以干草块为中心，主动收集附近的同种物品，同时，如果你在熔炉或者箱子上贴上告示牌，并放上乌鸦正在收集的物品，乌鸦就会主动将收集的物品放在该容器内"
+			]
+			id: "670B8D630E33CF62"
+			rewards: [{
+				id: "6FB63CB9F76870B5"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				count: 8L
+				id: "3317C889B887324F"
+				item: { Count: 8b, id: "minecraft:pumpkin_seeds" }
+				type: "item"
+			}]
+			title: "驯服一只乌鸦"
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EF66131633EE309"]
+			description: [
+				"袋鼠生活于热带草原和恶地，对着袋鼠喂食8到15个胡萝卜即可驯服，驯服后玩家可以选择让袋鼠原地等待或者跟随，袋鼠会主动攻击附近的敌对生物"
+				"对着袋鼠的育儿袋右键可打开袋鼠的物品栏，若袋鼠物品栏内有近战武器和盔甲，袋鼠则会在战斗时使用，若是放置一些非肉类食物，袋鼠则会在受伤后食用回血"
+			]
+			id: "79E374FC392AF15D"
+			rewards: [{
+				id: "38FD26AE3F7FB3ED"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				count: 16L
+				id: "740B4C62AC74FA3B"
+				item: { Count: 16b, id: "minecraft:carrot" }
+				type: "item"
+			}]
+			title: "驯服一只袋鼠"
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EF66131633EE309"]
+			description: ["袋獾出没于温带森林地区,用任何肉类喂食即可驯服"]
+			id: "3CE39046BD226E0A"
+			rewards: [{
+				id: "251ACE30D14D5BC3"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				count: 8L
+				id: "794F1E031E121F64"
+				item: { Count: 8b, id: "minecraft:beef" }
+				type: "item"
+			}]
+			title: "驯服一只袋獾"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EF66131633EE309"]
+			description: ["沙漠蛛蜂主要出没于沙漠，对着它喂食15到25个蜘蛛眼即可驯服，驯服后的沙漠蛛蜂会主动跟随玩家，并攻击玩家附近的敌对生物"]
+			id: "079E258FA8DECE7A"
+			rewards: [{
+				id: "48EDDF3C68C2272E"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				count: 30L
+				id: "2AC840F4AE56CE0A"
+				item: { Count: 30b, id: "minecraft:spider_eye" }
+				type: "item"
+			}]
+			title: "驯服一只沙漠蛛蜂"
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EF66131633EE309"]
+			description: [
+				"白头海雕出没于繁茂的山地地形，通过鱼油可以引诱并驯服"
+				"驯服后可以通过猎鹰手套来驱使它，装备猎鹰手套后，白头海雕会停留在玩家肩膀上，在玩家对准生物右键后，白头海雕会飞出攻击该生物"
+				""
+				"鱼油通过瓶子和水滴鱼合成，水滴鱼出没于深海，详细可查询alxy生物手册"
+			]
+			id: "283C6919E50DB5B7"
+			rewards: [{
+				id: "5316D0549C43906F"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				count: 4L
+				id: "3C3C3F479593D5AF"
+				item: { Count: 4b, id: "alexsmobs:fish_oil" }
+				type: "item"
+			}]
+			title: "驯服一只白头海雕"
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			description: ["想要了解千奇百怪的生物，那么看看生物图鉴吧"]
+			id: "76BA34233642393C"
+			tasks: [{
+				id: "5865E62E5892935F"
+				item: "alexsmobs:animal_dictionary"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2EF66131633EE309"]
+			description: [
+				"拟态章鱼出没于暖水海洋，其拟态能力让玩家很难发现它，对着它喂食5到8个龙虾尾可以驯服，驯服后拟态章鱼会跟随玩家，玩家可以通过怪物掉落物右键拟态章鱼，使它拟态为该生物（不消耗物品）"
+				"当拟态章鱼位于陆地时，玩家可以对其使用粘液球，以保证拟态章鱼几天内不会因失水死亡，最好还是为其准备一个水环境"
+				"拟态章鱼可以用热带鱼繁殖"
+				""
+				"玩家可以对拟态章鱼使用5到8个复刻凝胶，来使拟态章鱼拥有拟态对象的能力，例如当拟态章鱼变成守卫者的时候就可以发射激光，变成苦力怕时就可以自爆（别玩没了）"
+				"复刻凝胶由复刻怪掉落，可在神明小商店兑换"
+			]
+			id: "6F5B2108A90B3B13"
+			rewards: [{
+				id: "125CD647E67242E2"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				count: 8L
+				id: "7D68019F8DCC1A7E"
+				item: { Count: 8b, id: "alexsmobs:lobster_tail" }
+				type: "item"
+			}]
+			title: "驯服一只拟态章鱼"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EF66131633EE309"]
+			description: [
+				"花飘飘出没于繁茂洞穴地带，对着它们使用5到8朵花即可驯服，随后其会以漂浮的形式跟随主人，并主动对靠近的敌对生物发起进攻，同时可以用花盆给它们装备以获得额外的护甲"
+				"可用骨粉繁殖"
+			]
+			id: "3715693F874791DD"
+			rewards: [{
+				id: "05BD0BC29589506F"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				count: 8L
+				id: "79E9B7679EEBDBAC"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:flowers"
+					}
+				}
+				title: "Any #minecraft:flowers"
+				type: "item"
+			}]
+			title: "驯服一只花飘飘"
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EF66131633EE309"]
+			description: ["冠蓝鸦出没于森林地带，对着它喂食5到8个发光浆果即可驯服，驯服后的冠蓝鸦会主动跟随玩家"]
+			id: "26663CE9C302CA7E"
+			rewards: [{
+				id: "64571092C17046DA"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				count: 8L
+				id: "7231D337A01A6B04"
+				item: { Count: 8b, id: "minecraft:glow_berries" }
+				type: "item"
+			}]
+			title: "驯服一只冠蓝鸦"
+			x: 12.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EF66131633EE309"]
+			description: ["蜜袋鼯出没于白桦林地带，对着其喂食5到8个甜浆果即可驯服，驯服后玩家可以将蜜袋鼯顶在头顶上，同时玩家会获得一个缓降的buff"]
+			id: "6B137607E8C952FA"
+			rewards: [{
+				id: "4207EE6F7227A5A8"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				count: 8L
+				id: "21D52591FAA62ADA"
+				item: { Count: 8b, id: "minecraft:sweet_berries" }
+				type: "item"
+			}]
+			title: "驯服一只蜜袋鼯"
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EF66131633EE309"]
+			description: ["凯门鳄出没于红树林沼泽中，对着铠门鳄喂食生鲶鱼可以使其繁殖，随后凯门鳄会产下一颗蛋，蛋孵化后的小凯门鳄会指定最近的玩家为主人，主动跟随并保护玩家"]
+			id: "343261B64444AD97"
+			rewards: [{
+				id: "5E7DA640EF4C2C5E"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				count: 8L
+				id: "56F2FBB151215429"
+				item: { Count: 8b, id: "alexsmobs:raw_catfish" }
+				type: "item"
+			}]
+			title: "驯服一只凯门鳄"
+			x: 14.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EF66131633EE309"]
+			description: [
+				"翼蚺出没于丛林群系，是中立生物，翼蚺不需要喂食，只需要玩家用任意投射物，例如箭，雪球等（推荐雪球）击中翼蚺"
+				"击中后，翼蚺会从天上掉下来，随后玩家只需要右键骑上去，承受翼蚺一段时间攻击不死（可用盾牌抵挡），就可以驯服翼蚺，潜行右键可设定其行动方式"
+				"可以用可可豆为其回血，曲奇可以使翼蚺繁殖"
+			]
+			id: "6CBF2A76A9F6524D"
+			rewards: [{
+				id: "3BDC936B22D4AF83"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				count: 16L
+				id: "1D689EC87D356B82"
+				item: { Count: 16b, id: "minecraft:snowball" }
+				type: "item"
+			}]
+			title: "驯服一只翼蚺"
+			x: 15.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EF66131633EE309"]
+			description: [
+				"鸡蛇出没于热带草原，属于敌对生物，会主动对玩家发动攻击，要想驯服鸡蛇玩家必须在鸡蛇彻底被驯服前盯着它的眼睛，顶着射线攻击存活足够长的时间；"
+				"一个可行的策略是在盯着鸡蛇直视几秒钟后快速回头，转身快速回复自身的血量（金苹果、附魔金苹果、神肴），而后再次回头盯着鸡蛇，如此循环"
+				"驯服后鸡蛇也会主动攻击玩家指定的目标（目标距离过远时使用射线攻击，目标靠近时改用近战，跃击）"
+				"手持种子喂食或将腐肉丢在地上可恢复鸡蛇生命，鸡蛇无法繁殖，由玩家投掷烂鸡蛋而生成的幼年鸡蛇会自动驯化并将这名玩家视为主人（烂鸡蛋由鸡有概率产出）"
+			]
+			id: "32AA8D83AA15F31A"
+			rewards: [{
+				id: "163942D2F5DA9820"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				count: 6L
+				id: "5CD26F03E5CA3F79"
+				item: { Count: 6b, id: "minecraft:rotten_flesh" }
+				type: "item"
+			}]
+			title: "驯服一只鸡蛇"
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EF66131633EE309"]
+			description: [
+				"海马出没于海洋，使用海带或海绵驯服海马，只有装备鞍的海马可以被骑乘，海马可以装备箱子和马铠，在水中骑乘海马会获得水下呼吸"
+				"喂食海带可以恢复其血量，使用海晶砂粒繁殖两只已驯服的海马"
+			]
+			id: "219B406CDAC24918"
+			rewards: [{
+				id: "2EBF1DD577F276F4"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				count: 16L
+				id: "340BECE4FA230BC4"
+				item: { Count: 16b, id: "minecraft:kelp" }
+				type: "item"
+			}]
+			title: "驯服一只海马"
+			x: 17.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EF66131633EE309"]
+			description: [
+				"骏鹰出没于沙漠和山地群系，骏鹰是中立生物，向地上丢下5到8个兔子脚，骏鹰会主动靠近并吃掉，若骏鹰食用后俯身坐在原地，则代表骏鹰已被驯服（谁丢兔子腿就由谁驯服）"
+				"骏鹰免疫摔落伤害，手持木棍可以改变骏鹰的行动方式，只有装备鞍的骏鹰可以骑乘，同时骏鹰可以装备箱子和鹰盔甲"
+				"喂食骏鹰任何肉类（包括腐肉）可以回复骏鹰生命，喂食兔肉煲则可以使骏鹰繁殖，产下一颗骏鹰蛋，丢出后必定生成一只骏鹰"
+			]
+			id: "717460420A29B5FE"
+			tasks: [{
+				count: 8L
+				id: "30C51A9C488A92E0"
+				item: { Count: 8b, id: "minecraft:rabbit_foot" }
+				type: "item"
+			}]
+			title: "驯服一只骏鹰"
+			x: 18.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EF66131633EE309"]
+			description: ["可以用兔子脚，甜浆果繁衍它们"]
+			id: "0FD0E776647430EF"
+			tasks: [{
+				id: "565D07930477D5F0"
+				item: "minecraft:rabbit"
+				type: "item"
+			}]
+			title: "驯服一只耳廓狐"
+			x: 19.5d
+			y: 3.0d
+		}
+	]
+	title: "会永远陪伴你"
+}

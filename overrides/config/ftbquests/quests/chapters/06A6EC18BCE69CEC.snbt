@@ -1,0 +1,1069 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "06A6EC18BCE69CEC"
+	group: "04B9982908550744"
+	icon: {
+		Count: 1b
+		id: "locusazzurro_icaruswings:astraea_wings"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "06A6EC18BCE69CEC"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["来自代达罗斯的手稿，似乎可以和某些遗物一同组合？？？"]
+			id: "5026B53E033B0313"
+			rewards: [{
+				id: "419AD67B6B87B393"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "“向往天际的梦想\""
+			tasks: [{
+				id: "0042198ECD885E95"
+				item: "locusazzurro_icaruswings:daedalus_manuscript"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 1.0d
+		}
+		{
+			description: ["多人游戏不建议使用翅膀跑图，可以考虑飞船嗷"]
+			id: "179292EFE2329781"
+			rewards: [{
+				id: "45E42F5FE5EAD2D7"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“更快的跑图，更炸的服务器”"
+			tasks: [{
+				id: "262389CEEDC6ECB6"
+				title: "注意事项"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: -0.5d
+		}
+		{
+			description: ["鞘翅可以通过合成获取"]
+			icon: {
+				Count: 1b
+				id: "minecraft:elytra"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "77510BDE34B7D9AB"
+			rewards: [{
+				id: "76A382D0EF8B33FD"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“另类的获取方式”"
+			tasks: [{
+				id: "665288695B3CEA1E"
+				title: "你看我看你看不看"
+				type: "checkmark"
+			}]
+			x: -14.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5026B53E033B0313"]
+			description: ["用于参与空域科技相关物品的合成，合成中不消耗"]
+			id: "456A5F0950AED17C"
+			rewards: [{
+				id: "535C8CEFE0BF4831"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "以远古的手稿为基础，用坠落遗物进行催化与激活，二者相融合造就了这个解码器，在制造空域科技时可以起到关键性的作用。”"
+			tasks: [{
+				id: "390A8785310C4FB6"
+				item: "locusazzurro_icaruswings:daedalus_decryptor"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["456A5F0950AED17C"]
+			description: [
+				"通过坠落遗物合成，坠落遗物可以在末地城箱子或猫的晨间礼物中获得"
+				"已加入神明的小商店"
+			]
+			id: "1AF265081EAE2416"
+			rewards: [{
+				id: "135334D8D0238CF3"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "082C02DF02C2ADEE"
+				item: "locusazzurro_icaruswings:restored_fallen_relic_core"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["456A5F0950AED17C"]
+			description: ["通过坠落遗物合成，坠落遗物可以在沙漠神殿、丛林神殿箱子或村庄盔甲匠、武器匠礼物中找到"]
+			id: "24EE1E87E157F53A"
+			rewards: [{
+				id: "3AC113A234D499C2"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "1073449107806ABF"
+				item: "locusazzurro_icaruswings:restored_fallen_relic_interface"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["456A5F0950AED17C"]
+			description: ["通过坠落遗物合成，坠落遗物可以在堡垒遗迹、要塞图书馆箱子或猪灵交易中获得"]
+			id: "49B1A2ACE8A05531"
+			rewards: [{
+				id: "3EC90C7877EB977B"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "5292D42F85354ED9"
+				item: "locusazzurro_icaruswings:restored_fallen_relic_offensive"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["456A5F0950AED17C"]
+			description: ["通过坠落遗物合成，坠落遗物可以在沉船宝箱、水下遗迹箱子或渔夫礼物中找到"]
+			id: "666E13F5C5BC3BED"
+			rewards: [{
+				id: "63E92BAC39C801FB"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "50FEDF4AEDD43487"
+				item: "locusazzurro_icaruswings:restored_fallen_relic_propulsion"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["456A5F0950AED17C"]
+			description: ["通过坠落遗物合成，坠落遗物可以在林地府邸、雪屋箱子或地牢、废弃矿道箱子找到"]
+			id: "35A6EB837E9D3285"
+			rewards: [{
+				id: "07CAFC56BE47C5AB"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "4685D8DE75D1AAD4"
+				item: "locusazzurro_icaruswings:restored_fallen_relic_defensive"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -2.0d
+		}
+		{
+			id: "7EA940A8E9EC8C5B"
+			rewards: [{
+				id: "023909BC8BCBF241"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "02CC675C1E798548"
+					item: { Count: 2b, id: "locusazzurro_icaruswings:quantum_fuel" }
+					type: "item"
+				}
+				{
+					id: "77B780E3A5D8D0E5"
+					item: "locusazzurro_icaruswings:synapse_repair_kit"
+					type: "item"
+				}
+			]
+			x: -14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7EA940A8E9EC8C5B"]
+			id: "603863228CA9C3A3"
+			rewards: [{
+				id: "3252560C34943D65"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "15B7A919990A1F32"
+				item: "locusazzurro_icaruswings:synapse_wings_recharger"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"603863228CA9C3A3"
+				"1AF265081EAE2416"
+				"24EE1E87E157F53A"
+				"666E13F5C5BC3BED"
+				"49B1A2ACE8A05531"
+				"35A6EB837E9D3285"
+			]
+			id: "763E83B0E6998161"
+			tasks: [{
+				id: "078299426070B549"
+				title: "伊卡洛斯的至高成就"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["763E83B0E6998161"]
+			description: [
+				"可装备于胸甲栏，提供优于其他同世代羽翼的高速飞行能力，以及3点护甲值、1点盔甲韧性和0.03速度加成。"
+				""
+				"飞行模式近似于无限烟花推进的鞘翅，在耐久即将归零时会失去飞行能力，但物品不会损毁。可以在铁砧中使用空域之翼充能器进行修复，无法通过经验修补附魔恢复耐久。"
+			]
+			id: "2C73DF14EE2EFCC6"
+			rewards: [{
+				id: "001C0DF4B82BA7F1"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "0E2BA9DD879A2DA5"
+				item: {
+					Count: 1b
+					id: "locusazzurro_icaruswings:astraea_wings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["763E83B0E6998161"]
+			description: [
+				"可装备于胸甲栏，提供高速飞行能力，以及2点护甲值、1点盔甲韧性、20%攻击伤害加成和50%速度加成"
+				""
+				"飞行模式近似于无限烟花推进的鞘翅，在耐久即将归零时会失去飞行能力，但物品不会损毁。可以在铁砧中使用空域之翼充能器进行修复，通过经验修补附魔可恢复微量耐久。"
+			]
+			id: "75BD021454EAEDD8"
+			rewards: [{
+				id: "595EC615250309BE"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "70F14F9DC5F79136"
+				item: {
+					Count: 1b
+					id: "locusazzurro_icaruswings:nymph_wings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["763E83B0E6998161"]
+			description: [
+				"可装备于胸甲栏，提供高速飞行能力，以及2点护甲值、200%伤害加成和0.02速度加成"
+				""
+				"飞行模式近似于无限烟花推进的鞘翅，在耐久即将归零时会失去飞行能力，但物品不会损毁。可以在铁砧中使用空域之翼充能器进行修复，无法通过经验修补附魔恢复耐久。"
+			]
+			id: "6957B39E6CF1E254"
+			rewards: [{
+				id: "11DE1DC3F965AA76"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "73AA6E6B839A69D1"
+				item: {
+					Count: 1b
+					id: "locusazzurro_icaruswings:chaos_wings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -6.0d
+		}
+		{
+			description: [""]
+			id: "747837730AA622BE"
+			rewards: [{
+				id: "7B019A79F45663AF"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“这玩意是吃的？？”"
+			tasks: [{
+				id: "7DDCAD7B8271F71C"
+				item: "locusazzurro_icaruswings:philosopher_stone"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["456A5F0950AED17C"]
+			description: [
+				"按下使用键会发射时间裂缝粒子弹射物（并消耗一个对应物品），该弹射物命中生物会造成2点时间裂缝伤害并施加宿命效果。此物品可以使用空域装甲维修器修复"
+				""
+				"每次获得此效果，会增加等级并刷新时长，默认时长为30秒，自然获得最高叠加至10级。"
+				""
+				"在10级时，每再次获得效果，会受到新增加效果每级50点的时空裂缝伤害。"
+			]
+			id: "6A7FBC7342162061"
+			rewards: [{
+				id: "6D2C03F186FF612A"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [
+				{
+					id: "1415D32DD9970D0F"
+					item: {
+						Count: 1b
+						id: "locusazzurro_icaruswings:time_rift_generator"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3A736D4248290E9F"
+					item: { Count: 10b, id: "locusazzurro_icaruswings:time_rift_charge" }
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["456A5F0950AED17C"]
+			description: ["按下使用键可以发射阿尔忒弥斯导弹（消耗一个对应物品），若使用时十字准星瞄准了一个生物且该生物在瞄准范围内，发射的导弹则会追踪该生物。此物品可以使用空域装甲维修器修复"]
+			id: "77E55754002273DA"
+			rewards: [{
+				id: "51614DA62EA32FD1"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [
+				{
+					id: "5A44F9B639CB5AAB"
+					item: {
+						Count: 1b
+						id: "locusazzurro_icaruswings:artemis_launcher"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "563DFB8A746864E6"
+					item: { Count: 10b, id: "locusazzurro_icaruswings:artemis_missile" }
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["456A5F0950AED17C"]
+			description: ["作为位移工具，按下使用键会将使用者朝当前朝向向前喷射，长按使用键（0.25秒以上）并松开，则会向反方向喷射。两种使用方式均会消耗耐久，在副手持有空气罐时按下使用键会消耗空气罐（返还玻璃罐），并根据空气罐类型恢复此工具的耐久。（灵风罐、炎风罐、虚风罐分别可以恢复1, 2, 3点耐久。）"]
+			id: "16EF2CA1FFC6DB54"
+			rewards: [{
+				id: "2100EAE5027B2907"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "5A308B4679D2C00B"
+				item: {
+					Count: 1b
+					id: "locusazzurro_icaruswings:wind_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["456A5F0950AED17C"]
+			description: ["当手持时，会每游戏刻进行更新，在物品信息中显示当前速度"]
+			id: "431D916F288B8CA6"
+			rewards: [{
+				id: "5544454D22B97008"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "3053630C63AD4E5F"
+				item: {
+					Count: 1b
+					id: "locusazzurro_icaruswings:magical_anemone"
+					tag: {
+						Speed: 0.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["456A5F0950AED17C"]
+			description: ["可装备于胸甲栏，提供滑翔能力，耐久归零会直接损毁"]
+			id: "54184D94E033536F"
+			rewards: [{
+				id: "38036534A95C1D97"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "6A95332EFAC25EE2"
+				item: {
+					Count: 1b
+					id: "locusazzurro_icaruswings:paper_wings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54184D94E033536F"]
+			description: ["在主世界飞行会扣除与飞行高度成正比的耐久，在下界飞行会每次扣除5耐久并点燃装备者，在末地无法使用。耐久归零会直接损毁，可使用羽毛扎在铁砧中修复"]
+			id: "6DC2430EF8EB7617"
+			rewards: [{
+				id: "729F34AC9F773B9F"
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "016AFA2A0753D06A"
+				item: {
+					Count: 1b
+					id: "locusazzurro_icaruswings:feather_wings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6DC2430EF8EB7617"]
+			description: ["在主世界飞行会扣除与飞行高度成正比的耐久，在下界飞行会每次扣除5耐久（但不会点燃装备者），在末地无法使用。耐久归零会直接损毁，可使用金色羽毛扎在铁砧中修复"]
+			id: "16B819225D7EF11E"
+			rewards: [{
+				id: "7417E1605BC92CF9"
+				type: "xp"
+				xp: 4
+			}]
+			tasks: [{
+				id: "6B068BA6D6080516"
+				item: {
+					Count: 1b
+					id: "locusazzurro_icaruswings:golden_feather_wings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["16B819225D7EF11E"]
+			description: ["在主世界飞行会扣除与飞行高度成正比的耐久，在下界飞行会每次扣除5耐久（但不会点燃装备者），在末地无法使用。耐久归零会直接损毁，可使用彩色羽毛扎在铁砧中修复"]
+			id: "1028D1BE9BF47819"
+			rewards: [{
+				id: "430FCEB5E198D4EF"
+				type: "xp"
+				xp: 4
+			}]
+			tasks: [{
+				id: "25C2B7DEC1CA3A35"
+				item: {
+					Count: 1b
+					id: "locusazzurro_icaruswings:colored_feather_wings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1028D1BE9BF47819"]
+			description: ["可装备于胸甲栏，提供滑翔能力，机制与鞘翅相同。在合成中作为其他魔法羽翼的蓝本。可在铁砧中用注魔膜修理。"]
+			id: "77721FC6A5DA8819"
+			rewards: [{
+				id: "5D9DAA2D1D6CF39E"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "40DB3A9648DCB626"
+				item: {
+					Count: 1b
+					id: "locusazzurro_icaruswings:magic_wings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["77721FC6A5DA8819"]
+			description: ["可装备于胸甲栏，提供滑翔能力，机制与鞘翅相同。可在铁砧中用注魔膜修理"]
+			id: "6F8EE5E70AD6C79B"
+			rewards: [{
+				id: "328FB936880C868C"
+				type: "xp"
+				xp: 6
+			}]
+			tasks: [{
+				id: "06B7C41D3E4A909B"
+				item: {
+					Count: 1b
+					id: "locusazzurro_icaruswings:flandre_magic_wings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0A25BD59FF88CA00"]
+			id: "70FEB0344940FB5C"
+			rewards: [{
+				id: "676617B38F69CAE1"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "44511E03326DAA6C"
+				item: {
+					Count: 1b
+					id: "locusazzurro_icaruswings:synapse_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0A25BD59FF88CA00"]
+			id: "3CE2EBA30D9EAE0F"
+			rewards: [{
+				id: "050EAFA27A35437D"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "6B4175710D87295E"
+				item: {
+					Count: 1b
+					id: "locusazzurro_icaruswings:synapse_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0A25BD59FF88CA00"]
+			id: "0EA6C9B43924AB88"
+			rewards: [{
+				id: "3792E9C442337A97"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "74BD048C63FDD010"
+				item: {
+					Count: 1b
+					id: "locusazzurro_icaruswings:synapse_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0A25BD59FF88CA00"]
+			id: "5F51344E09BAE37D"
+			rewards: [{
+				id: "039C48653A1BA461"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "2261E9609FB32C69"
+				item: {
+					Count: 1b
+					id: "locusazzurro_icaruswings:synapse_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["456A5F0950AED17C"]
+			description: [
+				"护甲，所有部件可在铁砧中使用空域装甲维修器修理"
+				""
+				"头盔（耳机）提供3点护甲值、4点盔甲韧性和2幸运值；"
+				""
+				"胸甲提供8点护甲值、4点盔甲韧性和2攻击伤害加成；"
+				""
+				"护腿（裙子）提供6点护甲值、4点盔甲韧性和2击退抗性；"
+				""
+				"靴子提供3点护甲值、4点盔甲韧性和0.05速度加成"
+				""
+				"枪是一种可合成的类三叉戟武器，可用于近战战斗，也可投掷并在落地后再次拾取"
+			]
+			id: "0A25BD59FF88CA00"
+			rewards: [{
+				id: "569124620660D609"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "12A3C905DCAA2B16"
+				title: "空域护甲与装备"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0A25BD59FF88CA00"]
+			id: "2EC32D1C68BEDB44"
+			rewards: [{
+				id: "6202CE354E37266D"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "04BFDF2EE4BF7D78"
+				item: {
+					Count: 1b
+					id: "locusazzurro_icaruswings:synapse_alloy_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["077F5FCBEC18D052"]
+			description: ["蝙蝠与幻翼掉落（10%）、流浪商人处购买（16绿宝石）、通过灵风罐提取"]
+			id: "6BF6E25BDB9DBBBA"
+			rewards: [{
+				id: "4CBEA214DAE6015B"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "4340B21D1F9D2299"
+				item: "locusazzurro_icaruswings:void_essence"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["077F5FCBEC18D052"]
+			description: ["凋灵骷髅（10%）或烈焰人（5%）掉落、通过炎风罐提取"]
+			id: "4DD5EA665E87D3D6"
+			rewards: [{
+				id: "1FF65A1AD5F6A5A1"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "1950390DF98C37FE"
+				item: "locusazzurro_icaruswings:nether_essence"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["077F5FCBEC18D052"]
+			description: ["由末影人和潜影贝掉落、通过虚风罐提取"]
+			id: "1BFF19AC8DFBB013"
+			rewards: [{
+				id: "3D03972A754A017F"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "5B61880437729098"
+				item: "locusazzurro_icaruswings:zephir_essence"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 7.0d
+		}
+		{
+			id: "077F5FCBEC18D052"
+			tasks: [{
+				id: "01977AF42CD3A36A"
+				title: "已加入神明小商店内"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: 5.5d
+		}
+		{
+			id: "031D76E4B734C262"
+			tasks: [{
+				id: "1160E3964029578C"
+				title: "伊卡洛斯的美酒"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["031D76E4B734C262"]
+			id: "7B66CF6DCC60E8F4"
+			rewards: [{
+				id: "48AE63DB37F93753"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "69387130E8433940"
+				item: "locusazzurro_icaruswings:mead"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["031D76E4B734C262"]
+			id: "543A75A43A55922A"
+			rewards: [{
+				id: "21BAAEBA7962E871"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "70739E785CBF216C"
+				item: "locusazzurro_icaruswings:zephir_infused_mead"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["031D76E4B734C262"]
+			id: "5985A4E6C357A9C2"
+			rewards: [{
+				id: "56200BB4E3D95EFA"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "57BEBB757353F81A"
+				item: "locusazzurro_icaruswings:nether_infused_mead"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["031D76E4B734C262"]
+			id: "0B5F06DD87E1D84D"
+			rewards: [{
+				id: "20E67808F46CD56B"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "3F5F016F5EAD3876"
+				item: "locusazzurro_icaruswings:void_infused_mead"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["031D76E4B734C262"]
+			description: [""]
+			id: "179384D411A721CF"
+			rewards: [{
+				id: "44F74BFDB2A37DA4"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "23722E19A9CC69AD"
+				item: "locusazzurro_icaruswings:golden_apple_infused_mead"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["031D76E4B734C262"]
+			id: "6B252169C1F1028F"
+			rewards: [{
+				id: "3F75DF06889A22AD"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "5824E7BEC6115CD1"
+				item: "locusazzurro_icaruswings:golden_apple_growth_infused_mead"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["031D76E4B734C262"]
+			id: "277B37897903363B"
+			rewards: [{
+				id: "38F2321C37FE46A8"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "6BBE88E8F8BA9E3B"
+				item: "locusazzurro_icaruswings:herbs_infused_mead"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"此线路是妖怪们的归家中的内容"
+				"可以获得创造模式下的飞行效果"
+			]
+			icon: {
+				Count: 1b
+				id: "youkaishomecoming:reimu_hairband"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4F223FA71A3F3F66"
+			rewards: [{
+				id: "62B29D744A71B05E"
+				item: "youkaishomecoming:milk_popsicle"
+				type: "item"
+			}]
+			subtitle: "很简单的获取方式"
+			tasks: [{
+				id: "704DE175173AE1A2"
+				title: "另一种飞行方式"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4F223FA71A3F3F66"]
+			description: [
+				"我们先要找到露米娅的家，从箱子里找到“怪肉”"
+				"ps：不要尝试伤害露米娅"
+			]
+			id: "3FA7A0363EF946A9"
+			rewards: [
+				{
+					count: 20
+					id: "2356B89AD825355E"
+					item: "youkaishomecoming:flesh"
+					type: "item"
+				}
+				{
+					id: "5CFA30F6B210AC52"
+					item: "youkaishomecoming:big_popsicle"
+					type: "item"
+				}
+			]
+			subtitle: "“奇怪的味道”"
+			tasks: [{
+				count: 8L
+				id: "6CE1262C190BB150"
+				item: { Count: 8b, id: "youkaishomecoming:flesh" }
+				type: "item"
+			}]
+			title: "首先，第一步"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3FA7A0363EF946A9"]
+			description: [
+				"第一次在村民面前吃下“怪肉”会得到灵梦的警告。"
+				"无视她"
+				"再一次吃下“怪肉”灵梦会生成在玩家周围并展开攻击"
+				"消灭玩家后灵梦会失去仇恨并停留在原地。"
+				""
+				"ps:不要轻易尝试挑战灵梦，你大概率会被打的还不了手！"
+			]
+			icon: {
+				Count: 1b
+				id: "touhou_little_maid:hakurei_gohei"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7EC5E374F9AD4E59"
+			rewards: [{
+				id: "067F6C1EE9D5E98C"
+				item: "youkaishomecoming:candy_apple"
+				type: "item"
+			}]
+			subtitle: "“做好被秒杀的准备”"
+			tasks: [{
+				id: "141F6A1AF624AF16"
+				title: "在村民面前吃下“怪肉”"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7EC5E374F9AD4E59"]
+			description: [
+				"给予灵梦妖怪的归家中的食物"
+				"不要喂食怪肉相关，血液相关的食物"
+				"去除怪肉相关,红魔馆红茶，绯红迷雾共计食物92种"
+				"手持食物右键灵梦看到冒爱心表示给予成功，"
+				"等待红色效果粒子消散后可继续给予"
+			]
+			icon: "youkaishomecoming:koishi_mousse"
+			id: "1C9536B64EA6B854"
+			rewards: [{
+				id: "01D17654F187C4CE"
+				item: "youkaishomecoming:scarlet_mist"
+				type: "item"
+			}]
+			subtitle: "“准备开始烹饪吧”"
+			tasks: [{
+				id: "71534195C05DC499"
+				title: "收买进行中"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C9536B64EA6B854"]
+			description: ["ps: 不要搞一堆灵梦出来，这玩意掉帧挺多的"]
+			id: "69BCBE8B76951427"
+			rewards: [{
+				id: "38463D76B9E4A136"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "“现在，可以飞起来了”"
+			tasks: [{
+				id: "3A5C26BCB382251F"
+				item: {
+					Count: 1b
+					id: "youkaishomecoming:reimu_hairband"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C9536B64EA6B854"]
+			description: ["食物种类可以查看“我吃吃吃”中的“妖怪的归家相关”"]
+			id: "3DC9CA7772DE2E8C"
+			rewards: [{
+				id: "43010A44F212E3AA"
+				item: "youkaishomecoming:tofu"
+				type: "item"
+			}]
+			tasks: [{
+				id: "368829628E0F55EE"
+				title: "小帮助"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+	]
+	title: "我要飞的更高"
+}

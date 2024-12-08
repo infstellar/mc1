@@ -1,0 +1,267 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "17CA91DB9871B397"
+	group: "04B9982908550744"
+	icon: "brewery:beer_barley"
+	id: "17CA91DB9871B397"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4CD3684B42D6B063"
+			rewards: [{
+				id: "01852B19A0C488FD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "酿酒的原材料"
+			tasks: [
+				{
+					id: "13F0D000B82B63CF"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					id: "3B5210AEE393407C"
+					item: "brewery:barley"
+					type: "item"
+				}
+				{
+					id: "2072B71F377ABF06"
+					item: "brewery:corn"
+					type: "item"
+				}
+			]
+			title: "原材料的准备"
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4CD3684B42D6B063"]
+			description: [
+				"空手右击可关闭和开启仓门。手持作物右击仓室即可放入，一段时间后吐出袋装烘干作物，若仓门处于关闭状态则不会吐出。"
+				""
+				"能够以 2x2xn 和 3x3xn 的长方体进行合并，其中高度n最多为9格。"
+				""
+				"一个烘干仓可以烘干1个作物，因此其上限为一次性烘干 3x3x9=81 个作物。"
+			]
+			id: "72193B7178ECF223"
+			subtitle: "可以把你的原材料烘干"
+			tasks: [{
+				id: "30D81CA99B7177E8"
+				item: "brewery:silo_wood"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4CD3684B42D6B063"]
+			description: [
+				"首先需要手持原料和一桶水右击放入储酒盆模块，之后再手持燃料右击加热炉模块，静静等待片刻便可酿好酒"
+				"(酿酒的过程中会出现突发情况详情请看mc百科)"
+			]
+			id: "727C06DA7BB13E04"
+			subtitle: "最原始的酿造站"
+			tasks: [{
+				id: "12CC25A303F26BDB"
+				item: "brewery:wooden_brewingstation"
+				type: "item"
+			}]
+			title: "开始酿酒"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			description: ["用来检测你喝了多少酒，未成年请勿饮酒哦"]
+			id: "1041343D93E7C6ED"
+			subtitle: "手持右键可“吹气”"
+			tasks: [{
+				id: "1B3A78260885D183"
+				item: "brewery:breathalyzer"
+				type: "item"
+			}]
+			title: "吹气！！！！"
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["72193B7178ECF223"]
+			description: ["可以做一个巨型的烘干仓"]
+			id: "05D7B844B75CD1EE"
+			rewards: [{
+				id: "10C96F7857D702B5"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "更好的，更大的！"
+			tasks: [{
+				id: "1B7720D4381123F9"
+				item: "brewery:silo_copper"
+				type: "item"
+			}]
+			title: "更好的烘干"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["727C06DA7BB13E04"]
+			description: ["可能会比木制的快一点？"]
+			id: "089CF20C675F4CE0"
+			rewards: [{
+				id: "67367C8E920A7DA4"
+				type: "xp"
+				xp: 6
+			}]
+			subtitle: "更好的"
+			tasks: [{
+				id: "7BE843516B3D0B21"
+				item: "brewery:copper_brewingstation"
+				type: "item"
+			}]
+			title: "更好的酿造站"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"05D7B844B75CD1EE"
+				"089CF20C675F4CE0"
+			]
+			description: ["最好的也是最贵的"]
+			id: "463F107033D85493"
+			rewards: [{
+				id: "7487506AC52D5BAC"
+				item: "brewery:whiskey_maggoallan"
+				type: "item"
+			}]
+			subtitle: "最贵的"
+			tasks: [{
+				id: "24F34E1E47823031"
+				item: "brewery:netherite_brewingstation"
+				type: "item"
+			}]
+			title: "酿酒大师！"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			description: ["其实只要放了下界合金酿造站就能获得了........."]
+			id: "0DF77EE54A388CD5"
+			rewards: [{
+				id: "25970E4522428907"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "为半径八格内的玩家提供急迫II效果。是完成所有成就的奖励。"
+			tasks: [{
+				id: "188D1BAEDF682C39"
+				item: "brewery:beer_standard"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			description: ["酿酒的过程中，机器会发生一些小状况，当然你完全可以不处理它们，但这样酿出来的酒只有默认品质而且只能盛出一杯，甚至最后还有可能生成一只血量80点攻击12点的啤酒人"]
+			id: "0FE13E91E3EEF63A"
+			subtitle: "“啤酒精”"
+			tasks: [{
+				entity: "brewery:beer_elemental"
+				icon: "brewery:beer_elemental_spawn_egg"
+				id: "676930E5DD60040F"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			id: "76117D7FCFF6311E"
+			rewards: [{
+				id: "6249FC6A996084A2"
+				item: {
+					Count: 1b
+					id: "brewery:brewfest_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "“更多的啤酒”"
+			tasks: [
+				{
+					id: "04855208D7E2AD21"
+					item: "brewery:beer_wheat"
+					type: "item"
+				}
+				{
+					id: "7D1A318965C676DE"
+					item: "brewery:beer_barley"
+					type: "item"
+				}
+				{
+					id: "491EA4600BC3F5F3"
+					item: "brewery:beer_hops"
+					type: "item"
+				}
+				{
+					id: "394234CED09E857E"
+					item: "brewery:beer_haley"
+					type: "item"
+				}
+			]
+			title: "章节挑战"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			id: "7488EC85F8312441"
+			rewards: [{
+				id: "7DAD91D176B78591"
+				item: {
+					Count: 1b
+					id: "brewery:brewfest_hat_red"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "“酿酒师”"
+			tasks: [
+				{
+					id: "4B59932E1A171B47"
+					item: "brewery:whiskey_jojannik"
+					type: "item"
+				}
+				{
+					id: "08B06BDB48C1918A"
+					item: "brewery:whiskey_lilitusinglemalt"
+					type: "item"
+				}
+				{
+					id: "5F7C63ECD5F7B258"
+					item: "brewery:whiskey_cristelwalker"
+					type: "item"
+				}
+				{
+					id: "73F87DCFAF84D45F"
+					item: "brewery:whiskey_maggoallan"
+					type: "item"
+				}
+				{
+					id: "3FCFF0D7263E788B"
+					item: "brewery:whiskey_carrasconlabel"
+					type: "item"
+				}
+			]
+			title: "章节挑战"
+			x: 0.0d
+			y: 1.0d
+		}
+	]
+	title: "借酒消愁，愁更愁啊"
+}

@@ -1,0 +1,18 @@
+{
+    "display": {
+      "title": "这一刻，我与天齐高！",
+      "description": "这就是权与力的感觉么",
+      "icon": {
+        "item": "kubejs:lateinos"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "trigger": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

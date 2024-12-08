@@ -1,0 +1,2229 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6E69F163E20FF825"
+	group: "0E86DB5011D3FCE1"
+	icon: "touhou_little_maid:maid_backpack_big"
+	id: "6E69F163E20FF825"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["500F1F6861FD5F98"]
+			description: ["少年，拿上这些装备，开始在这个美好的世界冒险吧！"]
+			icon: "supplementaries:sconce"
+			id: "15874284FC9D1815"
+			rewards: [
+				{
+					id: "033CE97F4650A564"
+					item: {
+						Count: 1b
+						id: "simplyswords:diamond_longsword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "131C25DE3AB6CFC7"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "49AD54EA946665AE"
+				title: "点击开始与龙的的冒险"
+				type: "checkmark"
+			}]
+			title: "开始冒险"
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["15874284FC9D1815"]
+			description: [
+				"运气使然，你在村庄的探索发现一位神秘的人，他自称为“抄书吏”，他悄悄告诉你，这个世界有很多强大的生物，以及及其特别的存在。"
+				"“少年出发吧，征服这个世界！”"
+				"（抄书吏的工作方块是手稿手稿誊写桌）"
+			]
+			icon: "iceandfire:bestiary"
+			id: "7272DF9CE814DC25"
+			rewards: [{
+				id: "621E255598D4B596"
+				item: "iceandfire:bestiary"
+				type: "item"
+			}]
+			tasks: [{
+				id: "33D1A560E591F184"
+				title: "传说生物"
+				type: "checkmark"
+			}]
+			title: "传说生物"
+			x: -6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7272DF9CE814DC25"]
+			description: ["小心会游泳的蚯蚓哦~"]
+			icon: "iceandfire:deathworm_tounge"
+			id: "067372D5003FCFC7"
+			rewards: [{
+				id: "6AFEBA260877B471"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				entity: "iceandfire:deathworm"
+				id: "1330EAE21B7B2E0A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "巨型蚯蚓"
+			x: -19.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["067372D5003FCFC7"]
+			description: ["欸嘿，虫子宠物"]
+			id: "54A7D14CE2AFCE00"
+			rewards: [{
+				id: "79D8677BD5416E0B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "725F11DFFF840F8D"
+					item: "iceandfire:deathworm_egg"
+					type: "item"
+				}
+				{
+					id: "30D2C2F40FD2E5C1"
+					item: "iceandfire:deathworm_egg_giant"
+					type: "item"
+				}
+			]
+			x: -20.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["067372D5003FCFC7"]
+			description: ["芜湖，少年，恭喜你征服了巨型的蚯蚓~"]
+			id: "5F02C4D2DA301ED3"
+			rewards: [{
+				id: "3CB5C9B3F0D0C9F2"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "09F0EC535637B39C"
+					item: {
+						Count: 1b
+						id: "iceandfire:deathworm_gauntlet_yellow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3302D4502B30FA48"
+					item: {
+						Count: 1b
+						id: "iceandfire:deathworm_gauntlet_white"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77031513F2915864"
+					item: {
+						Count: 1b
+						id: "iceandfire:deathworm_gauntlet_red"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -19.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["7272DF9CE814DC25"]
+			description: [
+				"见识下漫天飞羽吧！"
+				"（想办法留下它的羽毛，可能有大用处哦~）"
+			]
+			icon: "iceandfire:stymphalian_skull"
+			id: "4A014A285F060EAA"
+			rewards: [{
+				id: "671B6492FAF1B943"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				entity: "iceandfire:stymphalian_bird"
+				id: "67A52A09A281F59F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "看！青铜鸟飞起来了"
+			x: -17.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["4A014A285F060EAA"]
+			description: ["留下羽毛，为你所用！"]
+			id: "14F62DF0F7572E5B"
+			rewards: [{
+				count: 64
+				id: "0D56CB2B67C59460"
+				item: "iceandfire:stymphalian_arrow"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "007C65BF53B74EFA"
+					item: "iceandfire:stymphalian_arrow"
+					type: "item"
+				}
+				{
+					id: "46FED68102AD87C9"
+					item: "iceandfire:stymphalian_feather_bundle"
+					type: "item"
+				}
+				{
+					id: "0B85CD028A5D50A9"
+					item: {
+						Count: 1b
+						id: "iceandfire:stymphalian_bird_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -17.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["7272DF9CE814DC25"]
+			description: ["不要去主动去挑衅他啊，人不犯我我不犯人。"]
+			icon: "iceandfire:hippogryph_skull"
+			id: "1AB1804DC85503AA"
+			rewards: [{
+				id: "0148D30E56F94019"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "iceandfire:hippogryph"
+				id: "08A8B0F83147BA8A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "飞马"
+			x: -15.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1AB1804DC85503AA"]
+			description: ["征服飞马，与飞马一起征服天空，夺取绝对制空权。"]
+			id: "1D0E405C5BCB6BB9"
+			rewards: [{
+				id: "4D53FD227BCDF1DB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6934859B4A0AB539"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			title: "不想拥有一匹天马吗？"
+			x: -16.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["1AB1804DC85503AA"]
+			description: [
+				"百分百横扫的武器，不帅吗！"
+				"（欸嘿~骏鹰的爪子有用了哦~）"
+			]
+			id: "538AFF55067270E8"
+			rewards: [{
+				id: "047BFAFB8D6F4A8A"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "5F3CC40FB292C0C5"
+				item: {
+					Count: 1b
+					id: "iceandfire:hippogryph_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["7272DF9CE814DC25"]
+			description: [
+				"在草沼或沼泽探索时，要小心3头蛇，因为它的回复能力及其强，已经有很剧毒的毒液。"
+				"（记得带着可以让它着火的武器，毕竟蛇惧怕火。）"
+			]
+			icon: "iceandfire:hydra_skull"
+			id: "5884A2B2EC24FE8E"
+			rewards: [{
+				id: "1C63D56B94CEFAF7"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "“但是他为啥叫九头蛇”"
+			tasks: [{
+				entity: "iceandfire:hydra"
+				id: "336EB13D110FD7BA"
+				type: "kill"
+				value: 1L
+			}]
+			title: "三个头的蛇诶！"
+			x: -13.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["5884A2B2EC24FE8E"]
+			description: ["掠夺九头蛇的心脏，它会成为你的第二个心脏，会在你生命濒危的时候救你一把。"]
+			id: "20F246BB8CA1E6D8"
+			rewards: [{
+				id: "1D43FDCF5AC9FE1B"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "7FB14A996499DFEE"
+				item: "iceandfire:hydra_heart"
+				type: "item"
+			}]
+			title: "第二个心脏"
+			x: -13.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["7272DF9CE814DC25"]
+			description: ["很友好的生物，相信我，他比海豚还有用哦~"]
+			icon: "iceandfire:hippocampus_fin"
+			id: "701C9B3CB6BC7429"
+			rewards: [{
+				id: "5D4A98CC3491DBB2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "iceandfire:hippocampus"
+				id: "4088AA64CEB70375"
+				type: "kill"
+				value: 1L
+			}]
+			title: "可以在水中的马"
+			x: -12.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["701C9B3CB6BC7429"]
+			description: ["对你很好，但是你的屠刀还是伸向了你的朋友，真“终究是错付”"]
+			id: "2195CF62B61F6708"
+			rewards: [{
+				id: "0F0D3D4D76B4BEBA"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "03E186CE55A1F44A"
+				item: {
+					Count: 1b
+					id: "iceandfire:hippocampus_slapper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "终究会错付"
+			x: -12.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["7272DF9CE814DC25"]
+			description: ["&4由于塞壬的不可抗力因素，我们ban掉了塞壬&r"]
+			icon: "iceandfire:siren_tear"
+			id: "532253291E1B90E6"
+			rewards: [{
+				id: "0BBF8DCEF2A6BB42"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "32174A504F56F324"
+				title: "不需要击杀了，因为她被删除了！"
+				type: "checkmark"
+			}]
+			title: "美人鱼？美吗？"
+			x: -10.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["7272DF9CE814DC25"]
+			description: ["在水面探索时，记得小心水下突然钻出的庞然巨物哦~"]
+			icon: "iceandfire:seaserpent_skull"
+			id: "13E8FE163139B672"
+			rewards: [{
+				id: "5BC6D797540439C6"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				entity: "iceandfire:sea_serpent"
+				id: "3DEE3119904E8948"
+				type: "kill"
+				value: 1L
+			}]
+			title: "深海巨蛇"
+			x: -9.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["13E8FE163139B672"]
+			id: "51A05DC5E40E41B9"
+			rewards: [{
+				count: 64
+				id: "611193E2D878797B"
+				item: "iceandfire:sea_serpent_arrow"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "29D0CE401293ED28"
+					item: {
+						Count: 1b
+						id: "iceandfire:tide_trident"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FAE314245B3F478"
+					item: "iceandfire:sea_serpent_arrow"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["7272DF9CE814DC25"]
+			description: ["屠龙的路，去斩杀一条恶龙吧"]
+			icon: "iceandfire:dragon_skull_fire"
+			id: "7248858467137C3C"
+			rewards: [{
+				id: "15927BA989CD2FF2"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "4A438B0CAC1787EE"
+				item: "iceandfire:dragonbone"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["7248858467137C3C"]
+			description: ["电龙是漫游于主世界上空的三种龙之一，拥有掌握雷霆和黑夜的强大力量，强横的闪电龙息能将一切化为飞灰，是传说中的强大存在。"]
+			icon: "iceandfire:lightning_dragon_heart"
+			id: "71536DD091D1B72B"
+			rewards: [{
+				id: "5AAB98458B87DE15"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				entity: "iceandfire:lightning_dragon"
+				id: "3EBC21B8C4C55814"
+				type: "kill"
+				value: 1L
+			}]
+			title: "以血引雷霆"
+			x: -7.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["7248858467137C3C"]
+			description: ["火龙是漫游于主世界上空的三种龙之一，以他们卓越的喷火能力和飞行能力以及他们尽人皆知的血腥声望和相关文化著称。除此之外，他们一生中还会经历五个成长阶段，在此期间他们会逐渐变得更大、更强、更可怕。"]
+			icon: "iceandfire:fire_dragon_heart"
+			id: "61FC663518A168F1"
+			rewards: [{
+				id: "13C0C9156D60E4F1"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				entity: "iceandfire:fire_dragon"
+				id: "6E8215F4146DE40F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "与烈焰共舞"
+			x: -6.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["7248858467137C3C"]
+			description: ["冰龙是漫游于主世界上空的三种龙之一，拥有不亚于火龙的知名度和与火龙完全对立的寒冰吐息。拥有同时掌控天空，陆地和海洋的能力。"]
+			icon: "iceandfire:ice_dragon_heart"
+			id: "599442EBEC863F35"
+			rewards: [{
+				id: "463CC18BC05FB6C9"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				entity: "iceandfire:ice_dragon"
+				id: "3020F2FB0E397E41"
+				type: "kill"
+				value: 1L
+			}]
+			title: "冰雪之中"
+			x: -5.5d
+			y: -14.5d
+		}
+		{
+			dependencies: [
+				"71536DD091D1B72B"
+				"61FC663518A168F1"
+				"599442EBEC863F35"
+			]
+			dependency_requirement: "one_completed"
+			description: ["杀恶龙，夺世界珍稀之物，视作勇气的象征。"]
+			id: "594BED50FC9E8C10"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65EB5704C1A84D97"
+				table_id: 3219703151738349596L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					count: 24L
+					id: "287FF2064F9862F1"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "iceandfire:scales/dragon"
+						}
+					}
+					title: "龙鳞"
+					type: "item"
+				}
+				{
+					id: "2EC729F9629973ED"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "iceandfire:dragon_bloods"
+						}
+					}
+					title: "龙血"
+					type: "item"
+				}
+				{
+					id: "60897687B2083EF7"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "iceandfire:dragon_hearts"
+						}
+					}
+					title: "龙心脏"
+					type: "item"
+				}
+			]
+			title: "收获遗骸"
+			x: -6.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["594BED50FC9E8C10"]
+			description: ["孵化属于自己的龙宝宝，并把他驯养成属于自己的坐骑，成为一个龙骑士！"]
+			icon: "iceandfire:dragonegg_blue"
+			id: "584E345E622DC558"
+			rewards: [{
+				id: "48B5E12E170AE173"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "038663A3B3A2A327"
+				title: "孕育龙宝"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -20.5d
+		}
+		{
+			dependencies: ["584E345E622DC558"]
+			description: ["获得龙的心脏，建造属于自己的锻造炉"]
+			id: "25B4CF3804D127AF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4B57B1B64B596099"
+					table_id: 3219703151738349596L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E651F90AD4A1A32"
+					table_id: 3219703151738349596L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BC9425083F8A01C"
+					table_id: 3219703151738349596L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0AABD98332385489"
+					table_id: 3219703151738349596L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1371AB6852FD95E4"
+					table_id: 3219703151738349596L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "057F848CCD5210B5"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "iceandfire:dragon_hearts"
+					}
+				}
+				type: "item"
+			}]
+			title: "砰砰的心脏"
+			x: -9.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["584E345E622DC558"]
+			description: [
+				"不同的龙需要在不同的环境中孵化"
+				"孵化后，请好好饲养自己的龙宝"
+			]
+			id: "4FAB9DFB0A33D6B6"
+			rewards: [{
+				count: 64
+				id: "572826B090B7A735"
+				item: "iceandfire:dragon_meal"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5E01749CE3832A9A"
+					item: "iceandfire:dragon_stick"
+					type: "item"
+				}
+				{
+					id: "5FB23B83E311F7FA"
+					item: "iceandfire:dragon_horn"
+					type: "item"
+				}
+				{
+					id: "7690FF619B2961CF"
+					item: "iceandfire:dragon_flute"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "1774368F6096C985"
+					item: { Count: 32b, id: "iceandfire:dragon_meal" }
+					type: "item"
+				}
+			]
+			title: "强大的伙伴"
+			x: -6.5d
+			y: -23.5d
+		}
+		{
+			dependencies: ["4FAB9DFB0A33D6B6"]
+			description: ["给自己的龙宝宝穿一些适当的防具吧"]
+			id: "4B11AE3520145FAF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F8CB0A5E0CE9385"
+				table_id: 3219703151738349596L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "2E643408C512D373"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "iceandfire:dragon_armors"
+					}
+				}
+				title: "龙的护具"
+				type: "item"
+			}]
+			title: "保护好伙伴"
+			x: -9.0d
+			y: -23.5d
+		}
+		{
+			dependencies: ["4FAB9DFB0A33D6B6"]
+			description: ["比较坚硬的材料，试着获得它"]
+			id: "739956907DA13662"
+			rewards: [
+				{
+					id: "1C34D11A0BFCF3F7"
+					item: "iceandfire:dragonsteel_fire_block"
+					type: "item"
+				}
+				{
+					id: "2E57472B369C8BB8"
+					item: "iceandfire:dragonsteel_ice_block"
+					type: "item"
+				}
+				{
+					id: "7971AC6431207BBC"
+					item: "iceandfire:dragonsteel_lightning_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "63831B6DEC8B2E78"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					id: "202C4EB837B40A63"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					id: "5E34614CCB1E6FAD"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+			]
+			title: "强大的材料"
+			x: -6.5d
+			y: -26.0d
+		}
+		{
+			dependencies: ["7272DF9CE814DC25"]
+			icon: "iceandfire:graveyard_soil"
+			id: "400BB6F8CB30B345"
+			rewards: [{
+				id: "22F0431CEB586863"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4C9A9A76978BE7FF"
+				structure: "iceandfire:graveyard"
+				title: "发现墓地"
+				type: "structure"
+			}]
+			title: "闹鬼之地"
+			x: -4.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["400BB6F8CB30B345"]
+			icon: "iceandfire:ectoplasm"
+			id: "4AC613C8A89C5A17"
+			rewards: [{
+				id: "0C7E9DFA57A7B67F"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				entity: "iceandfire:ghost"
+				id: "2E5DCBC9B6B260DC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "降妖伏魔"
+			x: -4.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["4AC613C8A89C5A17"]
+			description: ["可以远程的剑，攻速也很快哦"]
+			id: "49D930F8BB003356"
+			rewards: [{
+				id: "279610A65927EDA9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "14AF49B7A99E74F2"
+				item: {
+					Count: 1b
+					id: "iceandfire:ghost_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "飞剑"
+			x: -4.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["7272DF9CE814DC25"]
+			description: ["凸眼有犄角的巨人，小心被抓住哦"]
+			icon: "iceandfire:cyclops_skull"
+			id: "2B9D5F6EB5C10A23"
+			rewards: [{
+				id: "200FF5804D5D1169"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				entity: "iceandfire:cyclops"
+				id: "09632E0802E94866"
+				type: "kill"
+				value: 1L
+			}]
+			title: "巨人！"
+			x: -2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2B9D5F6EB5C10A23"]
+			description: ["被它所看到的生物会虚弱哦"]
+			id: "59C03809C4B8F6F9"
+			rewards: [{
+				id: "3CE26B50504C8B2F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "606DFF441A4F892C"
+				item: {
+					Count: 1b
+					id: "iceandfire:cyclops_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "巨人的眼球"
+			x: -2.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["7272DF9CE814DC25"]
+			description: ["在幽暗的地方，请谨防哪里出现的怪物咬"]
+			icon: "iceandfire:troll_skull"
+			id: "5B62843C1E0B2C62"
+			rewards: [{
+				id: "49305CD688F908CE"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "iceandfire:troll"
+				id: "3BCE84B1EF3FB0C5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "小心突然被咬一口"
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["5B62843C1E0B2C62"]
+			description: ["坚硬的牙齿加上食人妖的皮，可以合成不错的护具哦"]
+			id: "1FC5332C4F0D38F4"
+			rewards: [{
+				count: 8
+				id: "2C552C2E5D21D879"
+				item: "iceandfire:troll_tusk"
+				type: "item"
+			}]
+			tasks: [{
+				id: "745FBC3C02915B37"
+				item: "iceandfire:troll_tusk"
+				type: "item"
+			}]
+			title: "打下牙齿"
+			x: 0.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["7272DF9CE814DC25"]
+			description: ["&4由于恐蚁的不可抗力因素，我们ban掉了恐蚁&r"]
+			icon: "iceandfire:myrmex_stinger"
+			id: "08D0513924C55A8A"
+			rewards: [{
+				id: "530B8A82BAFA32B0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2D2C38AF43F89E66"
+				title: "没有恐蚁哦"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["7272DF9CE814DC25"]
+			icon: "iceandfire:pixie_wings"
+			id: "7F925509B2628C9C"
+			rewards: [{
+				id: "7AD8B8B9E4A361A9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "iceandfire:pixie"
+				id: "4FFE4882BC3880BC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "可爱的小偷"
+			x: 4.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["7272DF9CE814DC25"]
+			icon: "minecraft:mossy_stone_bricks"
+			id: "53BF91E174266629"
+			rewards: [{
+				id: "339ECD7A0529FD08"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "10E6BEF633F4EC67"
+				structure: "iceandfire:gorgon_temple"
+				title: "神庙"
+				type: "structure"
+			}]
+			x: 7.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["7272DF9CE814DC25"]
+			description: [
+				"翼蚺是大型的无足具翼爬行动物，长体似蛇但又生色彩缤纷的羽翼，颈部中长，头部较大且下颚露齿，以及长渐细的尾巴；"
+				""
+				"它们也具有许多来自热带鸟类的特征：羽翼巨大，头顶饰有羽冠，鼻端生有大型钩状喙，尾巴末端则有一个巨大的羽毛状尾扇；"
+			]
+			icon: "iceandfire:amphithere_skull"
+			id: "7BF3EA2AB2CB36D4"
+			rewards: [{
+				id: "2909272342C5FD48"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				entity: "iceandfire:amphithere"
+				id: "5E7D9C898C38CC2A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "飞行的蛇"
+			x: 9.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["7F925509B2628C9C"]
+			description: [
+				"传奇武器之一，使用时会消耗精灵尘向前发射伤害5且带有漂浮、发光效果的魔法团。本身会呈加速度状态一直向前冲过去直到击中某物，命中障碍物或生物的魔法团有概率以精灵尘的形式被回收。"
+				""
+				"使用铁砧，可以对精灵法杖使用耐久、无限、经验修补的附魔书（经验修补与无限附魔不共存），受无限附魔影响时，不携带精灵尘即可发射魔法团，命中障碍物或生物时可能凭空产生精灵尘。"
+				""
+				"&b（八百里开外，一发干掉敌方政要的魔术家，那才叫高手呢！——狙击手）&r"
+			]
+			id: "1249E4346726197F"
+			rewards: [{
+				id: "5F71FA1821DB2302"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3457A2AD9FE59827"
+				item: {
+					Count: 1b
+					id: "iceandfire:pixie_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "魔仙棒"
+			x: 3.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["7F925509B2628C9C"]
+			description: ["装着精灵的瓶子，可以给你产出精灵尘"]
+			id: "60A3208F65AF5EF1"
+			rewards: [{
+				count: 8
+				id: "7E7B65088D4AD547"
+				item: "iceandfire:pixie_dust"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1728A6D5DE5CD11E"
+					item: "iceandfire:pixie_jar_0"
+					type: "item"
+				}
+				{
+					id: "5C7B62503E7E23F1"
+					item: "iceandfire:pixie_jar_1"
+					type: "item"
+				}
+				{
+					id: "30D3323F1AC95BAF"
+					item: "iceandfire:pixie_jar_2"
+					type: "item"
+				}
+				{
+					id: "7FEE28B57365F844"
+					item: "iceandfire:pixie_jar_3"
+					type: "item"
+				}
+				{
+					id: "2045F6CF35B2CC79"
+					item: "iceandfire:pixie_jar_4"
+					type: "item"
+				}
+			]
+			title: "瓶中精灵"
+			x: 5.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["60A3208F65AF5EF1"]
+			description: ["来上一碗试试？"]
+			id: "1AF0A693753DDA48"
+			rewards: [{
+				id: "0227A29AEB603F16"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "336953B3F54AAD4F"
+				item: "iceandfire:ambrosia"
+				type: "item"
+			}]
+			title: "美味佳肴"
+			x: 5.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["53BF91E174266629"]
+			description: [
+				"蛇发女妖是一种上半身为女子、下半身为蛇的可怖生灵，她们被列为世界上最危险的生物全是因为那恐怖可憎的能力：直视其双眼者将化为了无生气的石头。"
+				""
+				"多亏了散布在各地海岸线的远古石庙，被关在地下深处的蛇发女妖无处施展魔力，无数生灵免遭毒手。"
+			]
+			icon: "iceandfire:stone_statue"
+			id: "4E6B6CEADADE4FE7"
+			rewards: [{
+				id: "6D14F7EB25BE4525"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				entity: "iceandfire:gorgon"
+				id: "631713C5D1145DB5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "美杜莎"
+			x: 7.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["4E6B6CEADADE4FE7"]
+			description: ["快把它拿开，你知道你手中的东西意味着什么么？！"]
+			id: "76494C5B8803FC5A"
+			rewards: [{
+				id: "2804AA89A8700534"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7A5AC7340E4B6CD1"
+				item: {
+					Count: 1b
+					id: "iceandfire:gorgon_head"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["7BF3EA2AB2CB36D4"]
+			description: ["能够击飞敌人，使其无法举盾"]
+			id: "39E4FC62309D33F3"
+			rewards: [{
+				count: 64
+				id: "7F5F738C887FB3C5"
+				item: "iceandfire:amphithere_arrow"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "36A4C313305D3661"
+					item: {
+						Count: 1b
+						id: "iceandfire:amphithere_macuahuitl"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C1BE98F21ACC7FA"
+					item: "iceandfire:amphithere_arrow"
+					type: "item"
+				}
+			]
+			title: "禁止防御"
+			x: 8.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["7BF3EA2AB2CB36D4"]
+			description: [
+				"1.首先，&l玩家必须利用任意弹射物击落一只空中飞行的翼蚺&r，并保证此后能跟得上翼蚺坠地期间的移动速度；"
+				""
+				"2.&b空手右键骑乘被击落的翼蚺&r：翼蚺将会重新获得飞行能力并不断对骑乘自身的玩家造成伤害&b（玩家必须在此期间保持存活，该伤害可被盾牌格挡）&r，直至翼蚺成功被&b驯服&r&l（概率失败并将骑乘的玩家从高空抛下）&r；"
+				""
+				"3.驯服的翼蚺将不会伤害骑乘自身的玩家&l（还会主动攻击由玩家指定攻击的目标，但需要注意的是飞行的翼蚺欲图战斗时会立刻垂直降落至下方地面）&r"
+			]
+			id: "52A68F799022541D"
+			rewards: [{
+				id: "5DDDA037DF4DBB03"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2B188C9D5A35F905"
+				type: "checkmark"
+			}]
+			title: "飞向天空"
+			x: 10.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["500F1F6861FD5F98"]
+			id: "168E11F5AC143C48"
+			tasks: [{
+				id: "5D8311D94686E89A"
+				title: "现实生物"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["168E11F5AC143C48"]
+			id: "5F92ACCB6C5E93CD"
+			tasks: [{
+				id: "6F898ECED95A102E"
+				title: "哺乳动物"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["168E11F5AC143C48"]
+			id: "6E0C0348581B71CD"
+			tasks: [{
+				id: "06EAC4AAED61BEC8"
+				title: "两栖动物"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["168E11F5AC143C48"]
+			id: "4A10E43549EADA54"
+			tasks: [{
+				id: "1B643EB4766BB12D"
+				title: "软体动物"
+				type: "checkmark"
+			}]
+			x: -20.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["168E11F5AC143C48"]
+			id: "2CBEA7B6543D0BED"
+			tasks: [{
+				id: "6DE5D1ABA163BBB6"
+				title: "节肢动物"
+				type: "checkmark"
+			}]
+			x: -14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["168E11F5AC143C48"]
+			id: "1496B9254E795687"
+			tasks: [{
+				id: "13F9572EB1116D5C"
+				title: "水生动物"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["168E11F5AC143C48"]
+			id: "6226D7A443636124"
+			tasks: [{
+				id: "51B92F77E0F81682"
+				title: "鸟类"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["168E11F5AC143C48"]
+			id: "42EEACC8F56D4994"
+			tasks: [{
+				id: "71E0071C6294AD7D"
+				title: "爬行动物"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2CBEA7B6543D0BED"]
+			description: [
+				"苍蝇是一种十分常见的令人讨厌的小动物，会被死亡或濒死的事物吸引。它们会寻找&b僵尸&r，并攻击僵尸。"
+				""
+				"苍蝇可以用&b腐肉&r繁殖，击败后会掉落蛆。"
+				""
+				"蛆可以用来繁殖其它生物，如，&b走鹃&r和&b卷尾猴&r。在必要时，可以拿来给玩家吃。"
+			]
+			icon: "alexsmobs:maggot"
+			id: "4AFBD38B1D3FDC76"
+			rewards: [{
+				id: "0FB39541F724BC63"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "alexsmobs:fly"
+				id: "5D8392431EF8B151"
+				type: "kill"
+				value: 1L
+			}]
+			x: -12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2CBEA7B6543D0BED"]
+			icon: "alexsmobs:lobster_tail"
+			id: "455A6284BE610BDD"
+			rewards: [{
+				id: "3AAB2FB46312C5CC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "alexsmobs:lobster"
+				id: "1E7B21167D0CE60D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -13.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["455A6284BE610BDD"]
+			id: "394AB87AF9EA2A23"
+			rewards: [{
+				id: "068406FAD0B6C0D3"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7E41F5F2703347D4"
+				item: "alexsmobs:lobster_bucket"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2CBEA7B6543D0BED"]
+			icon: "alexsmobs:cockroach_ootheca"
+			id: "0357B24154F4F8DB"
+			rewards: [{
+				id: "2BDB58F56FD3414F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "alexsmobs:cockroach"
+				id: "0C362E9E151330F0"
+				type: "kill"
+				value: 1L
+			}]
+			x: -14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2CBEA7B6543D0BED"]
+			icon: "crabbersdelight:clawster"
+			id: "0BA53A457FB5DC40"
+			rewards: [{
+				id: "62323D637C477668"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "alexsmobs:mantis_shrimp"
+				id: "37BE4789D44ADB7E"
+				type: "kill"
+				value: 1L
+			}]
+			x: -16.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2CBEA7B6543D0BED"]
+			description: [
+				"切叶蚁是一种体型小巧的生成在森林中的生物，会从树上撕下树叶。会形成数量多达二十只的庞大群体，切叶蚁分为两种，工蚁和蚁后。工蚁负责采集树叶，蚁后只有在踩到切叶蚁丘时才会出现。"
+				"蚁后比普通的工蚁更加巨大与强壮。当一个切叶蚁丘中存在着一个蚁后，那么，在工蚁数量少于10时，工蚁每收集5片叶子，便可产生1只工蚁。"
+			]
+			icon: "alexsmobs:leafcutter_ant_pupa"
+			id: "212CF433AEE9074E"
+			rewards: [{
+				id: "0E55AB1936B2B783"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "alexsmobs:leafcutter_ant"
+				id: "7B14A8497E0D54DC"
+				type: "kill"
+				value: 1L
+			}]
+			x: -12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2CBEA7B6543D0BED"]
+			description: [
+				"沙漠蛛蜂（俗称狼蛛鹰）是一种生成在&b沙漠&r生物群系及其变种的膜翅目蛛蜂科节肢生物。"
+				""
+				"作为掠食者，它会在飞行着寻找并攻击&b蜘蛛&r和&b洞穴蜘蛛&r。沙漠蛛蜂的攻击会使目标受到2分钟&b衰弱螫伤&r负面效果，若目标为蜘蛛，蜘蛛会四脚朝天，无法动弹。"
+				""
+				"沙漠蛛蜂会拖住被攻击的蜘蛛向后走并埋入地下，&b衰弱螫伤&r效果结束后，蜘蛛会死去。"
+			]
+			icon: "alexsmobs:tarantula_hawk_wing_fragment"
+			id: "081BEC183D27868C"
+			rewards: [{
+				id: "5C2AC674E21CC26F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "alexsmobs:tarantula_hawk"
+				id: "2345C4117A31B509"
+				type: "kill"
+				value: 1L
+			}]
+			x: -16.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2CBEA7B6543D0BED"]
+			description: [
+				"鲎虫是一种长得像虾的被动生物，不具有攻击力。鲎虫属于节肢生物，会受到节肢杀手附魔影响。"
+				""
+				"鲎虫一般在沙漠生物群系的水体生成，玩家可以对一只鲎虫使用水桶来装载，使玩家获得一个鲎虫桶。鲎虫桶里的鲎虫不会自然消失。对着方块使用鲎虫桶会释放桶中的鲎虫和水。"
+				""
+				"鲎虫离开水不能生存，在它们离开水之后，它们会倒转身体不断跳动，并且不能移动。在一段时间后会脱水而死。"
+			]
+			icon: "alexsmobs:triops_bucket"
+			id: "5D57463670E92095"
+			rewards: [{
+				id: "5A6830330723DB4F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "alexsmobs:triops"
+				id: "041CB1BFEDE878F2"
+				type: "kill"
+				value: 1L
+			}]
+			x: -16.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0357B24154F4F8DB"]
+			id: "022259679C495385"
+			rewards: [{
+				id: "717C1F460A31D6B1"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					id: "3C97081D5FB04BB6"
+					item: "alexsmobs:maraca"
+					type: "item"
+				}
+				{
+					id: "00A37CAC2A9E9604"
+					item: {
+						Count: 1b
+						id: "alexsmobs:sombrero"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0BA53A457FB5DC40"]
+			id: "0416EBD30F1B8604"
+			rewards: [{
+				id: "5FD18FEC9D13509A"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "68BD76E998FE945D"
+				item: "alexsmobs:shrimp_fried_rice"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["081BEC183D27868C"]
+			description: ["用沙漠蛛蜂翼升级后的鞘翅，比普通鞘翅更耐用且能提供3点盔甲值。"]
+			id: "188666DEBB532821"
+			rewards: [{
+				id: "22582E3F8A94B891"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "22929A81B891F7AF"
+				item: {
+					Count: 1b
+					id: "alexsmobs:tarantula_hawk_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -18.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5D57463670E92095"]
+			description: [
+				"玩家在食用驱蚊炖菜之后可以获得20分钟的“驱蚊”效果，以及返还一个碗。"
+				""
+				"无论玩家目前的饥饿值为多少，都可以食用驱蚊炖菜。"
+			]
+			id: "6AA6D4F6F1BDEF45"
+			rewards: [{
+				id: "576840A1A084A0AD"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "0E25F57A167F1297"
+				item: "alexsmobs:mosquito_repellent_stew"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["212CF433AEE9074E"]
+			description: ["没有蚁后，一个种群便无法继续繁衍。庞大的蚁群不仅会拥有一个切叶蚁丘，而且切叶蚁丘的下方会存在切叶蚁室，工蚁收集的树叶会在蚁室中转化成菌丝球。右击可获得。"]
+			id: "4EFE35D437504D15"
+			rewards: [{
+				id: "0447E91C6AB9731C"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "5091DD02D1E9DC43"
+				item: "alexsmobs:gongylidia"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4A10E43549EADA54"]
+			icon: "alexsmobs:mimic_octopus_bucket"
+			id: "3C9478DA4602188C"
+			rewards: [{
+				id: "334E0F781ADA9900"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				entity: "alexsmobs:mimic_octopus"
+				id: "49273C82D0DC4E39"
+				type: "kill"
+				value: 1L
+			}]
+			x: -22.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4A10E43549EADA54"]
+			icon: "minecraft:ink_sac"
+			id: "59F17ECE0B97EFE4"
+			rewards: [{
+				id: "24B8345B49F8A524"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				entity: "alexsmobs:giant_squid"
+				id: "080F73768233955F"
+				type: "kill"
+				value: 1L
+			}]
+			x: -23.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4A10E43549EADA54"]
+			icon: "alexsmobs:banana_slug_slime"
+			id: "77FCBBC3833AF95C"
+			rewards: [{
+				id: "4D598715A5C78E97"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				entity: "alexsmobs:banana_slug"
+				id: "6A9A460AFB85AC4E"
+				type: "kill"
+				value: 1L
+			}]
+			x: -23.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6E0C0348581B71CD"]
+			id: "34A73649B5AA30C2"
+			tasks: [{
+				entity: "alexsmobs:rain_frog"
+				id: "4743C150C1C756FB"
+				type: "kill"
+				value: 1L
+			}]
+			x: -21.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5F92ACCB6C5E93CD"]
+			id: "21ADC4E9FE533DF5"
+			rewards: [{
+				id: "088AC5FD75F7EBEC"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				entity: "alexsmobs:grizzly_bear"
+				id: "01D2726A2056DD89"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["5F92ACCB6C5E93CD"]
+			id: "29AFDFDF24656DB4"
+			tasks: [{
+				entity: "alexsmobs:gazelle"
+				id: "4CEBBE024ACADBFA"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["5F92ACCB6C5E93CD"]
+			id: "65F1EE1005B3FE59"
+			tasks: [{
+				entity: "alexsmobs:gorilla"
+				id: "348F6A159E6E801B"
+				type: "kill"
+				value: 1L
+			}]
+			x: -9.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["5F92ACCB6C5E93CD"]
+			id: "60A1FEE99A288EB5"
+			tasks: [{
+				entity: "alexsmobs:capuchin_monkey"
+				id: "613634498D9DD848"
+				type: "kill"
+				value: 1L
+			}]
+			x: -9.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["5F92ACCB6C5E93CD"]
+			id: "6ACEA7FC39C978BF"
+			tasks: [{
+				entity: "alexsmobs:moose"
+				id: "02F6895E64D498D8"
+				type: "kill"
+				value: 1L
+			}]
+			x: -10.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["5F92ACCB6C5E93CD"]
+			id: "63FD586EF55E9F12"
+			tasks: [{
+				entity: "alexsmobs:raccoon"
+				id: "6212C5F4BABC8254"
+				type: "kill"
+				value: 1L
+			}]
+			x: -10.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["5F92ACCB6C5E93CD"]
+			id: "6F0171D032774BE1"
+			tasks: [{
+				entity: "alexsmobs:elephant"
+				id: "1A83D508E2266281"
+				type: "kill"
+				value: 1L
+			}]
+			x: -10.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["5F92ACCB6C5E93CD"]
+			id: "257D6366DDCB500F"
+			tasks: [{
+				entity: "alexsmobs:snow_leopard"
+				id: "5254084EC1C4B1C6"
+				type: "kill"
+				value: 1L
+			}]
+			x: -9.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["5F92ACCB6C5E93CD"]
+			id: "1ECC2B3C99F29C3F"
+			tasks: [{
+				entity: "alexsmobs:kangaroo"
+				id: "0574477F778466B4"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["5F92ACCB6C5E93CD"]
+			id: "175C59FF1966C482"
+			tasks: [{
+				entity: "alexsmobs:platypus"
+				id: "66A4C27D1CDD2759"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["5F92ACCB6C5E93CD"]
+			id: "4703254DA991FD92"
+			tasks: [{
+				entity: "alexsmobs:tasmanian_devil"
+				id: "033421B918E2BBD5"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["5F92ACCB6C5E93CD"]
+			id: "411388C07D9E76B3"
+			tasks: [{
+				entity: "alexsmobs:tiger"
+				id: "1D292729759D69D3"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["5F92ACCB6C5E93CD"]
+			id: "1CA7CE31BA0B445E"
+			tasks: [{
+				entity: "alexsmobs:anteater"
+				id: "0331806ED24E7CA1"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["5F92ACCB6C5E93CD"]
+			id: "19F722526E734B61"
+			tasks: [{
+				entity: "alexsmobs:maned_wolf"
+				id: "234CAB245085264B"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["5F92ACCB6C5E93CD"]
+			id: "13D4813F5FDAB03D"
+			tasks: [{
+				entity: "alexsmobs:gelada_monkey"
+				id: "5E4FAFB6EEDC47A2"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["5F92ACCB6C5E93CD"]
+			id: "618B7BD8336E3E4A"
+			tasks: [{
+				entity: "alexsmobs:jerboa"
+				id: "4ADB9A521E95D3C6"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["5F92ACCB6C5E93CD"]
+			id: "2FB39E19227AF9AC"
+			tasks: [{
+				entity: "alexsmobs:rhinoceros"
+				id: "605E20FB11EEB20C"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["5F92ACCB6C5E93CD"]
+			id: "2069732FC4CBD0A8"
+			tasks: [{
+				entity: "alexsmobs:bison"
+				id: "5F6EF09366E8AD55"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["5F92ACCB6C5E93CD"]
+			id: "3147EBC27B892BC0"
+			tasks: [{
+				entity: "alexsmobs:sugar_glider"
+				id: "1038EB4C708E9DD7"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["5F92ACCB6C5E93CD"]
+			id: "419CF0AA61546B8A"
+			tasks: [{
+				entity: "alexsmobs:skunk"
+				id: "4D224E8B0CCDC787"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["5F92ACCB6C5E93CD"]
+			id: "67DBA2810B80A381"
+			rewards: [{
+				id: "728848FEF561D3D0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7C45518B309326D1"
+				title: "水生哺乳动物"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["67DBA2810B80A381"]
+			id: "6D7FEB62D9CA8B67"
+			tasks: [{
+				entity: "alexsmobs:orca"
+				id: "741BD060EEAFDA6D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["67DBA2810B80A381"]
+			id: "5C05BC6DF5B664C1"
+			tasks: [{
+				entity: "alexsmobs:seal"
+				id: "4BD6256CA77338D2"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["67DBA2810B80A381"]
+			id: "00DDA90D9F2FBCB7"
+			tasks: [{
+				entity: "alexsmobs:cachalot_whale"
+				id: "788BCDB27F0C00F2"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["1496B9254E795687"]
+			id: "6F29EEEB2E1CC06D"
+			tasks: [{
+				entity: "alexsmobs:hammerhead_shark"
+				id: "2B7E4013FB861D6A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["1496B9254E795687"]
+			id: "443C72B2E80AFDAA"
+			tasks: [{
+				entity: "alexsmobs:blobfish"
+				id: "6442C18691ED68F7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["1496B9254E795687"]
+			id: "548A802BF20898D3"
+			tasks: [{
+				entity: "alexsmobs:frilled_shark"
+				id: "7B4C35E5E378B6D8"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["1496B9254E795687"]
+			id: "668833993CFFC802"
+			tasks: [{
+				entity: "alexsmobs:comb_jelly"
+				id: "0EDAC9C8A8013FAC"
+				type: "kill"
+				value: 100L
+			}]
+			x: 8.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["1496B9254E795687"]
+			id: "3E67B5D28D416B17"
+			tasks: [{
+				entity: "alexsmobs:devils_hole_pupfish"
+				id: "25D3C8290FEB2ACD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["1496B9254E795687"]
+			id: "0E92DF6EC71EEA30"
+			tasks: [{
+				entity: "alexsmobs:catfish"
+				id: "230CBDDCC4E91B55"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["1496B9254E795687"]
+			id: "3F0BAE6AABEE080E"
+			tasks: [{
+				entity: "alexsmobs:flying_fish"
+				id: "26127EEBBE000AD0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1496B9254E795687"]
+			id: "66FD4277F78546A7"
+			tasks: [{
+				entity: "alexsmobs:mudskipper"
+				id: "6E705928347930C5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6226D7A443636124"]
+			id: "57A7B9C926541286"
+			tasks: [{
+				entity: "alexsmobs:roadrunner"
+				id: "6DB9EF94DE640DDC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6226D7A443636124"]
+			id: "1174FE4E514BF13D"
+			tasks: [{
+				entity: "alexsmobs:hummingbird"
+				id: "75A53FB53558E345"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6226D7A443636124"]
+			id: "75F1D1E0563FB3AF"
+			tasks: [{
+				entity: "alexsmobs:shoebill"
+				id: "6BF49BA664B6F8B0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["6226D7A443636124"]
+			id: "4D2FE14B6B1AD232"
+			tasks: [{
+				entity: "alexsmobs:crow"
+				id: "264F2E9E3DACAA7D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6226D7A443636124"]
+			id: "2F37B90E58A1B3E8"
+			tasks: [{
+				entity: "alexsmobs:emu"
+				id: "5E160CF2A9701BBD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6226D7A443636124"]
+			id: "021050905524B4A6"
+			tasks: [{
+				entity: "alexsmobs:bald_eagle"
+				id: "4029B004DC6F3062"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6226D7A443636124"]
+			id: "71930BA41610704E"
+			tasks: [{
+				entity: "alexsmobs:seagull"
+				id: "7DEB54E259F8CC94"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6226D7A443636124"]
+			id: "541EBA0C8C277E8F"
+			tasks: [{
+				entity: "alexsmobs:toucan"
+				id: "2AE24F2E69EA51D2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6226D7A443636124"]
+			id: "0336CAF3BAA41D90"
+			tasks: [{
+				entity: "alexsmobs:potoo"
+				id: "73244F1BC6D23CD6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6226D7A443636124"]
+			id: "6C812534DEC3F0FC"
+			tasks: [{
+				entity: "alexsmobs:blue_jay"
+				id: "452D1054BA311DB3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["42EEACC8F56D4994"]
+			id: "6388CA0F110776AB"
+			tasks: [{
+				entity: "alexsmobs:crocodile"
+				id: "1E99DBCEB3B5C0D6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["42EEACC8F56D4994"]
+			id: "127FE09258EDB871"
+			tasks: [{
+				entity: "alexsmobs:rattlesnake"
+				id: "030874FC89FA65A4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42EEACC8F56D4994"]
+			id: "5E41836EA0FFD9BD"
+			tasks: [{
+				entity: "alexsmobs:komodo_dragon"
+				id: "4ADE4D26B09C3CCA"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["42EEACC8F56D4994"]
+			id: "77DE770536F7526C"
+			tasks: [{
+				entity: "alexsmobs:alligator_snapping_turtle"
+				id: "31AFAEFD085B3811"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["42EEACC8F56D4994"]
+			id: "71792310BE70A8EC"
+			tasks: [{
+				entity: "alexsmobs:anaconda"
+				id: "71A1D0CC41B1E5CE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["42EEACC8F56D4994"]
+			id: "081594783DF10782"
+			tasks: [{
+				entity: "alexsmobs:terrapin"
+				id: "3D11B6E79050DB74"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["42EEACC8F56D4994"]
+			id: "7277302B825A5643"
+			tasks: [{
+				entity: "alexsmobs:caiman"
+				id: "33DA69915051E581"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"这一隅或许闲情逸致，有着许多的美好，"
+				"有时候我们还是要离开，去直面一些东西。"
+				"但厚积薄发准没错，当我们做足了准备，"
+				"所遇到的一切困难，也不过是些许风霜罢了！"
+			]
+			icon: "tofucraft:tofu_core"
+			id: "500F1F6861FD5F98"
+			rewards: [{
+				id: "074D5D69637F98A5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "08691D0F50D630E4"
+				title: "旅途必然存在"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			description: ["挖深板岩有概率挖出来"]
+			icon: "iceandfire:witherbone"
+			id: "0EA0A3715CD6077D"
+			rewards: [{
+				id: "5FA393F8947F1B45"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "3F82BC5123472F98"
+				title: "凋灵之骨新获取方法"
+				type: "checkmark"
+			}]
+			title: "凋灵之骨哪里来？"
+			x: -4.0d
+			y: -6.0d
+		}
+	]
+	title: "我会背上行囊"
+}

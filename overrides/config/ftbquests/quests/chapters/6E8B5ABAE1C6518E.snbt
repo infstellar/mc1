@@ -1,0 +1,130 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6E8B5ABAE1C6518E"
+	group: "7EBBEE73A93E306F"
+	icon: "minecraft:end_crystal"
+	id: "6E8B5ABAE1C6518E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				""
+				"&l所有者/主开发 - &6耀星&r"
+				""
+				"&l其他参与成员:"
+				"&l任务协助 - &3槐序&r/&1&l墨鱼&r/&a&l阿龟&r/&5&l离梦"
+				"&l魔改协助 - &c&lhuzpsb&r/&b&l墨水瓶"
+				"&l美术协助 - &d可安"
+				""
+				""
+				"&l其他贡献者:"
+				"&l任务参考 - &9符黎"
+				"&l客户端优化意见 - &9沫沫"
+				"&l提示文案和官网前言 - &9桂早"
+				"&l早期测试 - &9落枫&r/&9ksnueninmf&r"
+				"&l攻略/问答 - &9云汐"
+				""
+				""
+				"以及每一个游玩宁然一隅的玩家"
+			]
+			icon: {
+				Count: 1b
+				id: "alexsmobs:moose_headgear"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "67FCDCB1E14CD5D2"
+			subtitle: "“志同道合的追梦人”"
+			tasks: [{
+				id: "5BDCD6C9F379C78A"
+				title: "制作小组人员介绍"
+				type: "checkmark"
+			}]
+			title: "小组成员"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"赞助的前提是拥有足够的经济条件"
+				"可以在整合包的主菜单点击赞助按钮进行赞助"
+			]
+			icon: "locusazzurro_icaruswings:golden_feather"
+			id: "13B00C20F8D18446"
+			subtitle: "“支持与理解是我们永恒的动力”"
+			tasks: [{
+				id: "5DB8A2832F0BED9A"
+				title: "赞助我们"
+				type: "checkmark"
+			}]
+			title: "赞助我们"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			description: ["应要求，在这里添加牢星（整合包制作人耀星）的头，以供玩家雷普"]
+			icon: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-1805833298
+							-1329508962
+							-1614856347
+							1175003312
+						]
+						Name: "TheFlareStar"
+						Properties: {
+							textures: [{
+								Signature: "FqNxNR5jiy1wpCUfR2rUnJjC1zAaPFZp5YLap11xZkZ9hvxf9nz2srXXoDfDNzYm5rBZhCejpoWG2FKfLVddbR8WAVhheumGljlSkZORcCsGMsWwZDnWItoZ9jIcFU6BYG3cri0q8cRJjwM61U1m4Ftyc8/Rwk0aK5t4wNgMbN0Di0zBIxIaSIgyOZayji9nlOsqj7Kizj8LhjsoOyQ1F4ANt4z1/WTFnFs1oeZISJYUOjwosK1Brm4FrmXnF/A3N1pp/1D8/p0YL++PkDW0ygJYtH3zQ1v5N+CRWVHPIMcFOhdvCvEIemQLZ2Y+IDgWLyLf9Jar2nfQmznkJkRmxv6mwSxPlumW3hZ3XjOgAbk4oUscZNT9Ksw1y2jh6eJQw7VfvsIOIiUdv4DMhG6LRdaSiqXerKq4mbdEnvEBtwU6uzilz7VHs7GCnNpPKg7TUn8ejSM9DkaGLN5PjRi/ErAuk3w0bmfuZ5pDS/ZjmWR3uxeJSTdn+3Xr1zZBvDi+nVwVc9sA//OjBnaIAbAbdjbLf84/t/kFvq/djoTffuy2SVqeRZ3Ykw/tvLiIj/5Us9OF80LB05f5AQUsEhZoi/sTArsthZWYSpUVeB3sfurZbz/Ov/aBDOht9YY7KZOM0OdLe+DJ4+Jxpdgy2XG7Fd69uyEZaWT2sD4kr+YDmdA="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyMDQzMDE2MzU4NCwKICAicHJvZmlsZUlkIiA6ICI5NDVkMmJhZWIwYzE0ZDllOWZiZjNmNjU0NjA5MjBiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVGbGFyZVN0YXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWNlOTkwNzdjZjlkYTU4ODIyNjJjYjMwOTI0ZjEzZThiZTA1ZGFiZmJjNDk5ZWYzMjJkOWE5ZTc5MDI4NWNkOSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+							}]
+						}
+					}
+				}
+			}
+			id: "77CFA99B0B335626"
+			rewards: [{
+				id: "7C0DD35A103B56C3"
+				item: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-1805833298
+								-1329508962
+								-1614856347
+								1175003312
+							]
+							Name: "TheFlareStar"
+							Properties: {
+								textures: [{
+									Signature: "FqNxNR5jiy1wpCUfR2rUnJjC1zAaPFZp5YLap11xZkZ9hvxf9nz2srXXoDfDNzYm5rBZhCejpoWG2FKfLVddbR8WAVhheumGljlSkZORcCsGMsWwZDnWItoZ9jIcFU6BYG3cri0q8cRJjwM61U1m4Ftyc8/Rwk0aK5t4wNgMbN0Di0zBIxIaSIgyOZayji9nlOsqj7Kizj8LhjsoOyQ1F4ANt4z1/WTFnFs1oeZISJYUOjwosK1Brm4FrmXnF/A3N1pp/1D8/p0YL++PkDW0ygJYtH3zQ1v5N+CRWVHPIMcFOhdvCvEIemQLZ2Y+IDgWLyLf9Jar2nfQmznkJkRmxv6mwSxPlumW3hZ3XjOgAbk4oUscZNT9Ksw1y2jh6eJQw7VfvsIOIiUdv4DMhG6LRdaSiqXerKq4mbdEnvEBtwU6uzilz7VHs7GCnNpPKg7TUn8ejSM9DkaGLN5PjRi/ErAuk3w0bmfuZ5pDS/ZjmWR3uxeJSTdn+3Xr1zZBvDi+nVwVc9sA//OjBnaIAbAbdjbLf84/t/kFvq/djoTffuy2SVqeRZ3Ykw/tvLiIj/5Us9OF80LB05f5AQUsEhZoi/sTArsthZWYSpUVeB3sfurZbz/Ov/aBDOht9YY7KZOM0OdLe+DJ4+Jxpdgy2XG7Fd69uyEZaWT2sD4kr+YDmdA="
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyMDQzMDE2MzU4NCwKICAicHJvZmlsZUlkIiA6ICI5NDVkMmJhZWIwYzE0ZDllOWZiZjNmNjU0NjA5MjBiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVGbGFyZVN0YXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWNlOTkwNzdjZjlkYTU4ODIyNjJjYjMwOTI0ZjEzZThiZTA1ZGFiZmJjNDk5ZWYzMjJkOWE5ZTc5MDI4NWNkOSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+								}]
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "“我没意见”"
+			tasks: [{
+				consume_items: true
+				id: "7AC8760AF2618958"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "头颅兑换"
+			x: 2.5d
+			y: 1.5d
+		}
+	]
+	title: "制作小组"
+}

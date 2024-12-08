@@ -1,0 +1,713 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2EAEED7D1640B09F"
+	group: "04B9982908550744"
+	icon: {
+		Count: 1b
+		id: "touhou_little_maid:entity_placeholder"
+		tag: {
+			RecipeId: "touhou_little_maid:altar/spawn_box"
+		}
+	}
+	id: "2EAEED7D1640B09F"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["464BD6C256598B7F"]
+			description: [
+				"那么下一步我该干嘛呢"
+				"&d（我是魔法少女小樱~)"
+			]
+			id: "04D8DC4828C719CF"
+			rewards: [{
+				id: "0590BB1467503CB0"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“车万女仆的万能杖”"
+			tasks: [{
+				id: "7FC25EAE4FD25CBF"
+				item: {
+					Count: 1b
+					id: "touhou_little_maid:hakurei_gohei"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "这是魔杖（确信）"
+			x: -55.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["04D8DC4828C719CF"]
+			description: [
+				"搭建祭坛"
+				"现在，可以拥有自己的女仆了"
+				"&o好耶!&r"
+				"&4(法杖右击第四层中间偏左红色羊毛正面成型)&r"
+			]
+			id: "53B98CDBCD87AB96"
+			rewards: [{
+				id: "780459F8DB36628C"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "“女仆专用祭坛”"
+			tasks: [
+				{
+					count: 18L
+					id: "1CEF24605AD480C6"
+					item: { Count: 18b, id: "minecraft:oak_log" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "15E16983C5B0FAF9"
+					item: { Count: 20b, id: "minecraft:red_wool" }
+					type: "item"
+				}
+			]
+			title: "与我签订契约，成为魔法少女吧"
+			x: -52.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["53B98CDBCD87AB96"]
+			description: [
+				"爱她，送她玫瑰果派吧,这是她最爱吃的"
+				"为了让她死心塌地跟着你&m（不是）&r"
+			]
+			id: "122C5E30F98E5997"
+			rewards: [{
+				id: "7EABADFFAA110AB7"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "“征服她的胃吧！”"
+			tasks: [{
+				id: "58A0C94E9C3DC0BE"
+				item: "seeddelight:rosehip_pie"
+				type: "item"
+			}]
+			title: "美食才不是诱惑"
+			x: -46.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"来自上古的的召唤术，据传可以引渡亡灵的灵魂，亦或者召唤异世的女仆前往此世（为了让她回想起与你的记忆，请对她使用玫瑰果派吧）"
+				""
+				"将死亡女仆掉落的胶片放入其中，就可以将其复活"
+			]
+			id: "7E313EFF85DA6A8A"
+			rewards: [{
+				id: "03296C6F3550F902"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "“彼岸追魂”"
+			tasks: [{
+				id: "2F20C77DEFCD5ACA"
+				item: "touhou_little_maid:shrine"
+				type: "item"
+			}]
+			title: "我亲爱的侍女，请你重新睁开双眼。"
+			x: -58.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["34474ACA13AEA5C5"]
+			description: [
+				"虽然不太好，但是你需要杀点小妖精来获取它"
+				"&l（当然，你能在箱子里开到）"
+				"&4&m（使用祭坛合成需要PPT）&r&r"
+			]
+			id: "464BD6C256598B7F"
+			rewards: [{
+				id: "36E46C607C53C0D7"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "“女仆的核心能量”"
+			tasks: [{
+				id: "6DF59F4000EA0439"
+				item: "touhou_little_maid:power_point"
+				type: "item"
+			}]
+			x: -58.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["464BD6C256598B7F"]
+			description: [
+				"他能干嘛？（我也不知道，感觉你会用到的）"
+				"&o神社庭灯可以用来存储玩家的P点，上限为10点"
+				""
+				"神社庭灯本身拥有光照，可以当作装饰方块"
+				""
+				"神社庭灯可以自动周期性的收集附近的P点（附近的P点会伴随着白色烟雾粒子消失）"
+				""
+				"神社庭灯可以用来当作女仆专属信标，给周围的女仆提供状态效果，会消耗存储在神社庭灯里面的 P 点"
+				""
+				"神社庭灯在被采掘的情况下会保留其中的P点，可借此当做便携式的存储P点设备&r"
+			]
+			id: "150C38C1E7376FCC"
+			subtitle: "“P点储存器”"
+			tasks: [{
+				id: "5E9D1CA983F4AB74"
+				item: {
+					Count: 1b
+					id: "touhou_little_maid:maid_beacon"
+					tag: {
+						StorageData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -58.0d
+			y: 0.0d
+		}
+		{
+			description: ["魂符可以将一名女仆收纳其中，就像精灵球一样可以随时放出收起"]
+			id: "03950014EB4F8C34"
+			subtitle: "“女仆的召唤器”"
+			tasks: [{
+				id: "24975FBD53810767"
+				item: "touhou_little_maid:smart_slab_empty"
+				type: "item"
+			}]
+			x: -60.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["53B98CDBCD87AB96"]
+			description: ["每个女仆可以装备9个饰品，这些饰品可以让女仆拥有更强的战斗力亦或者更好的工作"]
+			id: "3927F5B5DFD77246"
+			rewards: [{
+				id: "40C8D8EBE141F629"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“让女仆变得更强”"
+			tasks: [{
+				id: "4B32CB51901D855A"
+				title: "女仆的饰品"
+				type: "checkmark"
+			}]
+			x: -50.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3927F5B5DFD77246"]
+			description: ["使女仆免疫火焰"]
+			id: "799C825274048C75"
+			rewards: [{
+				id: "7C0281AD81375390"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“真女仆不怕火炼”"
+			tasks: [{
+				id: "7B89656BAB79E360"
+				item: {
+					Count: 1b
+					id: "touhou_little_maid:fire_protect_bauble"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -50.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3927F5B5DFD77246"]
+			description: ["使女仆免疫一切弹射物"]
+			id: "18BFF9AF8E455D24"
+			rewards: [{
+				id: "009BE97142A35B42"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“AT立场！”"
+			tasks: [{
+				id: "034C67A7819B414D"
+				item: {
+					Count: 1b
+					id: "touhou_little_maid:projectile_protect_bauble"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -49.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3927F5B5DFD77246"]
+			description: ["使女仆免疫摔落伤害"]
+			id: "13A033CCF46029ED"
+			rewards: [{
+				id: "70E4BA3D3404B14F"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“耐摔王”"
+			tasks: [{
+				id: "6A95943542C0FD53"
+				item: {
+					Count: 1b
+					id: "touhou_little_maid:fall_protect_bauble"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -48.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3927F5B5DFD77246"]
+			description: ["使女仆免疫溺水伤害"]
+			id: "4587584DE8313247"
+			rewards: [{
+				id: "2C918936CF1E4DC2"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“快看，她已经憋气20分钟了！”"
+			tasks: [{
+				id: "08A9415448760301"
+				item: {
+					Count: 1b
+					id: "touhou_little_maid:drown_protect_bauble"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -47.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3927F5B5DFD77246"]
+			description: ["使女仆获得闪避攻击的能力"]
+			id: "538B3A52FA77FE9E"
+			rewards: [{
+				id: "70BDB5C090B74C8F"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“物理闪避还是魔法闪避?”"
+			tasks: [{
+				id: "688458D16CB9C932"
+				item: {
+					Count: 1b
+					id: "touhou_little_maid:nimble_fabric"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -46.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3927F5B5DFD77246"]
+			description: ["使女仆可以吸引附近的物品"]
+			id: "7CFF792003F3CACB"
+			rewards: [{
+				id: "3493C01E51112783"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“吸金大法”"
+			tasks: [{
+				id: "08CF32B312403060"
+				item: "touhou_little_maid:item_magnet_bauble"
+				type: "item"
+			}]
+			x: -45.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3927F5B5DFD77246"]
+			description: ["觉得女仆太吵了，那就给她上个禁言"]
+			id: "7D3747675ECCD4F7"
+			rewards: [{
+				id: "23C2B37B1763DB2F"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“雪豹闭嘴”"
+			tasks: [{
+				id: "6B5E248F978DE3AF"
+				item: "touhou_little_maid:mute_bauble"
+				type: "item"
+			}]
+			x: -44.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3927F5B5DFD77246"]
+			description: ["可以让女仆自动将物品放入或是从箱子中取出"]
+			id: "71FDBAE8DCEDCC20"
+			rewards: [{
+				id: "6D1D9C0113730A88"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“打工圣体”"
+			tasks: [{
+				id: "46CF6EB9BCE85675"
+				item: "touhou_little_maid:wireless_io"
+				type: "item"
+			}]
+			x: -43.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3927F5B5DFD77246"]
+			description: ["扩展女仆的第一排物品栏"]
+			id: "5DC6F2E0A0F2DF97"
+			rewards: [{
+				id: "211A17237B85B0C5"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“小包包”"
+			tasks: [{
+				id: "4C8753B918C5668A"
+				item: "touhou_little_maid:maid_backpack_small"
+				type: "item"
+			}]
+			x: -51.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3927F5B5DFD77246"]
+			description: ["使女仆多出一个熔炉栏，拥有熔炉的功能"]
+			id: "78CEE3E998F4055E"
+			rewards: [{
+				id: "7C7B595CBBE067E8"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“随身的熔炉”"
+			tasks: [{
+				id: "4DBC3B84BB60D226"
+				item: "touhou_little_maid:furnace_backpack"
+				type: "item"
+			}]
+			x: -55.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3927F5B5DFD77246"]
+			description: ["使女仆多出一个末影箱栏，拥有末影箱的功能"]
+			id: "64596AB3D435A479"
+			rewards: [{
+				id: "5A32CCAC2BDA83F0"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“便携的末影箱，更方便”"
+			tasks: [{
+				id: "2E7DF90A39DD7410"
+				item: "touhou_little_maid:ender_chest_backpack"
+				type: "item"
+			}]
+			x: -54.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3927F5B5DFD77246"]
+			description: ["扩展女仆的所有物品栏，使女仆可以携带更多物品"]
+			id: "669B98F806633CB6"
+			rewards: [{
+				id: "6523EE899268E37F"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“让女仆带更多东西”"
+			tasks: [{
+				id: "3E0AA1628E02265B"
+				item: "touhou_little_maid:maid_backpack_big"
+				type: "item"
+			}]
+			x: -53.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3927F5B5DFD77246"]
+			description: ["扩展女仆的物品栏"]
+			id: "3B18D35A806A6E17"
+			rewards: [{
+				id: "168BAB6B92320C3B"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“比小背包大”"
+			tasks: [{
+				id: "1AE24749A4850CC2"
+				item: "touhou_little_maid:maid_backpack_middle"
+				type: "item"
+			}]
+			x: -52.5d
+			y: -7.0d
+		}
+		{
+			id: "34474ACA13AEA5C5"
+			subtitle: "“不懂就多看看书吧”"
+			tasks: [{
+				id: "07D93AE57DCA96B3"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "touhou_little_maid:memorizable_gensokyo"
+					}
+				}
+				type: "item"
+			}]
+			x: -60.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3927F5B5DFD77246"]
+			description: ["使女仆获得储存液体的能力"]
+			id: "766CDB86DB2EE539"
+			rewards: [{
+				id: "3388B00D47B29039"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“液体储罐随身版”"
+			tasks: [{
+				id: "44242039D91D9634"
+				item: "touhou_little_maid:tank_backpack"
+				type: "item"
+			}]
+			x: -56.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["53B98CDBCD87AB96"]
+			description: ["在女仆床上睡醒后，会增加女仆好感度"]
+			id: "3D02E9130F5FD9D2"
+			rewards: [{
+				id: "2C639825CFCFFF2B"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“让她好好休息一下”"
+			tasks: [{
+				id: "15903DA8D51A4114"
+				item: "touhou_little_maid:maid_bed"
+				type: "item"
+			}]
+			x: -51.5d
+			y: 1.0d
+		}
+		{
+			description: ["使女仆不再受到任何伤害，真正的不死"]
+			icon: "minecraft:totem_of_undying"
+			id: "2FCF78E34D1A3CEE"
+			rewards: [{
+				id: "2BFC448F5113D543"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			subtitle: "“想要为她求得不死？那便付出代价”"
+			tasks: [
+				{
+					id: "527B5C684A753BE5"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "719B8432E729D38A"
+					item: { Count: 64b, id: "minecraft:diamond" }
+					type: "item"
+				}
+			]
+			title: "机巧少女不会受伤"
+			x: -46.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["53B98CDBCD87AB96"]
+			description: ["在女仆工作列表下饭，最后一栏有一个游戏，随后在地面上放一个五子棋盘，等女仆过来坐下，就可以右击棋篓开始下五子棋了"]
+			id: "0229D308F8A596A0"
+			rewards: [{
+				id: "1BDC41E4FEC2CE7A"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“休闲益智小游戏”"
+			tasks: [{
+				id: "1C898CFCD23A2370"
+				item: "touhou_little_maid:gomoku"
+				type: "item"
+			}]
+			title: "来盘五子棋"
+			x: -52.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["53B98CDBCD87AB96"]
+			description: ["可以规划女仆的工作范围和位置"]
+			id: "42208BAFC47EF37C"
+			rewards: [{
+				id: "41228A10A81A405E"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“指引方向”"
+			tasks: [{
+				id: "0CE971C73FE11F4D"
+				item: "touhou_little_maid:kappa_compass"
+				type: "item"
+			}]
+			x: -53.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["53B98CDBCD87AB96"]
+			description: ["生成一道雷电，击中女仆可以将女仆的血量上限提升到100，当然，小心你的女仆别被劈死了"]
+			id: "0583B6D4D3DDD509"
+			rewards: [{
+				id: "74938E8C65E835DD"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“雷公电母助我”"
+			tasks: [{
+				id: "5548E74082537E4C"
+				item: {
+					Count: 1b
+					id: "touhou_little_maid:entity_placeholder"
+					tag: {
+						RecipeId: "touhou_little_maid:altar/spawn_lightning_bolt"
+					}
+				}
+				type: "item"
+			}]
+			x: -50.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["53B98CDBCD87AB96"]
+			description: ["将一定范围内的女仆全部召回到身边，不论其是在工作还是坐着"]
+			id: "280CC9EA88D180CD"
+			rewards: [{
+				id: "38A78CF51E9AC2F7"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“全体集合！”"
+			tasks: [{
+				id: "36F3F1E0EEFC2ABC"
+				item: "touhou_little_maid:trumpet"
+				type: "item"
+			}]
+			x: -49.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["53B98CDBCD87AB96"]
+			description: ["女仆闲暇时会去游玩，可以增加女仆好感度"]
+			id: "1A62B1E0C5F87581"
+			rewards: [{
+				id: "61E0903D8AFF8895"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“让我打电动”"
+			tasks: [{
+				id: "3496FAEF267EE9FC"
+				item: "touhou_little_maid:computer"
+				type: "item"
+			}]
+			x: -48.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["53B98CDBCD87AB96"]
+			description: ["对着黏土块，并且拥有女仆的相片，就可以雕刻出女仆手办"]
+			id: "2AAFF555FD530993"
+			rewards: [{
+				id: "7A3AD55943104D65"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“雕刻家”"
+			tasks: [{
+				id: "690AF5A358A8DBAA"
+				item: {
+					Count: 1b
+					id: "touhou_little_maid:chisel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -54.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["53B98CDBCD87AB96"]
+			description: ["对着女仆右键，可以将女仆捕获进相片内，相片对地右键可以将女仆放出来"]
+			id: "63A6003D422AE072"
+			rewards: [{
+				id: "545FD6EAA6D16BB8"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“说咔嚓，拍张照”"
+			tasks: [{
+				id: "3E0D4BD73C0CD6FE"
+				item: {
+					Count: 1b
+					id: "touhou_little_maid:camera"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -55.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["53B98CDBCD87AB96"]
+			description: ["女仆闲暇时会坐在上面消遣，增加好感度"]
+			id: "132C307ACDF65B1A"
+			rewards: [{
+				id: "3B0791D46137E5DD"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "“多看书”"
+			tasks: [{
+				id: "465952B08C3DA081"
+				item: "touhou_little_maid:bookshelf"
+				type: "item"
+			}]
+			x: -47.5d
+			y: 1.0d
+		}
+	]
+	title: "我有一个小女仆"
+}

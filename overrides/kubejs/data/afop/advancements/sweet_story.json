@@ -1,0 +1,18 @@
+{
+    "display": {
+      "title": "这似乎是个甜美的故事呢",
+      "description": "虽然很模糊，但看得出她写的很认真...",
+      "icon": {
+        "item": "kubejs:ancient_diary"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "trigger": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

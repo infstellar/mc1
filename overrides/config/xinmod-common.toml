@@ -1,0 +1,15 @@
+#Amount of XP when harvest given
+#Range: > 1
+harvestXpAmount = 1.7
+#Multiplier for cook experience
+#Range: 0.0 ~ 1.7976931348623157E308
+cookExperienceMultiplier = 2.5
+#Multiplier for cook experience
+#Range: 0.0 ~ 1.7976931348623157E308
+entityExperienceMultiplier = 0.3
+#List of crops won't drop experience
+cropsBlackList = ["minecraft:some_not_exist"]
+#Max level for player
+#Range: > 0
+maxLevel = 420
+

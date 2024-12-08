@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "7EBBEE73A93E306F", title: "序章" }
+		{ id: "04B9982908550744", title: "主章: 这里很美好" }
+		{ id: "0E86DB5011D3FCE1", title: "附章: 来点刺激的" }
+		{ id: "08BC653A362E16DB", title: "挑战" }
+	]
+}

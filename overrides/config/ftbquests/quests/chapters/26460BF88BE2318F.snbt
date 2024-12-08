@@ -1,0 +1,225 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "26460BF88BE2318F"
+	group: "04B9982908550744"
+	icon: "herbalbrews:rooibos_tea"
+	id: "26460BF88BE2318F"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1D2BF2784D36F3F1"
+			rewards: [
+				{
+					id: "5705DC158D80EF6E"
+					item: "herbalbrews:yerba_mate_leaf"
+					type: "item"
+				}
+				{
+					id: "2B837EA80D5A314D"
+					item: "herbalbrews:rooibos_leaf"
+					type: "item"
+				}
+				{
+					id: "4C9948322C2D4673"
+					item: "herbalbrews:coffee_beans"
+					type: "item"
+				}
+			]
+			subtitle: "开始你的养生之旅吧"
+			tasks: [
+				{
+					id: "759B35FA23D4DF6B"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+				{
+					id: "42AA5DFB187FF397"
+					item: "herbalbrews:tea_kettle"
+					type: "item"
+				}
+			]
+			title: "养生的开始"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1D2BF2784D36F3F1"]
+			description: ["把茶叶块放地上一会就晒干啦"]
+			id: "0F1DA7ED44AF1E52"
+			rewards: [{
+				count: 9
+				id: "492E9D6640A99EEE"
+				item: "herbalbrews:dried_green_tea"
+				type: "item"
+			}]
+			subtitle: "其实我也在好奇不晒干能不能喝"
+			tasks: [{
+				id: "16DAAF6E0AA14BE9"
+				item: "herbalbrews:green_tea_leaf_block"
+				type: "item"
+			}]
+			title: "记得晒干！"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1D2BF2784D36F3F1"]
+			description: ["其实药水效果蛮厉害的"]
+			id: "46913AB0045BFA06"
+			rewards: [
+				{
+					id: "7C1660120C3E0E7A"
+					item: "herbalbrews:lavender"
+					type: "item"
+				}
+				{
+					id: "2ED6969905BDF5E5"
+					item: "herbalbrews:hibiscus"
+					type: "item"
+				}
+			]
+			subtitle: "可以用它来做点特别的小药水"
+			tasks: [{
+				id: "1358BEDB98E32A75"
+				item: "herbalbrews:cauldron"
+				type: "item"
+			}]
+			title: "小炼药家"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0F1DA7ED44AF1E52"]
+			description: ["记得晒干！！！"]
+			id: "72558991B967934C"
+			rewards: [{
+				id: "5E6630AE784D4E77"
+				item: "herbalbrews:mixed_tea_leaf_block"
+				type: "item"
+			}]
+			subtitle: "红茶加绿茶等于乌龙茶？我也不知道"
+			tasks: [
+				{
+					count: 4L
+					id: "7904009809913159"
+					item: { Count: 4b, id: "herbalbrews:dried_green_tea" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "354E9CAD5112C2BC"
+					item: { Count: 4b, id: "herbalbrews:dried_black_tea" }
+					type: "item"
+				}
+			]
+			title: "混合在一起~~"
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0F1DA7ED44AF1E52"]
+			id: "68131181866FDCE4"
+			rewards: [{
+				id: "776C29E18C6D3103"
+				item: "herbalbrews:black_tea_leaf_block"
+				type: "item"
+			}]
+			subtitle: "为什么会变成这样！"
+			tasks: [{
+				id: "6C6FBD434F1CEE87"
+				item: "herbalbrews:dried_green_tea_leaf_block"
+				type: "item"
+			}]
+			title: "放久点就变成红茶咧"
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["46913AB0045BFA06"]
+			id: "68682695F8615EE6"
+			rewards: [
+				{
+					id: "59B03790CB200FFF"
+					item: "herbalbrews:rooibos_tea"
+					type: "item"
+				}
+				{
+					id: "4C98D256D7692100"
+					item: "herbalbrews:coffee"
+					type: "item"
+				}
+			]
+			subtitle: "来杯茶还早咖啡吗？"
+			tasks: [
+				{
+					id: "0CFD381FCC9B20AA"
+					item: {
+						Count: 1b
+						id: "herbalbrews:witch_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1341D87DCF80D89E"
+					item: {
+						Count: 1b
+						id: "herbalbrews:top_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "女巫或绅士"
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"当你把全部的咖啡和茶收集完你就会得到它"
+				""
+				"该模组一共有八种，但整合包内还有其他的茶类模组，请注意分辨。"
+			]
+			id: "77DBC31AD8F91103"
+			rewards: [{
+				id: "1B35472E1B24E449"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "我收收收"
+			tasks: [{
+				id: "2BF52B6D67F54099"
+				item: "herbalbrews:herbalbrews_standard"
+				type: "item"
+			}]
+			title: "全收集！"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			description: ["找不到绿茶叶看看JEI嗷"]
+			icon: "herbalbrews:green_tea_leaf"
+			id: "1996ACFE3D9B9CCA"
+			rewards: [{
+				id: "74C65DF98A44E4DA"
+				item: "herbalbrews:green_tea_leaf"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F0F2DA280EDCFC4"
+				title: "找不到绿茶叶可以看看合成表"
+				type: "checkmark"
+			}]
+			title: "为什么我找不到绿茶叶"
+			x: -4.0d
+			y: -0.5d
+		}
+	]
+	title: "茶香四溢，不错"
+}

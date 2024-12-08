@@ -1,0 +1,210 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7C3BD38365C0553A"
+	group: "04B9982908550744"
+	icon: "mca:civil_registry"
+	id: "7C3BD38365C0553A"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["首先你得找到一个村庄(狗头)"]
+			id: "6B9415441504D2B3"
+			subtitle: "这本书可以记录你村庄发生的所有事情"
+			tasks: [{
+				id: "2926EF7CD719CAC0"
+				item: "mca:civil_registry"
+				type: "item"
+			}]
+			title: "我们的家"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"首先你需要找到一个村庄与村民交互来获取好感度"
+				"好感度可以通过聊天 赠礼等一系列操作获得"
+				"当好感度到了一定程度就可以定婚 结婚同时会解锁村民的职业"
+			]
+			id: "3E7CDABD5E479B4F"
+			subtitle: "关于凡家物语的小提示"
+			tasks: [{
+				id: "00FA79233C9B76D0"
+				type: "checkmark"
+			}]
+			title: "一些小提示"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6B9415441504D2B3"]
+			id: "3BBD666D177E3CAB"
+			rewards: [{
+				id: "17A8F7395D82E8F0"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "可以与你好感度达到一定程度的出门订婚"
+			tasks: [{
+				id: "3F0685E6982F8E8A"
+				item: "mca:engagement_ring_rg"
+				type: "item"
+			}]
+			title: "订婚"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6B9415441504D2B3"]
+			id: "6E17D767C29781CF"
+			subtitle: "可以与你好感度达到一定程度的村民结婚"
+			tasks: [{
+				id: "5831454D4D93B3C5"
+				item: "mca:wedding_ring_rg"
+				type: "item"
+			}]
+			title: "结婚"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6E17D767C29781CF"
+				"3BBD666D177E3CAB"
+			]
+			description: ["当你有了另一半的时候就该考虑人生大事了"]
+			id: "719B542CF122551E"
+			rewards: [{
+				id: "61C2E4B19DDD6A23"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "可以生孩子啦"
+			tasks: [{
+				id: "5CFDDCC95D6C8BD0"
+				title: "快去生孩子"
+				type: "checkmark"
+			}]
+			title: "下一代"
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			description: ["创造属于自己的村庄"]
+			id: "17EE40D192D52662"
+			subtitle: "拥有它你可以规划自己的村庄"
+			tasks: [{
+				id: "283AD15F47B30B0E"
+				item: "mca:blueprint"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			description: ["可以修改自己的皮肤"]
+			id: "2F6978F8EF64090B"
+			tasks: [{
+				id: "069B4539A75C2B5A"
+				item: {
+					Count: 1b
+					id: "mca:needle_and_thread"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			description: ["可以召唤你的家人来到你的身边"]
+			id: "05D289019C251511"
+			tasks: [{
+				id: "7439812932A318CD"
+				item: "mca:whistle"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			description: ["可以修改你的发型"]
+			id: "0C11E848091179C5"
+			tasks: [{
+				id: "317039179BD61535"
+				item: {
+					Count: 1b
+					id: "mca:comb"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["719B542CF122551E"]
+			description: [
+				"(这是一把邪恶的武器你可以用他人的生命来复活你的家人)"
+				"当你的家人意外离世请不要悲伤保管好他的坟墓"
+				""
+				"去寻找死神的踪影[其实自己搭个祭坛就好了(死神需要在晚上召唤）]"
+				""
+				"具体祭坛摆放请参考mc百科"
+			]
+			id: "660B984258D4B1DF"
+			subtitle: "打败他！"
+			tasks: [{
+				id: "417E67B07124E932"
+				item: {
+					Count: 1b
+					id: "mca:scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["660B984258D4B1DF"]
+			description: ["他可以复活十次你的家人当然代价就是一颗下界之星"]
+			id: "3A91A12F9D317849"
+			subtitle: "死神镰刀被净化了"
+			tasks: [{
+				id: "7BAB989D92D5D69B"
+				item: {
+					Count: 1b
+					id: "mca:staff_of_life"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "复活吧，我的爱人！！！！"
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			description: ["一种华丽的金属，将它赠送给村民可以极大提高你与该村民的好感度"]
+			id: "30D46FD5CEF88599"
+			tasks: [{
+				count: 4L
+				id: "30BE051474EBC864"
+				item: "mca:rose_gold_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+	]
+	title: "欢迎回家"
+}

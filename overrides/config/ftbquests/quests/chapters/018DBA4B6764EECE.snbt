@@ -1,0 +1,3464 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "018DBA4B6764EECE"
+	group: "0E86DB5011D3FCE1"
+	icon: "aether:aether_portal_frame"
+	id: "018DBA4B6764EECE"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["420FD303A1AAC17A"]
+			description: ["为了前往天境，你必须收集荧石和水桶，将荧石摆成地狱门的形状，再像是用打火石一样用水桶右键门框，就可以打开通往天境的大门"]
+			id: "15F8154127CFE150"
+			rewards: [{
+				id: "06575DFDBD283033"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "“为了抵达天境，我们深入地狱”"
+			tasks: [
+				{
+					count: 10L
+					id: "029C63D8CEC2A5E2"
+					item: { Count: 14b, id: "minecraft:glowstone" }
+					type: "item"
+				}
+				{
+					id: "4FBA627B5CB69A44"
+					item: {
+						Count: 1b
+						id: "minecraft:water_bucket"
+						tag: {
+							Purity: 3
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "去往天境"
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0446BF43D488CAA6"]
+			description: ["当你从天境掉落，你会直接从主世界250格左右掉下，如果你不想从天境到主世界自由落体，那么最好不要从天境空岛上掉下去"]
+			id: "2DEDBE23F7807F10"
+			tasks: [{
+				id: "6A99268E9D4F1129"
+				title: "自天堂坠落"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["15F8154127CFE150"]
+			description: ["刚刚进入天境，你会获得一个落云和一本天境传说，落云右键后会在脚下生成一朵云，使你缓慢降落，而天境传说则可以将天境相关物品放入，以获得其信息"]
+			id: "0446BF43D488CAA6"
+			rewards: [{
+				id: "04468D5C25E6F8B3"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "《天境传说》"
+			tasks: [
+				{
+					id: "08806F867B140CAE"
+					item: "aether:book_of_lore"
+					type: "item"
+				}
+				{
+					id: "0D2D21D5A556B00B"
+					item: {
+						Count: 1b
+						id: "aether:golden_parachute"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					dimension: "aether:the_aether"
+					id: "7F5A1D961C970E93"
+					type: "dimension"
+				}
+			]
+			title: "初入天境"
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			description: ["还记得梦中的那片天堂吗，它自始至终存在着，少年，开启你的天境之旅吧。"]
+			id: "420FD303A1AAC17A"
+			subtitle: "\"梦中的一切，自始至终高悬于头顶”"
+			tasks: [{
+				id: "17E08A7A635AB914"
+				title: "天堂"
+				type: "checkmark"
+			}]
+			title: "天境"
+			x: -2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["15F8154127CFE150"]
+			id: "7C043A946C0BEE5D"
+			rewards: [{
+				id: "091020FA5FF36951"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "“新的世界，新的开始”"
+			tasks: [{
+				count: 10L
+				id: "1D04412C6EE28AEC"
+				item: "aether:skyroot_log"
+				type: "item"
+			}]
+			title: "要致富先撸树（天境版）"
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0446BF43D488CAA6"]
+			description: ["来到天境后，你发现原本在主世界无往不利的工具都失去了自己的力量，看来要想探索天境，你就必须用天境的材料制成新的工具和护甲"]
+			id: "5DA3586A42AE9A17"
+			tasks: [{
+				id: "0A8FB66D68BBCF02"
+				title: "奇怪的现象"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7C043A946C0BEE5D"]
+			description: [
+				"你用天根木制成的武器和工具，拥有可将采集物品双倍化的特性,在天根木工具的加持下，你很快收集了一些天境的石头"
+				"#对标主世界的木质工具"
+			]
+			id: "4E8EEF847089E456"
+			rewards: [{
+				id: "43C185B91BB5AFDB"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "“第一步往往代表着第二步”"
+			tasks: [
+				{
+					id: "7293A5BA0661CA81"
+					item: {
+						Count: 1b
+						id: "aether:skyroot_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18A65F00435A1460"
+					item: {
+						Count: 1b
+						id: "aether:skyroot_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FC1CB5E28CDFF64"
+					item: {
+						Count: 1b
+						id: "aether:skyroot_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "4E5221621DB2188A"
+					item: { Count: 10b, id: "aether:holystone" }
+					type: "item"
+				}
+			]
+			title: "木之神力！"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4E8EEF847089E456"]
+			description: [
+				"在获得了天根木工具后，你得以快速获得天境的石头，以完成工具的升级."
+				"圣石工具在使用的过程中，会随机产出神能晶片"
+				"#对标主世界的石制工具"
+				""
+				"通过现有的天境材料。你制作了一个熔炉，在使用过程中，你发现这个熔炉还有着一些功能。"
+			]
+			id: "4D0817C8FE3E16B8"
+			rewards: [{
+				id: "26A6E012F5E0CD61"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "“第二步则代表着第三步”"
+			tasks: [
+				{
+					id: "34AAA051344CA9DA"
+					item: {
+						Count: 1b
+						id: "aether:holystone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04D4F825BDF03703"
+					item: {
+						Count: 1b
+						id: "aether:holystone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "256C99D95BC36E40"
+					item: {
+						Count: 1b
+						id: "aether:holystone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33AE56B824D650D8"
+					item: "aether:altar"
+					type: "item"
+				}
+			]
+			title: "生存的第二步"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D0817C8FE3E16B8"]
+			description: [
+				"在天境的地下，你发现了一些神奇的矿物"
+				"神能晶片可以作为燃料和火把的材料，并且可以为神能炉供能"
+				"紫晶石可以用于制成紫晶套装和紫晶工具"
+				"重力矿石可以在神能炉制成神炼重力晶，用于制作重力晶套装和重力晶工具"
+			]
+			id: "192AE2236356EEB6"
+			rewards: [{
+				id: "308E657D51CAE88D"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "“第三步会向着未来，而你已经踏出前两步了”"
+			tasks: [
+				{
+					count: 20L
+					id: "37493DE6D1174A8C"
+					item: { Count: 64b, id: "aether:ambrosium_shard" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "5729C312926F466E"
+					item: { Count: 64b, id: "aether:zanite_gemstone" }
+					type: "item"
+				}
+				{
+					id: "069637E2E17B145E"
+					item: "aether:gravitite_ore"
+					type: "item"
+				}
+			]
+			title: "生存的第三步"
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["192AE2236356EEB6"]
+			description: ["自初次进入天境，你就发现天境中有着许多与主世界相似，但又不同的奇特生物"]
+			id: "6ED9FD31E6E9A0CB"
+			subtitle: "“天境的神奇，远不止于此\""
+			tasks: [{
+				id: "1C2952BFDEF5ED93"
+				title: "天境的神奇生物"
+				type: "checkmark"
+			}]
+			title: "天境的生物"
+			x: 8.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["192AE2236356EEB6"]
+			description: ["在获得了充足的材料后，你开始了对自己装备和工具的更新换代"]
+			id: "065F521F1D8DEE3F"
+			subtitle: "\"新的装备与工具，新的冒险与未来“"
+			tasks: [{
+				id: "1970512B7B1CDCEF"
+				title: "天境的武器"
+				type: "checkmark"
+			}]
+			title: "天境的装备和工具"
+			x: -11.5d
+			y: -8.0d
+		}
+		{
+			description: [
+				"用紫晶石加工出的武器和工具，随着耐久值的降低，紫晶工具的性能会得到一定程度的提升"
+				"#相当于主世界的铁制工具"
+			]
+			id: "459BB597CFEA72CE"
+			tasks: [
+				{
+					id: "6052A17EA421E216"
+					item: {
+						Count: 1b
+						id: "aether:zanite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B96A62E8AF00F70"
+					item: {
+						Count: 1b
+						id: "aether:zanite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "530EB5BBC4CCD0EE"
+					item: {
+						Count: 1b
+						id: "aether:zanite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "紫晶工具"
+			x: -13.5d
+			y: -11.5d
+		}
+		{
+			description: [
+				"使用神炼重力晶矿制成的武器和装备，攻击目标会短暂抑制目标受到的重力，从而在命中目标后使其腾空而起，再重重摔下受到二次伤害。"
+				"#相当于主世界的钻石工具"
+			]
+			id: "5155FA82CFD0ECC6"
+			tasks: [
+				{
+					id: "63FECF9248C1FE48"
+					item: {
+						Count: 1b
+						id: "aether:gravitite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E58478E449DB7EE"
+					item: {
+						Count: 1b
+						id: "aether:gravitite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4627C295EFF25B9E"
+					item: {
+						Count: 1b
+						id: "aether:gravitite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "重力晶工具"
+			x: -14.5d
+			y: -11.5d
+		}
+		{
+			id: "0ECDACC296B903FF"
+			tasks: [{
+				id: "1010C2F48DD1AC97"
+				item: {
+					Count: 1b
+					id: "aether:zanite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -10.5d
+		}
+		{
+			id: "480EDC49D57434AC"
+			tasks: [{
+				id: "077ADB3F36B939EF"
+				item: {
+					Count: 1b
+					id: "aether:zanite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -9.5d
+		}
+		{
+			id: "207FF314E5F6559F"
+			tasks: [{
+				id: "3CD504A9008A217E"
+				item: {
+					Count: 1b
+					id: "aether:zanite_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -8.5d
+		}
+		{
+			id: "430E6CEEF5CEBD4F"
+			tasks: [{
+				id: "6C3305F61ED09915"
+				item: {
+					Count: 1b
+					id: "aether:zanite_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -7.5d
+		}
+		{
+			id: "4A1CA0AE9FD8D0DC"
+			tasks: [{
+				id: "49D8EC53ECEC3F07"
+				item: {
+					Count: 1b
+					id: "aether:gravitite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -10.5d
+		}
+		{
+			id: "3CCC4FCF35D57550"
+			tasks: [{
+				id: "1109AD7570C8B382"
+				item: {
+					Count: 1b
+					id: "aether:gravitite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -9.5d
+		}
+		{
+			id: "628BCA5ED042B889"
+			tasks: [{
+				id: "47725E526C5EC80E"
+				item: {
+					Count: 1b
+					id: "aether:gravitite_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -8.5d
+		}
+		{
+			id: "0F31C65712563EA2"
+			tasks: [{
+				id: "20934A14BF7F0046"
+				item: {
+					Count: 1b
+					id: "aether:gravitite_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -7.5d
+		}
+		{
+			description: [
+				"紫晶套装会随着套装耐久的减少而增加防御能力，在盔甲耐久值极低的时候，它们甚至可以达到与钻石相当的保护效果。"
+				"#紫晶套装对标主世界的铁套"
+			]
+			id: "1B7B7A1AC14C25E5"
+			subtitle: "“实用的套装”"
+			tasks: [{
+				id: "51FF2284264C075C"
+				title: "紫晶套装"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: -6.5d
+		}
+		{
+			description: [
+				"在装备全套重力晶套装后，玩家在潜行时跳跃可触发超级跳跃能力，最高可跳6米高；同时，装备全套重力晶套装的玩家也会免疫摔落伤害，纵使从天境落回主世界也能毫发无伤"
+				"#对标主世界的钻石套装"
+			]
+			id: "029732BCFB0895C2"
+			subtitle: "“你已经可以开始挑战天境的各个领主了”"
+			tasks: [{
+				id: "1FBBEB812081DD34"
+				title: "重力晶套装"
+				type: "checkmark"
+			}]
+			x: -14.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"065F521F1D8DEE3F"
+				"6ED9FD31E6E9A0CB"
+				"192AE2236356EEB6"
+			]
+			description: [
+				"在你探索天境的过程中，你发现了一个神秘结构，在你进入探索后，你发现这似乎是某种地牢"
+				""
+				"在其中一定有着珍贵的宝物"
+			]
+			id: "0E7D8FC35D4026FC"
+			subtitle: "“天境之中的神秘建筑”"
+			tasks: [{
+				id: "4FD0340FBD7D9963"
+				title: "天境地牢"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["04749B86A8749165"]
+			description: [
+				"ps:经验加成带来的伤害加成是额外乘区，可影响至天境boss"
+				"武神女王作为天境的BOSS，有着高达500的血量和相当高的攻击力和防御力，并且免疫火焰燃烧伤害，在战斗中，她会不时使用冲刺对玩家造成突击伤害，或召唤风暴雷球攻击玩家；风暴雷球会对接触到它的玩家造成伤害，且在场地上存在一段时间后会爆炸唤雷，并留下火焰。同时，若玩家使用反重力或飞行的话，武神女王也会飞到与玩家相同的高度；若玩家距离武神女王一定距离，武神女王将会瞬移到玩家身后"
+				""
+				"在玩家击败武神女王后，她会承认玩家的实力，并将白银钥匙与她的佩剑交予玩家"
+				"同时大殿出口会重新打开，王座下方的暗格将会显露出来，玩家可以在暗格中找到藏宝箱"
+			]
+			id: "5524B0C6882ADC9E"
+			subtitle: "“一场公平的决斗，一场荣耀的对决”"
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				id: "2FC5D3CEA52BC387"
+				title: "武神女王"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["0E7D8FC35D4026FC"]
+			description: [
+				"庄严的武神女王神庙是天境不可侵犯的圣地，也是武神族人的休憩之所。"
+				"这座威严的建筑位于Y轴高于100的天空中，周身有大量境云环绕，神庙本身则由天灵石构造，玩家可以在神庙正门找到入口。"
+				""
+				"武神女王神庙有三层构造，每一层内部均由众多小室组成——这些小室均由天灵石与流光天灵石构建；流光天灵石发出光芒，为神庙内部照明。大多数小室中都放置着奖励箱（但这些奖励箱中可能会有拟箱陷阱出现）；楼层之间有旋转式楼梯相连接。在每一层，玩家都可以遇见众多休憩的女武神。"
+			]
+			id: "04749B86A8749165"
+			subtitle: "“武神一族是天境正义和秩序的伟大保护者，阿肯祖斯意志的坚定维护者；她们始终遵守着根除混乱，维持天境社会与自然秩序的理念；她们是天境公平与正义的象征，她们即是天境的法律。”—《天境传说》"
+			tasks: [{
+				id: "256861B4921FE418"
+				title: "女武神"
+				type: "checkmark"
+			}]
+			title: "白银级：武神女王神庙"
+			x: -2.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["6A642016F7C53068"]
+			description: [
+				"ps:经验加成带来的伤害加成是额外乘区，可影响至天境boss"
+				"滑行魔石是古老迷宫的主脑中枢，它位于滑块迷宫内部最庞大的阴暗房间中，拥有400点生命值，在玩家攻击前一直处于休眠状态。休眠状态下的滑行魔石不会做出任何敌对行为，且有着远比其它生物坚实的碰撞箱，无法被推动。"
+				""
+				"魔石仅会锁定将其唤醒的玩家，使用滑动冲撞的方式进行攻击：它会以较快的速度沿方块排列的直线行进，尝试接近玩家，并击碎所有挡在它滑动路线上的方块。在魔石滑动时，所有接近魔石的实体均会受到伤害。如果被滑行魔石从斜角方向撞到，玩家还有很大的概率被击飞，受到二次的摔落伤害；而滑行魔石通常也会追到空中一段时间，再落下来。"
+				""
+				"滑行魔石的活动几乎不会受到任何手段的影响，重力、水流、药水、活塞甚至是岩浆浴，都丝毫不能阻挡它的滑动速度。如果在战斗过程中玩家被滑行魔石击杀，则滑行魔石会回到平台上自行休眠，其房间出口会暂时打开；再次被玩家唤醒时，滑行魔石的生命值会得到重置。"
+			]
+			id: "55EF90512EC85CCD"
+			subtitle: "“一块会动的石头？”"
+			tasks: [{
+				entity: "aether:slider"
+				id: "280E3D7BABA11EF4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "滑行魔石"
+			x: -9.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["0E7D8FC35D4026FC"]
+			description: [
+				"庞大的滑行魔石迷宫深埋于空屿的地下，但它一般会在空屿表面或边缘留下1-2个较为明显的入口：这些矩形的入口与迷宫甬道由圣石与圣苔石交错组成。"
+				"在迷宫内部最庞大的昏暗房间的平台之上，沉眠着古老迷宫的主脑中枢，青铜钥匙的保管者——滑行魔石。"
+				""
+				"在寻找滑行魔石迷宫之前，最好准备一把强劲的镐子"
+			]
+			id: "6A642016F7C53068"
+			subtitle: "“迷宫中的哨卫石械由一股古老而神秘的强大力量驱动着，这份神秘的力量让这些石械表现出了一种类似生物体的形式，但这古老力量究竟来源何处至今仍是一个谜。”—《天境传说》"
+			tasks: [{
+				id: "5DFF5DEF73DB77CC"
+				title: "滑行魔石迷宫"
+				type: "checkmark"
+			}]
+			title: "青铜级：滑行魔石迷宫"
+			x: -9.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["0E7D8FC35D4026FC"]
+			description: [
+				"这座十分隐蔽的大厅是天境统治者的禁地。在女武神、太阳教派与天灵族骑士合谋的秘密暗杀行动失败后，残暴的天境统治者烈阳巨灵躲藏到了这个秘密藏身处，希望保持他的影响力，远离他的敌人，远离被发现的危险。"
+				""
+				"烈阳巨灵要塞是一间由狱炎石与流光狱炎石构造的大厅。这间大厅位于一座生长着无数金琥珀橡树的球状浮岛内部，玩家可以在浮岛侧面发现一个矩形的入口。这座奇特的浮岛位于Y轴大于110的高空，与其他类型的地牢不同，这个据点只有一个偌大的房间，且在玩家杀死烈阳巨灵之前，整座据点的方块都会被一种强大的黑暗力量所影响，无法被破坏或采集"
+			]
+			id: "6BF2C8EFC5CBF029"
+			subtitle: "\"几百年前，在人类开始大规模探索天境之前，曾有过一个来自于另一个次元的强大存在。这个存在带来了巨大的力量，永恒的日光；这份力量让天境再无黑夜——这使得天境暂时得以摆脱枯萎病的困扰；这是一种可以永远固定天空的神秘黑暗力量。不幸的是，这份力量的来源并不是一个友善的存在。”"
+			tasks: [{
+				id: "465279DD8175728D"
+				title: "烈阳巨灵要塞"
+				type: "checkmark"
+			}]
+			title: "黄金级：烈阳巨灵要塞"
+			x: 5.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["6BF2C8EFC5CBF029"]
+			description: [
+				"ps:经验加成带来的伤害加成是额外乘区，可影响至天境boss"
+				"玩家可以与烈阳巨灵对话，这也是开启烈阳巨灵挑战的方法。烈阳巨灵会逐渐被作为冒险者的玩家激怒，遂与玩家展开战斗。战斗一旦开始，大厅的出口便会被封锁。直到玩家挑战失败或者成功前，玩家无法进出该房间。"
+				""
+				"烈阳巨灵无法被任何形式的攻击所伤害。他会在大厅中飘动，触碰到墙壁后反弹（类似弹球），玩家只要接触到烈阳巨灵便会受到灼烧伤害。"
+				""
+				"烈阳巨灵会发射两种晶体球，它们发射后会在房间内四处弹跳，一段时间后破碎。略显红色的为滚炎球，被命中会造成伤害和爆炸，一定概率点燃玩家，可以被攻击打碎；白色泛蓝者为冰结球，击中玩家会造成小额伤害，受到玩家攻击后会改变轨迹向攻击方向较快地飞出，撞击实体或方块后破碎。在场地内四处漂浮的冰结球是玩家仅有的伤害烈阳巨灵的手段，冰结球被打飞后，如果命中烈阳巨灵，则烈阳巨灵会受到一瞬间的冷冻伤害，血量减少十分之一，并分裂出一只烈焰奴仆。烈焰奴仆会立即开始追击玩家，但可被正常手段击杀。"
+				""
+				"玩家需多次反弹冰结球击中烈阳巨灵，最终将其击杀。随着烈阳巨灵在冰冻中倒下，他对天境的残暴统治也宣告结束。"
+			]
+			id: "0F59DDE1C945BB08"
+			subtitle: "“看到了吗，天境永昼的始作俑者”"
+			tasks: [{
+				entity: "aether:sun_spirit"
+				id: "54273302B288E4C0"
+				type: "kill"
+				value: 1L
+			}]
+			title: "烈焰巨灵"
+			x: 5.0d
+			y: -18.0d
+		}
+		{
+			description: [
+				"想要挑战武神女王，你就必须击败十位女武神，获得挑战武神女王的资格"
+				""
+				"她们是武神族战士，身材高大，手持长剑，擅长战斗，拥有50点生命值。"
+				""
+				"她们并不会主动攻击玩家，玩家甚至可以和她们对话，她们对于作为冒险者而前来的玩家态度亦是相对友善。但若玩家对她们不敬，她们亦会予以反击。她们可以对玩家造成伤害；若玩家距离过远或试图躲藏起来，她们会飞行或瞬移至玩家身边。可以说，一旦玩家惹怒了一名女武神，就很难再次脱身，除非玩家将她们击败，或被她们杀死。"
+				""
+				"在玩家击败她们后，她们会承认玩家的实力，并给予玩家1枚胜利奖牌，作为玩家挑战武神女王的信物"
+			]
+			id: "25E6A8168FE621B3"
+			subtitle: "“武神女王座下忠实的战士”"
+			tasks: [{
+				entity: "aether:valkyrie"
+				id: "73C3020221E6402D"
+				type: "kill"
+				value: 10L
+			}]
+			x: -2.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["0446BF43D488CAA6"]
+			description: ["不知为何，天境的时间永远保持在正午时分."]
+			id: "1378238C6B0DA782"
+			subtitle: "这片天空被某种神秘而强大的黑暗力量所影响，太阳悬在天顶永不落下"
+			tasks: [{
+				id: "5455385380B3B926"
+				title: "永昼"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			id: "7160D3817E7E77FC"
+			tasks: [{
+				id: "7F475DC12B5CEFD5"
+				item: {
+					Count: 1b
+					id: "aether:valkyrie_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: -10.5d
+		}
+		{
+			id: "03CF151836582D59"
+			tasks: [{
+				id: "6ED6E1FD57DD5EAD"
+				item: {
+					Count: 1b
+					id: "aether:valkyrie_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: -9.5d
+		}
+		{
+			id: "52A866768F6F0D2E"
+			tasks: [{
+				id: "0882259C70AB390F"
+				item: {
+					Count: 1b
+					id: "aether:valkyrie_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: -8.5d
+		}
+		{
+			id: "029D31B9A3EC1DC2"
+			tasks: [{
+				id: "520B95ACF58055E1"
+				item: {
+					Count: 1b
+					id: "aether:valkyrie_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"武神套装是天境的一种不可合成的高级护甲套装。作为武神一族所使用的盔甲套装，玩家可以在白银级地下城中找到它们。"
+				""
+				"在玩家装配全套武神盔甲后，将会触发“生翼”的套装特效。此时玩家背后将会出现一对形似女武神的翅膀特效，并免疫摔落伤害。当玩家按住跳跃键时，将会触发短途飞行能力，每次飞行最多可持续三秒钟，飞行时间越长飞行速度越快，最高可飞到十米高。飞行时间可分段，但每次悬空都只有3秒钟的飞行能力激活时间，耗尽后必须再次踩在某种方块上才能恢复飞行能力"
+			]
+			id: "107187F0D5D74225"
+			subtitle: "“女武神之力”"
+			tasks: [{
+				id: "46E282B1A720ECD6"
+				title: "武神套装"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: -6.5d
+		}
+		{
+			id: "4CBA25141A68D578"
+			tasks: [{
+				id: "6B6E82BB5D537675"
+				item: {
+					Count: 1b
+					id: "aether:obsidian_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: -10.5d
+		}
+		{
+			id: "2412E87E90DB9B21"
+			tasks: [{
+				id: "72EABAF86B263209"
+				item: {
+					Count: 1b
+					id: "aether:obsidian_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: -9.5d
+		}
+		{
+			id: "4D4B3ED3DB2A414C"
+			tasks: [{
+				id: "45DC3A505F6A60AF"
+				item: {
+					Count: 1b
+					id: "aether:obsidian_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: -8.5d
+		}
+		{
+			id: "0B1C7985086A6F85"
+			tasks: [{
+				id: "108441700E69FD1D"
+				item: {
+					Count: 1b
+					id: "aether:obsidian_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"黑曜石盔甲是天境的一套笨重无比的盔甲。它们需要用一种特殊的方法进行合成。"
+				""
+				"要想获得它们，玩家需要装备滚烫的凤凰盔甲浸入水中，将它们冷却为黑曜石。"
+				""
+				"这套笨重的盔甲拥有较强的对魔法防御能力和特别的套装效果。在玩家装备全套黑曜套装后，会触发“战车”套装能力。玩家将会持续获得缓慢和抗性提升BUFF，换句话说，这是一套牺牲玩家的灵活性来换取魔法防御能力的装备。"
+			]
+			id: "53D29321F614A31A"
+			subtitle: "“水和岩浆生成黑曜石”"
+			tasks: [{
+				id: "41EC5078B06075F0"
+				title: "黑曜石套装"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: -6.5d
+		}
+		{
+			id: "25696C63145FF52E"
+			tasks: [{
+				id: "1DD116D75349C677"
+				item: {
+					Count: 1b
+					id: "aether:phoenix_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -18.0d
+			y: -10.5d
+		}
+		{
+			id: "07354DF48FAEA69D"
+			tasks: [{
+				id: "68727A4DC871B7AA"
+				item: {
+					Count: 1b
+					id: "aether:phoenix_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -18.0d
+			y: -9.5d
+		}
+		{
+			id: "514E3B03A67A0D93"
+			tasks: [{
+				id: "1A5BF81D2E5E9AD6"
+				item: {
+					Count: 1b
+					id: "aether:phoenix_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -18.0d
+			y: -8.5d
+		}
+		{
+			id: "0262608D45FA40EB"
+			tasks: [{
+				id: "6995E3CA0A0AB5CB"
+				item: {
+					Count: 1b
+					id: "aether:phoenix_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -18.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"玩家只能在黄金级地牢里发现它们。"
+				""
+				"在玩家装备全套凤凰套装后，将会触发“御火”的套装特效。此时玩家会被赋予持续的抗火BUFF，且在行动时有火焰粒子效果跟随。这套盔甲甚至可以让玩家在岩浆里行动时，不会受到任何阻力。"
+				""
+				"但需要注意的是，千万不要让这套盔甲接触水！否则可能会有一些意想不到的事情发生……(隔壁黑曜石套装）"
+			]
+			id: "7F0CAD60E1AF9D49"
+			subtitle: "“当心，可别碰到水了”"
+			tasks: [{
+				id: "5EEE665DDC4B51D1"
+				title: "凤凰套装"
+				type: "checkmark"
+			}]
+			x: -18.0d
+			y: -6.5d
+		}
+		{
+			id: "1F115EF7B0B9FFF6"
+			tasks: [{
+				id: "536D2B84034A1359"
+				item: {
+					Count: 1b
+					id: "aether:neptune_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.0d
+			y: -10.5d
+		}
+		{
+			id: "0DB30EFA814B537E"
+			tasks: [{
+				id: "4D1C17A55B59D309"
+				item: {
+					Count: 1b
+					id: "aether:neptune_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.0d
+			y: -9.5d
+		}
+		{
+			id: "276F8D8EF440CA0B"
+			tasks: [{
+				id: "2AD2D679E198E050"
+				item: {
+					Count: 1b
+					id: "aether:neptune_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.0d
+			y: -8.5d
+		}
+		{
+			id: "5E636B9DE5381E81"
+			tasks: [{
+				id: "3172F3295E9939F2"
+				item: {
+					Count: 1b
+					id: "aether:neptune_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"它们被存放在武神一族的神庙中，玩家可以在白银级地牢中找到它们。"
+				""
+				"在玩家装配全套海神护甲后，会获得“行水”的套装能力，玩家将能在水中穿梭自如，而几乎不受水的阻力影响，其效果甚至超过原版的“深海探索者”附魔；但需要注意的是，玩家仍然会受到溺水而造成的水下窒息伤害，所以玩家仍需时刻注意。"
+			]
+			id: "53AEE1881C55F2AC"
+			subtitle: "“自此深海成为你的臂膀”"
+			tasks: [{
+				id: "2944DD953B354AC3"
+				title: "海神套装"
+				type: "checkmark"
+			}]
+			title: "海皇套装"
+			x: -19.0d
+			y: -6.5d
+		}
+		{
+			description: [
+				"哨卫长靴是天境的一种特殊装备，玩家可以在青铜级地牢中找到它们。与一般护甲不同，这件护甲只存在靴子部分。"
+				""
+				"当玩家穿着这双靴子时，这件与哨石有所关联的装备可以保护玩家免疫所有的摔落伤害。"
+			]
+			id: "4A770F4D18D45DCC"
+			subtitle: "“耐摔王”"
+			tasks: [{
+				id: "33708F0EDD92D14E"
+				item: {
+					Count: 1b
+					id: "aether:sentry_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.0d
+			y: -13.0d
+		}
+		{
+			description: [
+				"再生灵石是天境中的一种特殊饰品，这种饰品无法被合成，玩家可以在白银级地牢中的藏宝箱中找到。"
+				""
+				"这是一块神秘的充满了魔力的石头。通过装备再生灵石，玩家可以获得无限时长的生命恢复效果。这一效果实际上也可以与其他再生灵石相叠加。（也就是说，当玩家装备两块再生灵石的时候，玩家的生命恢复速度也会翻倍。）"
+				""
+				"该饰品没有耐久，且生命恢复的效果不会以药水状态形式展现（也就意味着很多整合包里针对buff的能力无效），单个再生灵石的生命恢复速度约为每四秒恢复3点生命值，佩戴两个则变成每四秒恢复6点生命值"
+			]
+			id: "65C360DC52E7A0A8"
+			subtitle: "“真正的再生就该是这样！”"
+			tasks: [{
+				id: "4808CF959664C409"
+				item: "aether:regeneration_stone"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -13.0d
+		}
+		{
+			description: [
+				"反击之盾是天境中的一种特殊饰品，玩家可以在青铜级地牢中找到这件装备。"
+				""
+				"虽然它被冠以“盾”的名号，但实际上它并不能像原版的盾牌那样使用。玩家需要将它放入天境的饰品栏中，才可以发挥它的防护效果。"
+				""
+				"在玩家装配反击之盾后，它就会在玩家周围形成一个蓝色半透明的保护层，这层保护可以使玩家免受大多数射弹伤害，并将射向玩家的射弹反射回发射方并对其造成伤害。但每次射弹被反射时，护盾都会损坏。"
+			]
+			id: "10011B135A61B1A1"
+			subtitle: "“看我弹反！”"
+			tasks: [{
+				id: "07A757E94EA4F30E"
+				item: {
+					Count: 1b
+					id: "aether:shield_of_repulsion"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: -13.0d
+		}
+		{
+			description: [
+				"坚铁气泡是天境中的饰品之一，玩家可以在黄金级地牢里找到它们。"
+				""
+				"当玩家装备这件饰品后，每当玩家进入水下，这个“铁气泡”就会牢牢保护住玩家的“气泡”，为玩家提供无限时长的水下呼吸效果"
+			]
+			id: "23996A307FA77388"
+			subtitle: "“从某种意义上讲，这的确算是水下呼吸”"
+			tasks: [{
+				id: "7D2EC86F1E085AC4"
+				item: "aether:iron_bubble"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -13.0d
+		}
+		{
+			description: [
+				"武神披风是天境中的一种饰品，玩家可以在白银级地牢的藏宝箱中找到。"
+				""
+				"作为武神一族的装备之一，佩戴它后，当玩家从高处坠落时，这件披风可以为玩家提供缓降效果。"
+			]
+			id: "7880BBC81F318B9A"
+			subtitle: "“永久的缓降，妈妈再也不怕我乱蹦了”"
+			tasks: [{
+				id: "6BFA62BA7B2CAFA1"
+				item: "aether:valkyrie_cape"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -14.0d
+		}
+		{
+			description: [
+				"史维特披风是天境中的一种饰品，需通过青铜级地牢的藏宝箱中开出，用于为玩家解除史维特带来的威胁。"
+				""
+				"在玩家穿戴该披风后，所有史维特都将不再主动攻击玩家，玩家在这时可以骑乘史维特，史维特们跳跃能力很强，且免疫摔落伤害"
+			]
+			id: "168CB0F9F1F8E88E"
+			subtitle: "“史维特之友”"
+			tasks: [{
+				id: "7A39536D07ECE3BD"
+				item: "aether:swet_cape"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -14.0d
+		}
+		{
+			description: [
+				"隐形斗篷是天境中的一件稀有饰品，可以有几率在白银级地牢的藏宝箱中获得。"
+				""
+				"玩家需将其佩戴在饰品栏中的“披风”一栏。正如其名，穿戴这件斗篷后可以使玩家无限时间隐身，当玩家将斗篷取下后便会解除隐身效果。"
+				""
+				"值得说明的是，该饰品给予玩家的“隐身”效果与原版minecraft的药水效果“隐身”效果有别，该饰品可以将玩家本体及其所穿戴盔甲、所持物品、饰品还有模组所提供的穿戴物（实测不包括药水粒子特效）一并隐去，从而达到真正意义上的隐身。而在多人游戏中，穿戴此饰品也会使头顶名称消失从而能在其他玩家的视角下完全隐身"
+				""
+				"穿戴该饰品后，大部分敌对生物（模组怪物适用）将不会主动攻击玩家，但玩家主动攻击仍会激怒它们。"
+			]
+			id: "188FFBDEA51D8F3E"
+			subtitle: "“小偷模拟器，启动！”"
+			tasks: [{
+				id: "150DE142880C112A"
+				item: "aether:invisibility_cloak"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -14.0d
+		}
+		{
+			description: ["佩戴后可以自动走上一格高的方块"]
+			id: "7A94DB1B231628E0"
+			subtitle: "“自动上坡”"
+			tasks: [{
+				id: "1C911A651827D5AE"
+				item: "aether:agility_cape"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -14.0d
+		}
+		{
+			description: [
+				"紫晶链坠是由紫晶石和线制成的一种挂坠饰品。"
+				""
+				"装备于天境自带的物品栏项链位之后，它可以在玩家挖掘方块时提升玩家的挖掘速度，但自身的耐久度会逐渐被损耗。"
+				""
+				"紫晶链坠也可以被进一步用于制作更高级的寒冰链坠。"
+			]
+			id: "41E2865442074E81"
+			subtitle: "“大紫晶链子”"
+			tasks: [{
+				id: "111F7F60A7FE9089"
+				item: {
+					Count: 1b
+					id: "aether:zanite_pendant"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: -13.0d
+		}
+		{
+			description: [
+				"紫晶戒指是由紫晶石制成的戒指饰品，是基础的可合成饰品之一。"
+				""
+				"将紫晶戒指佩戴于饰品栏中，它能在玩家挖掘方块时提升玩家的挖掘速度，但自身的耐久度会逐渐被损耗。"
+				""
+				"具体形式：玩家佩戴该戒指可获得急迫I效果。"
+				""
+				"紫晶戒指也可以用于更高级的寒冰戒指的合成。"
+			]
+			id: "15A4C44EFDAE1148"
+			subtitle: "“大紫晶戒指”"
+			tasks: [{
+				id: "6F4C6C776A95F98A"
+				item: {
+					Count: 1b
+					id: "aether:zanite_ring"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: -14.0d
+		}
+		{
+			description: [
+				"寒冰戒指由冰石冷冻而成，为天境中相对高级的可合成饰品。"
+				""
+				"佩戴该饰品后，会获得类似原版冰霜行者的效果，它能把玩家周围3*3范围内的水冻结为冰，把岩浆冻结为黑曜石，同时消耗耐久。这无疑是一种玩家在大型水/岩浆流域行动的好办法。"
+				""
+				"寒冰戒指可由坚铁、黄金和紫晶三种戒指中的任意一种制成，其能力实际上与寒冰链坠完全相同，且不能叠加。"
+			]
+			id: "1D019E114274825C"
+			subtitle: "“冰霜行者简易试做便携升级戒指版”"
+			tasks: [{
+				id: "418BC3F554262ACC"
+				item: {
+					Count: 1b
+					id: "aether:ice_ring"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: -13.0d
+		}
+		{
+			description: [
+				"寒冰链坠由冰石冷冻而成，为天境中相对高级的可合成饰品。"
+				""
+				"佩戴该饰品后，会获得类似原版冰霜行者的效果，它能把玩家周围3*3范围内的水冻结为冰，把岩浆冻结为黑曜石，同时消耗耐久。这无疑是一种玩家在大型水/岩浆流域行动的好办法。"
+				""
+				"寒冰链坠可由坚铁、黄金和紫晶三种挂坠中的任意一种制成，其能力实际上与寒冰戒指完全相同，且不能叠加。"
+				""
+				"寒冰链坠 (Ice Pendant)"
+			]
+			id: "32B33ECB8CBE9435"
+			subtitle: "“冰霜行者简易试做便携升级吊坠版“"
+			tasks: [{
+				id: "641E83C23CFCE4BF"
+				item: {
+					Count: 1b
+					id: "aether:ice_pendant"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: -14.0d
+		}
+		{
+			description: [
+				"境云权杖可以被视作天境的一种特殊武器。这把权杖可以在黄金级地牢中找到。"
+				""
+				"这是一把轻盈蓬松的权杖。当玩家右键使用它时，它的力量可以凝聚为两只奇怪的迷你云护卫。这两只迷你云护卫在生成后就会一直跟随玩家，直到它们消失。玩家可以对准一个方位左键来指明射击方向，这些迷你云会向玩家所指明的方位射击冰晶球，并通过这种方式协助玩家战斗一小段时间。"
+			]
+			id: "7B13FC941CDFAEB5"
+			tasks: [{
+				id: "06DFDCC19683A818"
+				item: {
+					Count: 1b
+					id: "aether:cloud_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -20.5d
+			y: -11.5d
+		}
+		{
+			description: [
+				"这把长弓是天境中无法合成的特殊武器之一，只能从地下城中的藏宝箱中获取。"
+				""
+				"右键发射一个锤头，对沿路上的敌对生物造成击退和较大伤害，并且有后坐力；生存模式中每发射一次，有一次长时间冷却，同时消耗一定耐久（创造可以无限飞）"
+			]
+			id: "431C985ECB81B748"
+			tasks: [{
+				id: "20DA3EBA6DE8C77E"
+				item: {
+					Count: 1b
+					id: "aether:hammer_of_kingbdogz"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -20.5d
+			y: -10.5d
+		}
+		{
+			description: [
+				"杀猪刀是天境中的一种特殊武器，玩家可以在“地下城”中的藏宝箱中找到它。"
+				""
+				"正如其名，杀猪刀的攻击会对猪类生物（包括僵尸猪人）造成极高的伤害"
+			]
+			id: "61E166CFB5F10E1E"
+			tasks: [{
+				id: "2ACC98F476394019"
+				item: {
+					Count: 1b
+					id: "aether:pig_slayer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -20.5d
+			y: -9.5d
+		}
+		{
+			description: [
+				"把长弓是天境中无法合成的特殊武器之一，只能从地下城中的藏宝箱中获取。"
+				""
+				"这把弓即相当于自带火矢附魔效果，通过这把弓发射出的箭矢命中目标后会导致目标燃烧。"
+			]
+			id: "441587B67D79AC38"
+			tasks: [{
+				id: "23AD38889028D15F"
+				item: {
+					Count: 1b
+					id: "aether:phoenix_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -20.5d
+			y: -8.5d
+		}
+		{
+			description: [
+				"烈焰宝剑是天境中的一种无法合成的稀有武器，只能从通关地下城后的藏宝箱中有几率获得。"
+				""
+				"这把长剑相当于自带火焰附加附魔效果，攻击后可以使目标燃烧30秒。"
+			]
+			id: "38B29ABF19F7030F"
+			tasks: [{
+				id: "26C98E19F8D9AF76"
+				item: {
+					Count: 1b
+					id: "aether:flaming_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -20.5d
+			y: -7.5d
+		}
+		{
+			description: [
+				"神圣大剑是天境中的一种无法合成的稀有武器，玩家仅能在地下城中的藏宝箱中找到这把武器。"
+				""
+				"正如其名，神圣大剑能够对亡灵生物造成很高的额外伤害，一般两击就足以击杀常见的亡灵生物，除非该亡灵生物携带有较高的护甲，或者血量较高。"
+			]
+			id: "5869BE4BFB9EC2C7"
+			tasks: [{
+				id: "4DA00DDE316F5FA2"
+				item: {
+					Count: 1b
+					id: "aether:holy_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -21.5d
+			y: -11.5d
+		}
+		{
+			description: [
+				"疾电长剑是天境中的一种稀有武器，仅能通过玩家通关地下城的藏宝箱中有几率获得。"
+				""
+				"这把长剑拥有召唤雷电的强大力量。玩家使用这把长剑时，每次攻击都会对目标降下闪电，并在雷击点附近留下火焰。其召唤的闪电虽然并不会伤害玩家，但是残留的火焰还是会对玩家造成灼烧伤害的。"
+				""
+				"疾电长剑所召唤的闪电同样拥有一般闪电的生物转化效果（如将猪转化为僵尸猪人）。"
+			]
+			id: "31018AFCC06DFEE6"
+			tasks: [{
+				id: "4B4F200D60A60050"
+				item: {
+					Count: 1b
+					id: "aether:lightning_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -21.5d
+			y: -10.5d
+		}
+		{
+			description: [
+				"惊雷飞刀是天境中的一种特殊武器，无法进行合成，可在地下城的藏宝箱中有几率开出。"
+				""
+				"与常规武器不同，惊雷飞刀更像是鸡蛋或雪球，玩家通过右键消耗一把飞刀将其掷出，在命中实体或落地后，惊雷飞刀会在命中位置召唤一道闪电进行范围攻击。虽然场面较为壮观华丽，但伤害其实并不是太高。"
+			]
+			id: "694F5898A655851C"
+			tasks: [{
+				id: "16F2718E0C342F93"
+				item: { Count: 2b, id: "aether:lightning_knife" }
+				type: "item"
+			}]
+			x: -21.5d
+			y: -9.5d
+		}
+		{
+			description: [
+				"武神长枪是天境中的一种无法合成的特殊武器，玩家只能从地下城中的藏宝箱中找到这把武器。"
+				""
+				"作为武神一族使用的近战武器，这把长枪拥有着极长的攻击距离，这让玩家可以在很远的地方捅刺目标。"
+			]
+			id: "5C13767231E83184"
+			tasks: [{
+				id: "66B81C369889E925"
+				item: {
+					Count: 1b
+					id: "aether:valkyrie_lance"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -21.5d
+			y: -8.5d
+		}
+		{
+			description: [
+				"吸血魔剑是天境中的一把无法合成的稀有武器，玩家只能从地下城中的藏宝箱中找到它。"
+				""
+				"正如其名，在使用吸血魔剑攻击时，这把剑会吸取目标的生命值，并为使用者回复生命值。（虽然但是，这把剑的吸血能力有点差劲，吸取来的生命值流失的有点多）每次攻击，玩家自身可以恢复1点（）生命值。"
+			]
+			id: "31AA91515B9EE71D"
+			tasks: [{
+				id: "2D761E6C095B3DF2"
+				item: {
+					Count: 1b
+					id: "aether:vampire_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -21.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6ED9FD31E6E9A0CB"]
+			description: [
+				"作为一种类似牛的友善生物，它们会在亮度大于9的空屿表面自然生成。天翼牛在大部分情况下的行为与上界的牛基本一致；与天境的大部分生物一样，天翼牛免疫摔落伤害：当它们从高处落下时，会张开它们金色的翅膀缓缓下落至地面。"
+				""
+				"这种生物可以被装上鞍鞯，之后玩家可以骑乘它们。（需要注意，天翼牛一旦被装上鞍鞯，除非将这头牛杀死，否则玩家无法再将鞍取下）"
+				""
+				"玩家可以使用天根木桶来收集天翼牛的牛奶。"
+			]
+			id: "223E027CDE20EEFE"
+			subtitle: "“张开翅膀，翱翔于天境”"
+			tasks: [{
+				id: "0B999DFCC2325EE5"
+				title: "天翼牛"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6ED9FD31E6E9A0CB"]
+			description: [
+				"它们会以1~3个一群的形式，在亮度大于9的空叶草方块上生成。这种动物的大部分行为方式与一般的猪基本一致；与天境的大部分生物一样，飞天猪免疫摔落伤害：当它们从高处落下时，会张开它们金色的翅膀缓缓下落至地面。"
+				""
+				"这种生物可以被装上鞍鞯，之后玩家可以骑乘它们。（需要注意，飞天猪一旦被装上鞍鞯，除非将这头猪杀死，否则玩家无法再将鞍取下）"
+			]
+			id: "56A8AE448E1EE83A"
+			subtitle: "“翅膀赋予了它们飞翔的权利”"
+			tasks: [{
+				id: "1496754CE751D046"
+				title: "飞天猪"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6ED9FD31E6E9A0CB"]
+			description: [
+				"这些毛茸茸的动物会在亮度大于9的空屿表面自然生成，在空屿表面十分常见。它们的行为方式与主世界的羊极为类似：它们也拥有多种皮毛颜色，且会成群结队四处走动，啃食草皮。当它们啃食空叶草方块后，它们身上的蓬毛会突然产生奇怪的吸气膨胀效果。"
+				""
+				"同天境的大部分动物一样，它们身上的蓬毛可以使它们进行短暂的飞行与缓降。"
+			]
+			id: "3AF262E6B5DB5F2F"
+			subtitle: "“它们身上的毛比云朵还要轻盈”"
+			tasks: [{
+				id: "5D7C4AB4EF24F8EF"
+				title: "云跳羊"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6ED9FD31E6E9A0CB"]
+			description: [
+				"体型小巧，周身有类似境云状蓬毛包裹。在它们移动时，周身的蓬毛会产生奇怪的吸气放气胀缩效果。借助这种力量，它们可以跳跃的很高，且免疫摔落伤害。"
+				""
+				"玩家可以与天跃兔互动，通过右键可将天跃兔顶在玩家头上（再次右键头顶的天跃兔可以把它放下来），当玩家从高处落下时，会有滑翔效果，使玩家免受摔落伤害。"
+				""
+				"骑在玩家头顶的天跃兔虽然没有碰撞箱，但仍然可以被攻击。"
+			]
+			id: "3DF3A833F5245B4C"
+			subtitle: "“跳跃于云朵之间的可爱生灵”"
+			tasks: [{
+				id: "42A643C9CE7FFDD2"
+				title: "天跃兔"
+				type: "checkmark"
+			}]
+			x: 13.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6ED9FD31E6E9A0CB"]
+			description: [
+				"云鲸是天境中友善的鲸形生灵，拥有着庞大的体型。它们漂浮于地平线之上，在升起的太阳照耀下徜徉于金色琥珀树和蓝色云朵之间。"
+				""
+				"这些巨大的生灵总是会漫无目的地在天空中漂流，永远在天穹中游荡。当受到伤害时，它们会上浮，发出低沉的悲鸣。"
+				""
+				"玩家有时可以在小型浮岛之上的云端发现它的身影。这些圣洁的生灵会不时发出空灵悠远的哨鸣，响彻天穹，为天境带来了一片神圣的寂静。"
+			]
+			id: "1C8D519220236FCD"
+			subtitle: "“云鲸，天境中温和而文静的巨型生灵。”"
+			tasks: [{
+				id: "78A39FA4183AE9E4"
+				title: "云鲸"
+				type: "checkmark"
+			}]
+			x: 14.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6ED9FD31E6E9A0CB"]
+			description: ["为天境动物按上鞍，骑着它们翱翔于云朵之间吧"]
+			id: "509703F7A5AE3449"
+			subtitle: "骑上会飞的坐骑"
+			tasks: [{
+				id: "0433458D15821235"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"0F59DDE1C945BB08"
+				"5524B0C6882ADC9E"
+				"55EF90512EC85CCD"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"经历了重重险阻，你摧毁了滑动魔石，击败了武神女王，消灭了烈阳巨灵。"
+				"而随着烈阳巨灵的消亡，天境的昼夜循环恢复正常。"
+				""
+				"&l现在你已经是当之无愧的天境之主&r&o&n"
+			]
+			id: "61B39DA71D030850"
+			rewards: [{
+				id: "74BA617D758FAC4A"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "即使引导已经破碎，你依然成为了天境的王"
+			tasks: [{
+				id: "3F96E4EA03F54A53"
+				title: "天境之主"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -25.5d
+		}
+		{
+			dependencies: ["6ED9FD31E6E9A0CB"]
+			description: [
+				"恐鸟是天境中的友善生物，这是一种在天境空屿上十分常见的高大动物。是往返于空屿之间的交通坐骑。"
+				""
+				"相比于天境中的其它可能的坐骑，恐鸟的移动速度更快，更重要的是，它的起飞模式并非一口气跳到顶接下来只能滑翔，而是可以在空中再次振翅提升高度，从而能更好地利用天空中的各种境云，更好地在天境各处飞翔。"
+				""
+				"野生的恐鸟拥有35点生命值。虽然属于友善生物，但恐鸟实际上无法被玩家驯服。这些高大的动物常常会在空屿上四处走动，却很少主动飞行。它们会下蛋，而玩家可以收集这些恐鸟蛋，作为驯养恐鸟的必需物。"
+				""
+				"玩家无法与野生恐鸟进行任何形式的互动，包括驯服、投喂都是不行的。也就是说，玩家无法使用一般动物的方式来为野生恐鸟进行人工繁殖。"
+			]
+			id: "7C1C97A54D735571"
+			subtitle: "恐鸟，友善而健壮的高大怪鸟。”"
+			tasks: [{
+				id: "580362E5CE1EEFAA"
+				title: "恐鸟养殖！"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7C1C97A54D735571"]
+			description: [
+				"恐鸟蛋不能像鸡蛋那样被投掷，但可以放进孵化器进行孵化。"
+				""
+				"把收集来的恐鸟蛋和神能火把塞进孵化器即可开始孵化。孵化完成后，一只对应颜色的幼年恐鸟会生成在孵化器上方。"
+			]
+			id: "5AE35FD915E25EF0"
+			rewards: [{
+				id: "439CE4A08C516F31"
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "551A533103968678"
+				item: "aether:incubator"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5AE35FD915E25EF0"]
+			description: ["黑恐鸟可以在空中振翅8次——这是最好和最罕见的恐鸟。"]
+			id: "2EAE079452237DDE"
+			tasks: [{
+				id: "4EC1126D8716E4F2"
+				item: "aether:black_moa_egg"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5AE35FD915E25EF0"]
+			dependency_requirement: "one_completed"
+			description: ["橙恐鸟虽然只能在空中振翅2次，但速度极快。这种恐鸟很常见。"]
+			id: "097EB83613B77945"
+			tasks: [{
+				id: "37F1A2FEEC25F7E6"
+				item: "aether:white_moa_egg"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5AE35FD915E25EF0"]
+			description: ["蓝恐鸟可以在空中振翅3次。这是最常见的恐鸟。"]
+			id: "71430B39DB4861C6"
+			tasks: [{
+				id: "647EF50C08C1269A"
+				item: "aether:blue_moa_egg"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["097EB83613B77945"]
+			description: ["这种花瓣是恐鸟们最喜爱的食物之一。你可以使用它们来喂养你的恐鸟"]
+			id: "4AD38178CFBC724F"
+			subtitle: "恐鸟的最爱"
+			tasks: [{
+				count: 8L
+				id: "4C44746A61090897"
+				item: { Count: 8b, id: "aether:aechor_petal" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			description: [""]
+			id: "3375F45609C09938"
+			tasks: [{
+				id: "6D2662D83C340251"
+				title: "天境美食"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["097EB83613B77945"]
+			description: [
+				"一个紫晶石和一个天根木棍合成。"
+				""
+				"可以让驯服的恐鸟坐下来。"
+			]
+			id: "7559CAB5C08FD6F5"
+			tasks: [{
+				id: "4A5FB283F00F1980"
+				item: {
+					Count: 1b
+					id: "aether:nature_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"蓝莓是天境中一种较为常见的食物，在空屿表层常常可以见到成丛的蓝莓灌木。"
+				""
+				"玩家可以通过采收蓝莓灌木来收获这种食物；同时蓝莓灌木也可以通过神沃空叶草方块进行增产。除去直接食用外，这些蓝莓还可以放入神能炉中使用神能晶片进行烧制，可得到神饯蓝莓。"
+			]
+			id: "392C1CC2877F7174"
+			rewards: [{
+				id: "4028DDE4BE7B8005"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "“天境蓝莓，不要998”"
+			tasks: [{
+				id: "14A421FA03C2F9B4"
+				item: "aether:blue_berry"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"神饯蓝莓由蓝莓在神能炉中经由神能晶片烧制处理而成，是经过神能润泽后的沉甸甸的蓝莓果实。"
+				""
+				"玩家通过食用这种蓝莓可以恢复8点饥饿值，9点饱和度。虽然这种食物的制作相对昂贵，但通过食用神饯蓝莓，可以大幅度减少玩家进食的频率"
+			]
+			id: "06AF00990D71854E"
+			rewards: [{
+				id: "60D65124B83CD188"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "“你确定这不是镀金蓝莓？\""
+			tasks: [{
+				id: "751C614110B32DBC"
+				item: "aether:enchanted_berry"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"药剂苹果是天境中的一种食物，通过破坏结果的水晶树叶获得。"
+				""
+				"虽然食用这种苹果并不会补充任何饱食度，但它们是目前已知的解除天境中致命毒素的解药之一。"
+				""
+				"玩家食用这种苹果后，会解除玩家身上的“麻醉”（Inebriation）效果，并获得一段时间的免疫。"
+			]
+			id: "5BFC9E52AFF67BFB"
+			rewards: [{
+				id: "7CD0BDF74193B24F"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "“这个苹果里面有药剂？我怎么没吃出来呢”"
+			tasks: [{
+				id: "58471A010B9D29C4"
+				item: "aether:white_apple"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"天蓝史维特果冻是天境中一种较为特殊的食物。玩家可以在地下城中的箱子里找到它们。"
+				""
+				"这种果冻是一种非常充饥的食品。食用它足以将玩家的饥饿槽瞬间回复至满格。"
+				""
+				"考虑到其所能恢复的巨额饱食度，玩家无论是将其作为战斗中的应急食品还是在长途跋涉后用来快速恢复的充饥食物都十分有用。"
+			]
+			id: "14B50AE8F2C5F888"
+			rewards: [{
+				id: "008E8C807096E49D"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "“弹弹的，有种顺滑的口感”"
+			tasks: [{
+				id: "473E213AC7D97B31"
+				item: "aether:blue_gummy_swet"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"金黄史维特果冻是天境中一种较为特殊的食物。玩家可以在地下城中的箱子里找到它们。"
+				""
+				"这种果冻是一种非常充饥的食品。玩家食用它后可以直接将玩家的饥饿槽瞬间回复至满格。"
+				""
+				"考虑到其所能恢复的巨额饱食度，玩家无论是将其作为战斗中的应急食品还是在长途跋涉后用来快速恢复的充饥食物都十分有用。"
+			]
+			id: "5D315DC42242E446"
+			rewards: [{
+				id: "77C956D932E54E94"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "“你不要学镀金蓝莓一样镀金啊”"
+			tasks: [{
+				id: "100FB235F1A85013"
+				item: "aether:golden_gummy_swet"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"姜饼人是天境中的一种特殊食物，食用后可回复2点饥饿值。"
+				""
+				"通过打开礼物盒，玩家有几率可以得到这种食物。由于该食物回复饥饿值极低，故不推荐玩家将其作为主要食物。"
+			]
+			id: "3F4D22E4F4A2D5D5"
+			rewards: [{
+				id: "74ADAC22F7BE5580"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "“圣诞节才能吃到的美食”"
+			tasks: [{
+				id: "5F9D99BF2048B606"
+				item: "aether:gingerbread_man"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"拐杖糖是天境中的一种特殊食物，食用后可回复2点饥饿值。"
+				""
+				"该食物获取方式极不稳定，通过打开礼物，玩家有几率可以获得这种食物；使用拐杖糖剑击杀生物也有几率掉落这种食物。"
+			]
+			id: "2B6EC94E0F8F69EF"
+			rewards: [{
+				id: "32DB05D04669CCBB"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "“这么说，拐杖糖剑其实也能吃？”"
+			tasks: [{
+				id: "15EEADF4E97FB6BE"
+				item: "aether:candy_cane"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"用神能炉冶炼圣石获得，经过神能润泽后，圣石变成了可食用的灵石。"
+				""
+				"虽然不会回复任何饥饿值或饱食度，但玩家食用它后，会获得30秒的生命回复BUFF效果。"
+				""
+				"因为其制作原材料十分常见的缘故，这种特别的价值低廉的“食物”可以用作可靠的治疗来源，提供再生。另外，根据传说设定，你不必担心生啖石块是否会带来什么问题；因为，它的味道尝起来其实十分美味多汁。"
+			]
+			id: "67C9BB2E6B570E2D"
+			rewards: [{
+				id: "68B7874EA5CE4FE5"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "“这个东西，它真的不会硌牙吗”"
+			tasks: [{
+				id: "5BB37D663897B147"
+				item: "aether:healing_stone"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 0.0d
+		}
+		{
+			description: ["和某些东西的计算冲突，禁用了。"]
+			id: "50ABBA501F2B3B9D"
+			subtitle: "“天境真正的宝物”"
+			tasks: [{
+				id: "7F9FC1BA23917DCD"
+				item: "aether:life_shard"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["192AE2236356EEB6"]
+			description: [
+				"冰冻器是天境的一种效用型方块，正如其名，这种设备被用来执行冷冻操作。"
+				""
+				"冰冻器由冰石来为其提供能量。玩家可以使用这台设备来冷冻各种物品，例如寒风境云或水桶。"
+				""
+				"玩家将需要进行冷冻的物品放入上层，将驱动来源冰石置于下方，冰冻器就会被启动。冰冻过程需要一段时间，但玩家可以通过于冰冻器下放置一块冰石来加速这个过程。"
+			]
+			id: "53D01C8EE3059AE8"
+			rewards: [{
+				id: "6872CCA63FABC616"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "“熔炉的远亲”"
+			tasks: [{
+				id: "067A2D1FBA207CBA"
+				item: "aether:freezer"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			description: ["天境的神奇生物，并不都是友善的"]
+			id: "7E2C65610D7C7635"
+			subtitle: "“该打怪了”"
+			tasks: [{
+				id: "38C0C44DED0AD116"
+				title: "讨伐天境中的怪物"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"史维特是天境中较为常见的半敌对生物，多常见于空屿表面，拥有25点生命值。"
+				""
+				"在天境初代、天境往事系列中，玩家可以找到两种不同配色的史维特。"
+				""
+				"这些烦人的小东西并不会对玩家造成伤害，但是它们一旦发现玩家接近，就会前来追赶玩家。在接近玩家后，它们会将玩家“吞入体内”，随后高高跃起进行自杀式摔落攻击。玩家可以选择狂按Lshift来尝试挣脱。"
+				""
+				"击杀天蓝色史维特，会掉落1颗史维特球，1个天蓝境云。"
+				""
+				"击杀黄色史维特，会掉落1个荧石。"
+			]
+			id: "1C90E3CDA20C9216"
+			tasks: [
+				{
+					entity: "aether:blue_swet"
+					id: "39A5B38AAEDA244E"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "aether:golden_swet"
+					id: "79AED8C8C0DE6F10"
+					type: "kill"
+					value: 3L
+				}
+			]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"鸡蛇是天境中的一种敌对生物。根据设定，它们是被“枯萎病”感染而发生变异的恐鸟种群。"
+				""
+				"作为天境维度的常见敌对生物，鸡蛇仅在天境维度中亮度小于7的地域生成。它们有着与恐鸟相似的外形，使用毒针进行远程攻击。尽管它们并不畏惧阳光，但在白天似乎有主动寻找庇荫处的倾向。"
+				""
+				"这种生物拥有20点生命值，在被杀死后会掉落1-3根羽毛。"
+			]
+			id: "42F5F2BBCC62E066"
+			subtitle: "“当夜幕降临，这些恶劣的感染者们从它们肮脏的栖身处中爬出来，在被黑暗笼罩的大地上横行。”"
+			tasks: [{
+				entity: "aether:cockatrice"
+				id: "797B46B1EA4894A7"
+				type: "kill"
+				value: 5L
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"西风啸云是天境中的一种敌对生灵，在天境澄亮的天空中经常能见到它们的身影。它们是风元素的化身，拥有强大的运用风与空气元素的能力。"
+				""
+				"这些元素生灵游荡于天境的高空中，通常会生成于境云云团之上。"
+				""
+				"在发现玩家后，它们会向上抬升，蓄力一段时间后，会吹出类似雪球大小的“云团”，飞行速度较慢。云团命中玩家后并不会造成伤害，但会产生击退效果，有时玩家还会被“吹飞”到离开地面2-5米的距离。"
+				""
+				"对于探索天境的玩家来说，它们的威胁并不算大，只有当玩家位于浮岛边缘或速沙之上时，需要稍稍注意成群的西风，避免被它们吹下浮岛。它们仅有5点生命值，较容易被消灭。任何形式的剑类武器都可以一击干掉它们，弹道几乎不受重力影响的吹箭筒更是它们的克星。"
+				""
+				"当玩家消灭它们后，它们会掉落0-2个寒风境云。"
+			]
+			id: "52217E0950164DB2"
+			subtitle: "“天穹中游荡的元素造就了这些生灵。‎这些柔和而无情的微风被称为西风啸云。”"
+			tasks: [{
+				entity: "aether:zephyr"
+				id: "02FC07F45404C07C"
+				type: "kill"
+				value: 10L
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"箭毒花是生长于天境中的一种实体型植物。"
+				""
+				"箭毒花生长在空叶草方块之上，拥有15点生命值。因为其本质上是一种植物，故这种实体并不会移动；当其下的方块被破坏时，箭毒花便会死亡。玩家可以在空屿表面任何地方发现这种实体型植物。"
+				""
+				"当玩家过于接近箭毒花时，它们便会向玩家发射毒刺，和鸡蛇一样，玩家一旦被刺中就会被施加名为“毒性迷醉”的类中毒效果。实际上，箭毒花存在尺寸大小的不同，虽然在大部分情况下，这些尺寸的差异可能很难被注意到。"
+				""
+				"玩家可以使用天根木桶来收集它的毒液；当玩家消灭它后，会得到箭毒花的花瓣。"
+			]
+			id: "77346AC8DA1EAD46"
+			tasks: [{
+				entity: "aether:aechor_plant"
+				id: "268AA7334B1AEFAE"
+				type: "kill"
+				value: 5L
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"拟箱怪是天境系列中的敌对生物之一，在自然生成状态下会伪装成普通箱子的外形。"
+				"当玩家与拟箱怪的伪装产生任何形式的互动时，它们便会从伪装中现身，张着大嘴扑向玩家。它们拥有40点生命值，可以对玩家造成3-5点伤害，一般无法一击击杀，因而会有玩家被它们打个措手不及。"
+				""
+				"它们拥有0.28的移动速度，8的视野范围。"
+				""
+				"被击杀后，它们会发出箱子关闭的音效，掉落1个箱子，并随机掉落一些其他奖励箱里的一些东西。"
+			]
+			id: "008C0EA75374FDC7"
+			tasks: [{
+				entity: "aether:mimic"
+				id: "28221E7F82BE6FA8"
+				type: "kill"
+				value: 5L
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"女武神是天境系列中的半敌对NPC，在天境初代、天境往事中，多常见于武神族神庙。"
+				""
+				"她们是武神族战士，身材高大，手持长剑，擅长战斗，拥有50点生命值。"
+				""
+				"她们并不会主动攻击玩家，玩家甚至可以和她们对话，她们对于作为冒险者而前来的玩家态度亦是相对友善。但若玩家对她们不敬，她们亦会予以反击。她们可以对玩家造成10点攻击伤害，拥有0.5的移动速度，8的视野范围；同时，若玩家距离过远或试图躲藏起来，她们会飞行或瞬移至玩家身边。可以说，一旦玩家惹怒了一名女武神，就很难再次脱身，除非玩家将她们击败，或被她们杀死。"
+				""
+				"在玩家击败她们后，她们会承认玩家的实力，并给予玩家1枚胜利奖牌，作为玩家挑战武神女王的信物。"
+			]
+			id: "7F1AC75381816B9C"
+			subtitle: "女武神的力量根据她们的能力分为几类，并与阿肯祖斯意志相关联，这是通过高等女王的广博冥想和判断进行确定的。”——《天境传说》"
+			tasks: [{
+				entity: "aether:valkyrie"
+				id: "594FA9AC5727A3C2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"炎阳巨灵受伤时召唤。"
+				""
+				"生命值40点，攻击力10点，移动速度0.25，视野10。无掉落物"
+			]
+			id: "6BC4D327DC8EAF3C"
+			tasks: [{
+				entity: "aether:fire_minion"
+				id: "14E37F5F60EDDF42"
+				type: "kill"
+				value: 3L
+			}]
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			description: [""]
+			id: "1C618078690680A1"
+			subtitle: "“梦中细腻的口感至今回味无穷”"
+			tasks: [{
+				id: "6685F62EBDB6D338"
+				title: "“香香软软的”"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["1C618078690680A1"]
+			description: [
+				"破坏地上的杂草时有几率掉落。"
+				""
+				"大豆可以用来制作豆浆、豆曲之种以及炒豆子等绝大多数豆腐工艺中的物品。"
+			]
+			id: "4F48E98C78CE94BA"
+			rewards: [{
+				id: "537D72B2CB50B3E9"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "制作豆腐的第一步"
+			tasks: [{
+				id: "0E39FA62668D7B66"
+				item: "tofucraft:seeds_soybeans"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["4F48E98C78CE94BA"]
+			description: ["盐炉可以用于制作盐和盐卤，向盐炉内添加水和燃料，就会产出盐，向里面放入玻璃瓶则可以收集炉内积攒的盐卤"]
+			id: "321C445BB4A8776D"
+			rewards: [{
+				id: "3764DC90B6E4751F"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "“盐，不可缺少的调味剂”"
+			tasks: [{
+				id: "19D703B658D11197"
+				item: "tofucraft:salt_furnace"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["321C445BB4A8776D"]
+			description: ["盐田可以用于制作盐，将盐田放在地上，加入水，等待一段时间就可以制成盐，右键收集后，再用玻璃瓶右键，则可以收集盐卤"]
+			id: "0CD63FC50C5BD343"
+			rewards: [{
+				id: "11F7F30B31A72274"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "“更简单的制盐方法”"
+			tasks: [{
+				count: 4L
+				id: "4C4E0779554303A0"
+				item: { Count: 4b, id: "tofucraft:blocksaltpan" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["321C445BB4A8776D"]
+			description: [
+				"将大豆和空桶以及过滤布合成，可以制作成豆奶桶。"
+				"豆奶桶可以右键倒在地上，手持盐卤右键可以将豆奶转换成嫩豆腐。"
+			]
+			id: "74C0F3EE116E0DA8"
+			rewards: [{
+				id: "70F728361C3B9FE6"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "嫩嫩的豆腐"
+			tasks: [
+				{
+					count: 16L
+					id: "095B5039DEB1C828"
+					item: { Count: 16b, id: "tofucraft:tofukinu" }
+					type: "item"
+				}
+				{
+					id: "5A710A76FF4CC87A"
+					item: "tofucraft:bucket_soymilk"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1540DA2883CE3D62"
+					item: { Count: 8b, id: "tofucraft:bittern_bottle" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["74C0F3EE116E0DA8"]
+			description: ["嫩豆腐可以在炉子里烤成烤豆腐，烤豆腐制成的烤豆腐块是进入豆腐世界的重要材料之一。"]
+			id: "18B4686059A272AE"
+			rewards: [{
+				id: "4A0E7966A973E17A"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "“万物皆能烧烤”"
+			tasks: [{
+				count: 16L
+				id: "4F4A95B21AA61628"
+				item: { Count: 16b, id: "tofucraft:tofugrilled" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["74C0F3EE116E0DA8"]
+			dependency_requirement: "one_completed"
+			description: [
+				"将嫩豆腐块上方和下方放上石头，等待一段时间，即可转化为石豆腐"
+				"同理，放上铁块，则需要更久的时间来转化为刚豆腐"
+			]
+			id: "18A9FF693C45A36B"
+			rewards: [{
+				id: "0381CD2E04E30029"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "“这个硬度你确定这还是豆腐？”"
+			tasks: [
+				{
+					count: 4L
+					id: "038BC8F08170B059"
+					item: { Count: 4b, id: "tofucraft:tofumetal" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5AAF53B7BEF2D27E"
+					item: { Count: 8b, id: "tofucraft:tofuishi" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["18B4686059A272AE"]
+			description: [
+				"用豆腐制成相应的豆腐武器，使用豆腐武器击败豆腐史莱姆会有几率掉落通往豆腐世界的钥匙——豆腐魔杖 "
+				""
+				"当然，可以在遗迹中找到"
+			]
+			id: "2859FA17D7BE13D5"
+			rewards: [{
+				id: "386B1CC0EA7CFB04"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "“为什么豆腐史莱姆身体里面能塞下这个”"
+			tasks: [{
+				id: "4D74104C2F6C79D5"
+				item: {
+					Count: 1b
+					id: "tofucraft:tofustick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["15F8154127CFE150"]
+			description: ["通过烈焰粉和煤炭，可以合成荧石"]
+			id: "2DC0DC469EADE8BC"
+			tasks: [{
+				id: "3A3773334F26AE18"
+				title: "荧石的获得方法"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"18B4686059A272AE"
+				"2859FA17D7BE13D5"
+			]
+			description: [
+				"将烤豆腐块摆成类似于末地传送门的样子，在内部的底部也放上一层烤豆腐，然后用豆奶填充满，随后使用豆腐魔杖右键，就可以开启通往豆腐世界的传送门"
+				""
+				"2x2的框架也可以成功开启豆腐传送门"
+			]
+			id: "43A197FBDB68F037"
+			rewards: [{
+				id: "5D070C42B146AC4F"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "“开启通往豆腐世界的大门”"
+			tasks: [{
+				count: 21L
+				id: "423868130E790FDB"
+				item: { Count: 21b, id: "tofucraft:blocktofugrilled" }
+				type: "item"
+			}]
+			title: "收集材料"
+			x: -2.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["43A197FBDB68F037"]
+			description: [
+				"全部由豆腐和豆奶组成的世界。"
+				""
+				"地面上不光有各种豆腐生物，还有豆腐村和豆腐之森。"
+				""
+				"地表下还会稀有地生成其他世界没有的钻石豆腐矿石，以及废矿坑。"
+				""
+				"与地狱不同，可以在豆腐世界睡觉。死在豆腐世界的话，还可以重生在豆腐世界。"
+				""
+				"基本不刷通常世界的生物，而是替换为生成豆腐生物。"
+				""
+				"豆腐村庄里住着豆腐娘"
+			]
+			id: "5284A8F9ED86F815"
+			rewards: [{
+				id: "16C30B1D3CC8B432"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "“一眼望去，尽是豆腐”"
+			tasks: [{
+				dimension: "tofucraft:tofu_world"
+				id: "32EA25ECBBBC8FB1"
+				type: "dimension"
+			}]
+			title: "豆腐世界"
+			x: -2.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["5284A8F9ED86F815"]
+			description: ["少年，为了成为豆腐王而努力吧!"]
+			id: "19FB5B17A84D27DC"
+			subtitle: "“我要成为豆腐大师！”"
+			tasks: [{
+				id: "06527BE08E523E67"
+				title: "收集全部的豆腐"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 27.0d
+		}
+		{
+			id: "0B519135810753F4"
+			tasks: [{
+				count: 10L
+				id: "3E3BFD347B0B5E94"
+				item: { Count: 10b, id: "tofucraft:tofukinu" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 27.0d
+		}
+		{
+			id: "6279943DDD51992E"
+			tasks: [{
+				count: 10L
+				id: "3211F978B5273F1A"
+				item: { Count: 10b, id: "tofucraft:tofumomen" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 27.0d
+		}
+		{
+			id: "24E097CF5941E8B8"
+			tasks: [{
+				count: 10L
+				id: "0EC79DF8A3B4D34C"
+				item: { Count: 10b, id: "tofucraft:tofuishi" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 27.0d
+		}
+		{
+			id: "55FDEAAB01318E21"
+			tasks: [{
+				count: 10L
+				id: "3BBA215A15163900"
+				item: { Count: 10b, id: "tofucraft:tofumetal" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 27.0d
+		}
+		{
+			id: "6E1FC99854C1F469"
+			tasks: [{
+				count: 10L
+				id: "32E077EC3CC3F84D"
+				item: { Count: 10b, id: "tofucraft:tofudiamond" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 27.0d
+		}
+		{
+			id: "2A202252DC95004E"
+			tasks: [{
+				count: 10L
+				id: "65AE86BCEC62046B"
+				item: { Count: 10b, id: "tofucraft:tofuhell" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 27.0d
+		}
+		{
+			id: "1F2D4FF82A7A45DE"
+			tasks: [{
+				count: 10L
+				id: "0071B4FAB9FA7C3B"
+				item: { Count: 10b, id: "tofucraft:tofusoul" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 27.0d
+		}
+		{
+			id: "68292D99EEC4A0E1"
+			tasks: [{
+				count: 10L
+				id: "3277DAFBC3146325"
+				item: { Count: 10b, id: "tofucraft:tofumiso" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: 27.0d
+		}
+		{
+			id: "2578E5EA245F0610"
+			tasks: [{
+				count: 10L
+				id: "39CA3D71884C2958"
+				item: { Count: 10b, id: "tofucraft:tofufried_pouch" }
+				type: "item"
+			}]
+			x: -16.0d
+			y: 27.0d
+		}
+		{
+			id: "1AB53B6086429863"
+			tasks: [{
+				count: 10L
+				id: "10FE1503848345D7"
+				item: { Count: 10b, id: "tofucraft:smoketofu" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 28.0d
+		}
+		{
+			id: "5193960560FB0A45"
+			tasks: [{
+				count: 10L
+				id: "45830BA8D790112D"
+				item: { Count: 10b, id: "tofucraft:tofusesame" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 28.0d
+		}
+		{
+			id: "0441C53AA8894414"
+			tasks: [{
+				count: 10L
+				id: "47B084BA80860F11"
+				item: { Count: 10b, id: "tofucraft:tofustrawberry" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 28.0d
+		}
+		{
+			id: "4BF9615FC1EBF4A1"
+			tasks: [{
+				count: 10L
+				id: "2BA0BBC6FB59374F"
+				item: { Count: 10b, id: "tofucraft:tofuzunda" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 28.0d
+		}
+		{
+			id: "6A07642AB83AEACC"
+			tasks: [{
+				count: 10L
+				id: "1F28C938D026ED18"
+				item: { Count: 10b, id: "tofucraft:tofuegg" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 28.0d
+		}
+		{
+			id: "026236ECC5F3D3E3"
+			tasks: [{
+				count: 10L
+				id: "40D4033097D3E718"
+				item: { Count: 10b, id: "tofucraft:tofudried" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: 28.0d
+		}
+		{
+			id: "03466F9D9E20ACFC"
+			tasks: [{
+				count: 10L
+				id: "5CF71DAE6EA95AC9"
+				item: { Count: 10b, id: "tofucraft:tofufried" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 28.0d
+		}
+		{
+			id: "0020B87C3C2EEBD6"
+			tasks: [{
+				count: 10L
+				id: "1953BD3D7CF810B8"
+				item: { Count: 10b, id: "tofucraft:tofuannin" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["5284A8F9ED86F815"]
+			id: "2CD02DD1CB0F91D3"
+			subtitle: "“豆腐科技，震撼人心”"
+			tasks: [{
+				id: "75954428C45B1B0F"
+				title: "豆腐机器"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 27.0d
+		}
+		{
+			description: [
+				"向豆腐能转化器内放入豆腐，可以将豆腐转化为豆腐能。"
+				"若放入豆腐工具或者装备，则会消耗豆腐能修复豆腐装备"
+			]
+			id: "0254E9F7FAB363CC"
+			rewards: [{
+				id: "4BDD61C13B454008"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "“豆腐机器之力”"
+			tasks: [{
+				id: "67ED6D04BA0861B6"
+				item: "tofucraft:tf_storage"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 27.0d
+		}
+		{
+			id: "4DABE10E54014C9E"
+			tasks: [{
+				count: 10L
+				id: "4460550DF130EBBF"
+				item: { Count: 10b, id: "vegandelight:minced_tofu" }
+				type: "item"
+			}]
+			x: -16.0d
+			y: 28.0d
+		}
+		{
+			description: ["钢豆腐盾可以储存豆腐能，当反弹弹射物或是格挡时，会优先消耗豆腐能而不是耐久"]
+			id: "70C1BB343AF860BE"
+			rewards: [{
+				id: "0984BAEECA1FB8F2"
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "2DEF671F7B9AACA5"
+				item: {
+					Count: 1b
+					id: "tofucraft:reflect_tofu_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 28.0d
+		}
+		{
+			dependencies: ["5284A8F9ED86F815"]
+			id: "388EC195AFCC51E8"
+			subtitle: "“豆腐制作的甲，这玩意真的有防护性能吗？”"
+			tasks: [{
+				id: "16EAAA5EC76E947A"
+				title: "豆腐盔甲"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 34.0d
+		}
+		{
+			id: "1910799695839A92"
+			tasks: [{
+				id: "49417355886FE8DC"
+				item: {
+					Count: 1b
+					id: "tofucraft:tofu_kinu_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 33.0d
+		}
+		{
+			id: "18E6A07F38B73762"
+			tasks: [{
+				id: "166BA001D16D22A6"
+				item: {
+					Count: 1b
+					id: "tofucraft:tofu_kinu_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 34.0d
+		}
+		{
+			id: "7155B034FB4B4CD5"
+			tasks: [{
+				id: "6F18CAD65F7664BF"
+				item: {
+					Count: 1b
+					id: "tofucraft:tofu_kinu_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 35.0d
+		}
+		{
+			id: "44F32AF26222CB96"
+			tasks: [{
+				id: "0280D23B5C66D2A7"
+				item: {
+					Count: 1b
+					id: "tofucraft:tofu_kinu_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 36.0d
+		}
+		{
+			id: "3CAFC2D7998171D0"
+			tasks: [{
+				id: "4184869F2B59E066"
+				item: {
+					Count: 1b
+					id: "tofucraft:tofu_momen_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 33.0d
+		}
+		{
+			id: "0489602A3A0ED130"
+			tasks: [{
+				id: "391D8DFF1DCEFD26"
+				item: {
+					Count: 1b
+					id: "tofucraft:tofu_solid_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 33.0d
+		}
+		{
+			id: "20A0CC1CA793F54F"
+			tasks: [{
+				id: "36B28BC771D83471"
+				item: {
+					Count: 1b
+					id: "tofucraft:tofu_metal_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 33.0d
+		}
+		{
+			id: "1F095412FD8E2170"
+			tasks: [{
+				id: "2319F40EECC403E2"
+				item: {
+					Count: 1b
+					id: "tofucraft:tofu_diamond_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 33.0d
+		}
+		{
+			id: "401674D693501565"
+			tasks: [{
+				id: "1886BB06276C242C"
+				item: {
+					Count: 1b
+					id: "tofucraft:sculk_bone_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 33.0d
+		}
+		{
+			id: "5C1BCA1B6107DB68"
+			tasks: [{
+				id: "18F1F9B4332B9030"
+				item: {
+					Count: 1b
+					id: "tofucraft:tofu_momen_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 34.0d
+		}
+		{
+			id: "0380A9AB776F0AA7"
+			tasks: [{
+				id: "3121447C1F0F93D5"
+				item: {
+					Count: 1b
+					id: "tofucraft:tofu_solid_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 34.0d
+		}
+		{
+			id: "27ACDCA472D9B151"
+			tasks: [{
+				id: "3B8111B7B65E957A"
+				item: {
+					Count: 1b
+					id: "tofucraft:tofu_metal_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 34.0d
+		}
+		{
+			id: "13607603414316CC"
+			tasks: [{
+				id: "33FDF6BBB5FCB39A"
+				item: {
+					Count: 1b
+					id: "tofucraft:tofu_diamond_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 34.0d
+		}
+		{
+			id: "40546F26355BD020"
+			tasks: [{
+				id: "40B3CF53B1663E0D"
+				item: {
+					Count: 1b
+					id: "tofucraft:sculk_bone_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 34.0d
+		}
+		{
+			id: "70ECF323E625B26C"
+			tasks: [{
+				id: "15F0A40CB12AFF4E"
+				item: {
+					Count: 1b
+					id: "tofucraft:tofu_momen_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 35.0d
+		}
+		{
+			id: "71FE806806EA3964"
+			tasks: [{
+				id: "53BD14D101B4E3A3"
+				item: {
+					Count: 1b
+					id: "tofucraft:tofu_solid_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 35.0d
+		}
+		{
+			id: "494FA7475B7D513E"
+			tasks: [{
+				id: "377664E891A78EE7"
+				item: {
+					Count: 1b
+					id: "tofucraft:tofu_metal_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 35.0d
+		}
+		{
+			id: "2014C41F94958414"
+			tasks: [{
+				id: "680606CDF1FD9DA3"
+				item: {
+					Count: 1b
+					id: "tofucraft:tofu_diamond_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 35.0d
+		}
+		{
+			id: "6A12B2EAAC991F0F"
+			tasks: [{
+				id: "6DFCAA807076F6FE"
+				item: {
+					Count: 1b
+					id: "tofucraft:sculk_bone_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 35.0d
+		}
+		{
+			id: "7FCF632BD9E19F40"
+			tasks: [{
+				id: "3DA573AA784E51F9"
+				item: {
+					Count: 1b
+					id: "tofucraft:tofu_momen_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 36.0d
+		}
+		{
+			id: "67AFAF7F439A142E"
+			tasks: [{
+				id: "78F7DECD6C5D46AE"
+				item: {
+					Count: 1b
+					id: "tofucraft:tofu_solid_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 36.0d
+		}
+		{
+			id: "25F798661C7400DA"
+			tasks: [{
+				id: "683CBDAECC91E4E1"
+				item: {
+					Count: 1b
+					id: "tofucraft:tofu_metal_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 36.0d
+		}
+		{
+			id: "00F7DDA96A22EFAD"
+			tasks: [{
+				id: "6C9A9CE73FABBABB"
+				item: {
+					Count: 1b
+					id: "tofucraft:tofu_diamond_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 36.0d
+		}
+		{
+			id: "5BAA33A248C5171D"
+			tasks: [{
+				id: "2D2BFA4177645A41"
+				item: {
+					Count: 1b
+					id: "tofucraft:sculk_bone_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 36.0d
+		}
+		{
+			description: [
+				"由嫩豆腐块合成的防具"
+				""
+				"不会产生耐久损耗"
+			]
+			id: "656B9532422FFA1D"
+			subtitle: "“你为什么要穿这样一身去战斗？”"
+			tasks: [{
+				id: "23CD7A7D281F885D"
+				title: "嫩豆腐套装"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 37.0d
+		}
+		{
+			description: ["由豆腐块合成的防具"]
+			id: "19ECA4678BCD3DE2"
+			subtitle: "“相较于前者，这次起码好了一点”"
+			tasks: [{
+				id: "19BA2C2D6850A05A"
+				title: "豆腐套装"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 37.0d
+		}
+		{
+			description: ["由石豆腐合成的防具"]
+			id: "3C4E7ADC593272D7"
+			subtitle: "“虽然这是豆腐，但是你不觉得这很重吗”"
+			tasks: [{
+				id: "5C57CBA34E20F13C"
+				title: "石豆腐套装"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: 37.0d
+		}
+		{
+			description: ["由钢豆腐块合成的防具"]
+			id: "113EB33D453B50F0"
+			subtitle: "“你确定你身上穿的是豆腐而不是铁套？”"
+			tasks: [{
+				id: "5C09CB42E655455F"
+				title: "钢豆腐套装"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 37.0d
+		}
+		{
+			description: [
+				"由钻石豆腐块合成的防具"
+				""
+				"当玩家穿戴在身上时，免疫“失明”、\"反胃\"效果"
+				""
+				"在已获得buff情况下穿戴装备无法免疫buff效果"
+			]
+			id: "641D8F749716B8F7"
+			subtitle: "“豆腐世界的终极铠甲”"
+			tasks: [{
+				id: "29D642ED48C3B3C9"
+				title: "钻石豆腐套装"
+				type: "checkmark"
+			}]
+			x: -12.0d
+			y: 37.0d
+		}
+		{
+			id: "52FAB0E31657B006"
+			subtitle: "“它真的存在吗”"
+			tasks: [{
+				id: "761CFE43DB685D22"
+				title: "幽匿豆腐套装"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: 37.0d
+		}
+		{
+			dependencies: ["5284A8F9ED86F815"]
+			id: "6113BA883F4F17AB"
+			tasks: [{
+				id: "6AAD3011CE79E25D"
+				title: "豆腐武器"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 34.0d
+		}
+		{
+			description: ["一种投掷武器，攻击方式为丢出3到4发豆子攻击敌人"]
+			id: "403419CF2C1D178F"
+			rewards: [{
+				id: "735E79B3B11BF990"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "“把豆子炒成高温，再狠狠地呼在敌人连上”"
+			tasks: [{
+				id: "23240D4A69B82CCB"
+				item: {
+					Count: 1b
+					id: "tofucraft:fukumame"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 32.5d
+		}
+		{
+			id: "4747D2AB411390E3"
+			rewards: [{
+				id: "06E1FAAEC9C532F7"
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "0E70E017B8799A69"
+				item: {
+					Count: 1b
+					id: "tofucraft:nether_fukumame"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 32.5d
+		}
+		{
+			id: "066C9F4D42B8F102"
+			rewards: [{
+				id: "461CF2FA7E9E54FE"
+				type: "xp"
+				xp: 3
+			}]
+			tasks: [{
+				id: "49AAB510DA93157E"
+				item: {
+					Count: 1b
+					id: "tofucraft:soul_fukumame"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 32.5d
+		}
+		{
+			description: ["与正常弓一样，唯一不同在于，毛豆弓不造成伤害，而是给被射中的人2分钟左右的生命恢复，该效果不分敌友"]
+			id: "1ABFBB990C900D3A"
+			rewards: [{
+				id: "2AB819B15FAFC15A"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "“善良之弓”"
+			tasks: [{
+				id: "6BC8633CDB3CC931"
+				item: {
+					Count: 1b
+					id: "tofucraft:zunda_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 33.5d
+		}
+		{
+			description: ["右键可以直接挖掉类似于嫩豆腐块,烤豆腐块等豆腐块"]
+			id: "2489BC9072DB2AE9"
+			rewards: [{
+				id: "412BCBEAB6F27186"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "“我吃吃吃”"
+			tasks: [{
+				id: "5E977BD60293C9CC"
+				item: {
+					Count: 1b
+					id: "tofucraft:tofuscoop"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 33.5d
+		}
+		{
+			description: ["右键发出两个长音，可吸引周围的豆腐史莱姆向你靠近"]
+			id: "4BC18E07D397E639"
+			rewards: [{
+				id: "0829F21FA0FF12AC"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "“ok，全体目光向我看齐”"
+			tasks: [{
+				id: "666325ECB50EB5F8"
+				item: "tofucraft:bugle"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 33.5d
+		}
+		{
+			description: ["可以把豆腐和豆腐块碾成碎豆腐，也可以将豆腐做成豆腐拉面。"]
+			id: "1D2A28B6E4930FAD"
+			rewards: [{
+				id: "18A767BC392D3926"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "“做豆腐！”"
+			tasks: [{
+				id: "482C2BDEFD807874"
+				item: "tofucraft:rollingpin"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 34.5d
+		}
+		{
+			dependencies: [
+				"29E4A7B02850D4CD"
+				"4C17E67333A48FA4"
+				"045749A2AD9E0992"
+				"564283B627E668BD"
+				"660AA24C9E68B615"
+				"531A74E147970B2A"
+			]
+			description: [
+				"你只需要副手拿着回响碎片，主手拿着豆腐喇叭长按对着豆腐蜘蛛"
+				"即可召唤臭豆腐蜘蛛"
+			]
+			id: "06824326523F8463"
+			rewards: [{
+				id: "0DA6F9C2A0CE6E38"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“击败它，这个世界就属于你了”"
+			tasks: [{
+				id: "6DAF26219648569F"
+				title: "豆腐世界的大BOSS"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 39.0d
+		}
+		{
+			dependencies: ["5284A8F9ED86F815"]
+			id: "195C8F3E4D97B34B"
+			subtitle: "“你击败了它”"
+			tasks: [{
+				entity: "tofucraft:shudofuspider"
+				id: "01D452AD633A6063"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 41.5d
+		}
+		{
+			dependencies: ["195C8F3E4D97B34B"]
+			description: ["拥有了豆腐世界，在今后的旅途中，就不会再担心缺少吃的了"]
+			id: "401A8BDB7D4F5EFC"
+			subtitle: "“现在这片美味的世界归你了”"
+			tasks: [{
+				id: "641BABDE12700169"
+				title: "豆腐世界的主宰"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 44.5d
+		}
+		{
+			dependencies: ["5284A8F9ED86F815"]
+			id: "4C17E67333A48FA4"
+			tasks: [{
+				entity: "tofucraft:tofucow"
+				id: "2E616C45AEFCB84A"
+				type: "kill"
+				value: 10L
+			}]
+			x: -4.5d
+			y: 36.0d
+		}
+		{
+			dependencies: ["5284A8F9ED86F815"]
+			id: "045749A2AD9E0992"
+			tasks: [{
+				entity: "tofucraft:tofucreeper"
+				id: "40A2FE07C259CEFF"
+				type: "kill"
+				value: 10L
+			}]
+			x: -3.5d
+			y: 36.0d
+		}
+		{
+			dependencies: ["5284A8F9ED86F815"]
+			id: "531A74E147970B2A"
+			tasks: [{
+				entity: "tofucraft:tofufish"
+				id: "62B298CD2C054716"
+				type: "kill"
+				value: 10L
+			}]
+			x: -2.5d
+			y: 36.0d
+		}
+		{
+			dependencies: ["5284A8F9ED86F815"]
+			id: "660AA24C9E68B615"
+			tasks: [{
+				entity: "tofucraft:tofuspider"
+				id: "59321E787A87F98F"
+				type: "kill"
+				value: 10L
+			}]
+			x: -1.5d
+			y: 36.0d
+		}
+		{
+			dependencies: ["5284A8F9ED86F815"]
+			id: "564283B627E668BD"
+			tasks: [{
+				entity: "tofucraft:tofupig"
+				id: "2407146F7A14C613"
+				type: "kill"
+				value: 10L
+			}]
+			x: -0.5d
+			y: 36.0d
+		}
+		{
+			dependencies: ["5284A8F9ED86F815"]
+			id: "29E4A7B02850D4CD"
+			tasks: [{
+				entity: "tofucraft:tofuslime"
+				id: "29FF6DEFA0C1FA03"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.5d
+			y: 36.0d
+		}
+		{
+			description: [
+				"冰火传说的龙在天境不小心掉下虚空会直接消失，不会回到主世界。"
+				"目前暂无修复方案。"
+			]
+			icon: "supplementaries:trapped_present_red"
+			id: "6030060663F01D7F"
+			rewards: [{
+				id: "25DBC463D519B19F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "39F93296AD1D9F06"
+				title: "必看-已知Bug"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			description: ["经验加成带来的伤害加成是额外乘区，可影响至天境boss"]
+			id: "0BD74070A0D834E1"
+			subtitle: "天境boss：“丸辣!”"
+			tasks: [{
+				id: "6EF37B8F95B26271"
+				title: "经验相关补充"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+	]
+	title: "曾在梦中见过"
+}

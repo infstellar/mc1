@@ -1,0 +1,397 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2B3EEAF6875DA9AA"
+	group: "08BC653A362E16DB"
+	icon: "some_assembly_required:chopped_golden_carrot"
+	id: "2B3EEAF6875DA9AA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"恭喜你，成为了一名合格的美食家"
+				"(如果你一个吃够了120种食物还没有获得该成就的话，请注意保持饮食均衡)"
+			]
+			id: "296DEF9A0D4CC29A"
+			rewards: [
+				{
+					id: "5F8AA194E97B4F5C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "792464720A96ED7F"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			subtitle: "“这么说，我尊称您为美食王？”"
+			tasks: [{
+				advancement: "afop:delicious_world_food"
+				criterion: ""
+				icon: "festive_delight:festive_chicken_block"
+				id: "101C4D8EEB68DFF4"
+				title: "品尝 120 种不同的食物"
+				type: "advancement"
+			}]
+			title: "世间美味皆为我有"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"720CE4319878EF95"
+				"69CF6F00B647FA7A"
+				"76F4D8043ED4BE16"
+				"0E14BE9BA3D3A175"
+				"1633064FAD94EE5A"
+				"2E3E9083F4DC605B"
+				"7A2374159A3B20E6"
+				"7EF9AEE55F710326"
+				"03F09C963C525AE2"
+			]
+			description: ["其实彩蛋不用刻意去找，说不定莫名其妙就解锁了"]
+			hide: false
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			id: "5C4938AE953E48CA"
+			rewards: [{
+				id: "43F44637FABE0397"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "46D423F89135F57E"
+				title: "收集所有彩蛋"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			id: "720CE4319878EF95"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "203A34E41F79B1BE"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "afop:sweet_story"
+				criterion: ""
+				id: "7E5D2AA6C7D6F26A"
+				type: "advancement"
+			}]
+			title: "这似乎是个甜美的故事"
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			id: "69CF6F00B647FA7A"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "79E1D6BCEDE514CF"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "“这是应急食物”"
+			tasks: [{
+				advancement: "afop:paimon"
+				criterion: ""
+				id: "738F5B2767029929"
+				type: "advancement"
+			}]
+			title: "这是什么物种？"
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			id: "0E14BE9BA3D3A175"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "0BC2849578875BA4"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "afop:inexplicable_grief"
+				criterion: ""
+				id: "2F7029D44AFF90B9"
+				type: "advancement"
+			}]
+			title: "为何我感到悲伤"
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			id: "76F4D8043ED4BE16"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "364439C6D86DDC54"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "afop:an_old_friend"
+				criterion: ""
+				id: "41B95F8DA5A0058C"
+				type: "advancement"
+			}]
+			title: "我的一位故友..."
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			id: "1633064FAD94EE5A"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "39F2485B44333E2E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "afop:you_on_the_other_side"
+				criterion: ""
+				id: "465D1CED6CC34977"
+				title: "对岸的你，应该很幸福吧"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			id: "2E3E9083F4DC605B"
+			invisible: true
+			invisible_until_tasks: 1
+			tasks: [{
+				advancement: "afop:i_need_you_more"
+				criterion: ""
+				icon: "kubejs:sunny_doll"
+				id: "66BB1E8E9A832BED"
+				title: "比起晴天，我更需要你"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			id: "7A2374159A3B20E6"
+			invisible: true
+			invisible_until_tasks: 1
+			tasks: [{
+				advancement: "afop:dangerous_things"
+				criterion: ""
+				id: "1E427A52F47C9DF3"
+				type: "advancement"
+			}]
+			title: "这个东西很危险"
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			id: "7EF9AEE55F710326"
+			invisible: true
+			tasks: [{
+				advancement: "afop:broken_white_clothes"
+				criterion: ""
+				id: "6AD5601781F50F19"
+				type: "advancement"
+			}]
+			title: "君子立命，一生无悔！"
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"破碎的维度碎裂者，由维度碎裂者放入衣壳体转化而成，对着xz轴方向按住右键挖掘，即可创造一个横跨1000000格的传送门"
+				""
+				"&l去往X轴和Z轴都是-10000000的位置吧，在那里会有新的东西&r&e（为此，你需要连续穿越空间20次以达到目的地）"
+			]
+			id: "3D5CC1F86C8CFB6D"
+			rewards: [{
+				id: "3620EA9E30D9843B"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "“即使是现在，我依然可以抵达境界的彼方”"
+			tasks: [{
+				id: "71B71F577EB6BAB9"
+				item: {
+					Count: 1b
+					id: "alexsmobs:shattered_dimensional_carver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "去往常人无法抵达的地方"
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3D5CC1F86C8CFB6D"]
+			description: ["你抵达了常人无法抵达之地"]
+			id: "223989C228A77E99"
+			invisible: true
+			rewards: [{
+				id: "7E464EABAAE010FF"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "“你最远的旅途也不及此程的十分之一”"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "03A7823F3F4C2028"
+				ignore_dimension: true
+				position: [I;
+					-10000000
+					0
+					-10000000
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				type: "location"
+			}]
+			title: "这里真的还是主世界吗"
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["223989C228A77E99"]
+			description: ["为表嘉奖，神明给予了你末地数十万格外奇特生物的交换权"]
+			id: "4F3135F7B4A2BED8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65EE54D907097E9D"
+				item: "alexsmobs:spawn_egg_farseer"
+				type: "item"
+			}]
+			subtitle: "“这种生物根本不像是神明的造物”"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "756AF05A17845F19"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "瞻远者"
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1340471BDF62DEBE"]
+			description: [
+				"一种功能方块。右击打开GUI，放入任意物品后可以通过每次消耗3级经验将最多一组的同个物品“嬗变”为其他物品，可以进行无限次嬗变操作。"
+				""
+				"嬗变结果遵循战利品表，分为common、uncommon、rare三个不同等级，可以嬗变出的物品各自拥有对应的权重值，这意味着你会更大概率嬗变出特定种类的物品（比如粗铁，镶金黑石，青金石）。rare中权重最低的物品为钻石、复刻凝胶、潜影壳、鹦鹉螺壳，这意味着你无法通过嬗变台无中生有出下界合金，远古残骸等物品。"
+				""
+				"注意：放置嬗变台前请慎重考虑需要放置的位置，否则挖掘它会产生爆炸，不会掉落本身，只会掉落1个下界之星。"
+				""
+				"即使使用了精准采集的工具来挖掘它，也依旧会产生爆炸，发生和上述一样的情况。"
+			]
+			id: "19C16A83E6280F1E"
+			rewards: [{
+				id: "6E29655746E34EDF"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "“万物皆可扭曲”"
+			tasks: [{
+				id: "0ADD673EA0393983"
+				item: "alexsmobs:transmutation_table"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4F3135F7B4A2BED8"]
+			description: ["用于制作嬗变台"]
+			id: "1340471BDF62DEBE"
+			rewards: [{
+				id: "76C38CCB0E4C7AFE"
+				item: "alexsmobs:transmutation_table"
+				type: "item"
+			}]
+			subtitle: "“结合末地与地狱的力量”"
+			tasks: [
+				{
+					count: 4L
+					id: "1F501FAFC49361AF"
+					item: { Count: 2b, id: "alexsmobs:farseer_arm" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "42F6F4EF4166E6F3"
+					item: { Count: 16b, id: "minecraft:obsidian" }
+					type: "item"
+				}
+				{
+					id: "53C840B224C807B4"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			id: "03F09C963C525AE2"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "1E6D34D02B4204BA"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				advancement: "afop:im_not_a_man_anymore"
+				criterion: ""
+				icon: "kubejs:stone_mask"
+				id: "0C85F083DDBEF002"
+				title: "我不做人了！"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			description: ["这是源自创世之初的东西，蕴含了无限的可能。"]
+			id: "482313C2DD57A177"
+			rewards: [{
+				id: "658F299E433F790E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "“这就是权与力吗”"
+			tasks: [{
+				id: "3851344B7186A23F"
+				item: {
+					Count: 1b
+					id: "kubejs:lateinos"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "我掌握了不可思议的力量"
+			x: -2.0d
+			y: -0.5d
+		}
+	]
+	title: "会实现的"
+}

@@ -1,0 +1,429 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "635FD8B577E4EAC4"
+	group: "0E86DB5011D3FCE1"
+	icon: "croptopia:pineapple"
+	id: "635FD8B577E4EAC4"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["755211BFE4CB8B5B"]
+			description: ["热带世界与主世界大体相同，但有着不同的植物，矿物等，且海洋均为热带海洋，其中的怪物也有所不同"]
+			id: "1B3AD536EB954C55"
+			rewards: [{
+				id: "46C7CDEED135C597"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“这地方用来度假再合适不过了”"
+			tasks: [{
+				dimension: "tropicraft:tropics"
+				id: "238465B7D5C1A5D6"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "007C9BDFDC6CBA3A"
+			rewards: [{
+				id: "1F76786DA40C856C"
+				type: "xp"
+				xp: 2
+			}]
+			tasks: [{
+				id: "3C7E3DA562A69F62"
+				title: "打开通往热带世界的传送门"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["007C9BDFDC6CBA3A"]
+			description: [
+				"想要进入热带世界，就需要在黄昏时乘坐沙滩椅并处于遮阳伞下饮下可乐达，若玩家身上存在反胃 debuff (必须是可乐达给予的反胃debuff)，则玩家将被传送至热带世界维度"
+				"黄昏为世界时间12000时,也就是18点左右,可以通过时钟方块准确知晓时间。"
+				"可乐达在神明小商店有卖"
+				""
+				"请注意，进入热带世界后会在主世界沙滩椅处生成一个长宽约10格方块，深8格左右的传送门，&4因此不要将沙滩椅放置于建筑旁边&r"
+			]
+			id: "755211BFE4CB8B5B"
+			rewards: [{
+				id: "435955BE788D5549"
+				item: "tropicraft:pina_colada"
+				type: "item"
+			}]
+			subtitle: "“阳光和沙滩”"
+			tasks: [
+				{
+					id: "667ADDDD31A9E0FF"
+					item: "tropicraft:white_chair"
+					type: "item"
+				}
+				{
+					id: "5E648228DA31FC02"
+					item: "tropicraft:white_umbrella"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["755211BFE4CB8B5B"]
+			description: ["考虑到可乐达给予的时间反胃的时间较短，因此添加一个小兑换"]
+			icon: "tropicraft:pina_colada"
+			id: "6740E66804B5715B"
+			rewards: [{
+				id: "7EA130DA7269C7DF"
+				item: "tropicraft:pina_colada"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "416619ED8DA6666F"
+				item: { Count: 16b, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1B3AD536EB954C55"]
+			description: ["热带世界有着不同于主世界的丰富的热带群系，热带海洋和珊瑚礁遍布热带世界"]
+			id: "5856F1F810E203B1"
+			rewards: [{
+				id: "76DA9F52D3E7B190"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“探险与旅游”"
+			tasks: [{
+				id: "5B796C6EB9904F77"
+				title: "探索并享受热带世界"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3343063B37792579"]
+			description: [
+				"黄色的潜水镜，可以装备在头盔栏上，装备后变为潜水视角，画面左侧会显示深度、氧气含量等信息，右侧会显示方位"
+				""
+				"黄色的潜水袋，可以装备在胸甲栏上。按shift+右键打开gui，可以放入气瓶。一个普通气瓶可以提供53分钟的水下呼吸,一个混合气气瓶可以使用45分钟的水下呼吸"
+				""
+				"黄色的脚蹼，可以装备在靴子栏上，穿戴后玩家在水中会变成潜水状态"
+			]
+			id: "07C230216B014589"
+			rewards: [{
+				id: "0CCFD1D440620470"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“遨游热带海洋”"
+			tasks: [
+				{
+					id: "74A25CCF6E3F1606"
+					item: {
+						Count: 1b
+						id: "tropicraft:yellow_scuba_flippers"
+						tag: {
+							Damage: 0
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+				{
+					id: "028B85A5B7AD3B6D"
+					item: {
+						Count: 1b
+						id: "tropicraft:yellow_scuba_harness"
+						tag: {
+							Damage: 0
+							scuba: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D563CFE98D4449A"
+					item: {
+						Count: 1b
+						id: "tropicraft:yellow_scuba_goggles"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3343063B37792579"]
+			description: [
+				"用鬣蜥鳞合成，和铁头盔相似，穿齐全套鬣蜥装备，将会为玩家提供火焰抗性，玩家能在岩浆中游泳，但这会消耗耐久度。"
+				""
+				"鬣蜥装备可以在热带村民处获得"
+			]
+			id: "734DED501398F8F5"
+			rewards: [{
+				id: "1F2BEED0AEE6BC6B"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“感觉滑溜溜的”"
+			tasks: [
+				{
+					id: "4A10E0C670E09E99"
+					item: {
+						Count: 1b
+						id: "tropicraft:scale_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A18BF58CCD1CD25"
+					item: {
+						Count: 1b
+						id: "tropicraft:scale_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "123EF65FF50A33A9"
+					item: {
+						Count: 1b
+						id: "tropicraft:scale_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A7C05D4A69F66DD"
+					item: {
+						Count: 1b
+						id: "tropicraft:scale_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3343063B37792579"]
+			description: ["右键可以快速清理9格的水"]
+			id: "5E75779D67DC3D35"
+			rewards: [{
+				id: "19BB32A71E8B3840"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“清扫水源的利器”"
+			tasks: [{
+				id: "348F710E7CF69A66"
+				item: {
+					Count: 1b
+					id: "tropicraft:water_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3343063B37792579"]
+			description: ["当物品栏里有热带水桶时，手持渔网对着热带鱼右键，可以将热带鱼放入热带水桶并且生成一个鱼桶"]
+			id: "13834D82D40E741C"
+			rewards: [{
+				id: "204AA90A649B64A2"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“捉鱼达人！”"
+			tasks: [{
+				id: "55D779E6EAB62837"
+				item: "tropicraft:fishing_net"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5856F1F810E203B1"]
+			description: [
+				"将未充满的潜水氧气瓶右键放置在空气压缩机上，空气压缩机会有缩放动画，并且为氧气瓶充气。"
+				""
+				"充满一个气瓶大约需要30分钟"
+			]
+			id: "5431CF655909687F"
+			rewards: [{
+				id: "032844F4E8B56964"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“想要潜水吗”"
+			tasks: [{
+				id: "00752E1A2C4110FB"
+				item: "tropicraft:air_compressor"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5856F1F810E203B1"]
+			description: ["将相应的食材放入饮料搅拌机后"]
+			id: "4E20F8450025B884"
+			rewards: [{
+				id: "09851A14167641BB"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“制成不同口味的饮料”"
+			tasks: [{
+				id: "50223A503A5228A5"
+				item: "tropicraft:drink_mixer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5856F1F810E203B1"]
+			description: ["将筛子放置后，手持沙子右键，就可以将沙子放入后，筛出贝壳、珍珠、水桶等物品"]
+			id: "7C84729BA6A03778"
+			rewards: [{
+				id: "7D54DBF7AAF8D405"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“筛奖时间到”"
+			tasks: [{
+				id: "0F63667902BCCA6B"
+				item: "tropicraft:sifter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5856F1F810E203B1"]
+			description: ["热带世界所特有的宝石和矿物，可以在地下挖掘获得，用以合成热带世界的装备和物品"]
+			id: "3343063B37792579"
+			rewards: [{
+				id: "735F02834D7F4AB9"
+				type: "xp"
+				xp: 4
+			}]
+			subtitle: "“热带世界独有的宝石”"
+			tasks: [
+				{
+					count: 4L
+					id: "4C0FD454D45B46AA"
+					item: { Count: 4b, id: "tropicraft:azurite_gem" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7334ECBF8113A8EC"
+					item: { Count: 4b, id: "tropicraft:zircon_gem" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "36CD8E43FB404F6B"
+					item: { Count: 4b, id: "tropicraft:zirconium_gem" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5D68C02C55CFBB29"
+					item: { Count: 4b, id: "tropicraft:eudialyte_gem" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["755211BFE4CB8B5B"]
+			description: [
+				"右键放置在水面上或者地面后，玩家可以右键浮排躺在上面，并且利用方向键移动。"
+				""
+				"使用不同颜色的羊毛可以合成相应颜色的浮排"
+			]
+			id: "06D124D9AE4B92EC"
+			rewards: [{
+				id: "3B3E638CB8D510D6"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“躺在水面上享受阳光”"
+			tasks: [{
+				id: "47BFAD1D96791DFF"
+				item: "tropicraft:white_beach_float"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5856F1F810E203B1"]
+			description: [
+				"用鬣蜥皮和红木木板合成，也可以在热带原始人的村庄中找到"
+				"小型邦戈鼓右击发出高音调"
+				"中型邦戈鼓右击发出中音调"
+				"大型邦戈鼓右击发出低音调"
+			]
+			id: "3B0D58FD1C615F5D"
+			rewards: [{
+				id: "07E4E521F8E424A4"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“乐器+3”"
+			tasks: [
+				{
+					id: "5D19A04C05C14DA1"
+					item: "tropicraft:small_bongo_drum"
+					type: "item"
+				}
+				{
+					id: "1A4C361EFDD66888"
+					item: "tropicraft:medium_bongo_drum"
+					type: "item"
+				}
+				{
+					id: "5B80D2114FE3BFF5"
+					item: "tropicraft:large_bongo_drum"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -5.5d
+		}
+	]
+	title: "完美的度假圣地"
+}

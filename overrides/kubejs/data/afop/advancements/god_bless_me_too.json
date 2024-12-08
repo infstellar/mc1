@@ -1,0 +1,18 @@
+{
+    "display": {
+      "title": "神明啊，谢谢你...",
+      "description": "下次记得细心一点噢",
+      "icon": {
+        "item": "locusazzurro_icaruswings:icon_badge"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "trigger": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

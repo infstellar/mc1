@@ -1,0 +1,509 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1E89AE1F22D5E1DD"
+	group: "04B9982908550744"
+	icon: "iceandfire:weezer_blue_album"
+	id: "1E89AE1F22D5E1DD"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["或许你的旅途只是长途跋涉到到一个又一个地点，这些物品或许可以让你拥有更神奇的体验"]
+			id: "67156710664AF0E5"
+			rewards: [{
+				id: "1586BCC7255C4DA9"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“大千世界，无奇不有”"
+			tasks: [{
+				id: "201E18C9F60B56DE"
+				title: "神奇的物品"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			description: ["由绯红蚊子掉落物合成，可以对前方持续射出血液造成伤害。"]
+			id: "261694E12DE8DEF5"
+			rewards: [{
+				id: "033E510438E78419"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“把血液当做子弹”"
+			tasks: [{
+				id: "73275BA63C496F40"
+				item: {
+					Count: 1b
+					id: "alexsmobs:blood_sprayer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			description: ["由血液喷射器升级而来，需要击败诡异蚊鬼，更强的喷射伤害"]
+			id: "61A17EE0530EE90B"
+			rewards: [{
+				id: "54F44700B5BFFA7E"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“更强的血压”"
+			tasks: [{
+				id: "1B1FABA5083912B8"
+				item: {
+					Count: 1b
+					id: "alexsmobs:hemolymph_blaster"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"臭鼬收到刺激后，会放出臭屁，用玻璃瓶对着臭屁右键即可收集"
+				"臭屁发射器发射后，会驱散一定范围内的生物（被臭的） "
+			]
+			id: "65F728399A0B3289"
+			rewards: [{
+				id: "0D2636E7A4BE3C95"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“这玩意臭的连骷髅都受不了，等等，骷髅有鼻子吗”"
+			tasks: [{
+				id: "60BCDC122E185B69"
+				item: {
+					Count: 1b
+					id: "alexsmobs:stink_ray"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"通过大王乌贼和抹香鲸自由搏击中掉落的触手合成"
+				"可以用锁链将二者锁在同一地方"
+				"右键丢出触手，移动方式类似于钩爪，不同的是它可以投出多个触手来使你悬挂于空中"
+			]
+			id: "25D5A5BF2856615A"
+			rewards: [{
+				id: "2B1E71ADF93B86E6"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“人形吊床”"
+			tasks: [{
+				id: "74DF3D07A2B6B167"
+				item: {
+					Count: 1b
+					id: "alexsmobs:squid_grapple"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"通过击杀洞穴深处的幽灵矿工后掉落，幽灵矿工只能被药水伤害，幽灵镐内部自带9组的空间，当你的背包满后幽灵镐会自动将挖掉的矿物存入自身，并在你身上有空位后填充"
+				"可用幻翼膜修复"
+			]
+			id: "2E4F3EEF586BC485"
+			rewards: [{
+				id: "5D2A50CD2F3B73BE"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“Herobrine?”"
+			tasks: [{
+				id: "48D09546C96D496E"
+				item: {
+					Count: 1b
+					id: "alexsmobs:ghostly_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			description: ["通过击杀地下的洞穴蜈蚣掉落的蜈蚣腿制作，穿戴后可以让你获得蜘蛛的能力"]
+			id: "65B6D206B42BAABC"
+			rewards: [{
+				id: "5576CBE681125DAE"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“等等，你把蜈蚣腿移植到护腿上了？”"
+			tasks: [{
+				id: "098E9B738DC3F49F"
+				item: {
+					Count: 1b
+					id: "alexsmobs:centipede_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"通过击杀溶洞内的岩滚兽掉落的岩壳合成，穿戴后，疾跑时会变成一块岩球滚动"
+				"（或许你可以制作一个从山上到山下的赛道，开始一场竞速）"
+			]
+			id: "4AD131A2159FA092"
+			rewards: [{
+				id: "6369FA4B5ED145D0"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“像圆石一样滚动！”"
+			tasks: [{
+				id: "64022AC87AA2611F"
+				item: {
+					Count: 1b
+					id: "alexsmobs:rocky_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			description: ["通过击杀地下的轻语灵后掉落，轻语灵出没于主世界的最深处，穿上衣服后，大多亡灵生物将不再主动攻击你，将你视为中立单位"]
+			id: "15D2029B8DDB8C7B"
+			rewards: [{
+				id: "76A37B6E8DDEA740"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“这件衣服穿着感觉冷冷的”"
+			tasks: [{
+				id: "09423D006D629728"
+				item: {
+					Count: 1b
+					id: "alexsmobs:unsettling_kimono"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			description: ["由森蚺的蜕皮合成，可以拴住敌对生物（甚至包括玩家{好像}），可以用于便捷的运输"]
+			id: "2DFACB0956AA13CA"
+			rewards: [{
+				id: "5F2C3834E832ED10"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“拴住！不许走”"
+			tasks: [{
+				id: "7B2EEE03534A2E8D"
+				item: {
+					Count: 1b
+					id: "alexsmobs:vine_lasso"
+					tag: {
+						Swinging: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			description: ["通过击杀沙漠蛛蜂掉落的材料合成，拥有鞘翅的功能，并且可以进行升级"]
+			id: "78A1D9B2C3AEA7D9"
+			rewards: [{
+				id: "315A6A54CE17A33E"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“嘿，你怎么现在就会飞了”"
+			tasks: [{
+				id: "5D41F26E357C0C8D"
+				item: {
+					Count: 1b
+					id: "alexsmobs:tarantula_hawk_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			description: ["通过击杀冰原地区的栉水母掉落，可以为任意生物附上一层九彩特效"]
+			id: "4A61E7B9807BF4A2"
+			rewards: [{
+				id: "5883062719BC962E"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“我去，炫狗！”"
+			tasks: [{
+				id: "7142930C22292813"
+				item: "alexsmobs:rainbow_jelly"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			description: ["将沙锤给予蟑螂，蟑螂就会原地开始跳舞，非常欢乐"]
+			id: "4773566833E180DF"
+			rewards: [{
+				id: "078903E2FF909257"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“跳舞！”"
+			tasks: [{
+				id: "235D4DBCC7DD6955"
+				item: "alexsmobs:maraca"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			description: ["通过女仆的祭坛合成，将女仆的模式调为游戏后，女仆就会自动来到五子棋盘上准备，右键棋篓就可以跟女仆开始下五子棋"]
+			id: "63F45CD9D7EC79B2"
+			rewards: [{
+				id: "40F4DF4EA345F16D"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“我输了5盘，你呢”"
+			tasks: [{
+				id: "7DB10DDACE2A9D9A"
+				item: "touhou_little_maid:gomoku"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			description: ["广口瓶可以抓住生活在黑森林中的小精灵，平时可以充当光源，并且很好看"]
+			id: "250601F8FBBA59B0"
+			rewards: [{
+				id: "7336A4C6EF9D14F1"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“抓住那些精灵”"
+			tasks: [{
+				id: "182E49B05C935DEE"
+				item: "iceandfire:pixie_jar_empty"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			description: ["里面能放入液体，食物，和药水，不论是放在外面或者厨房当装饰都十分契合"]
+			id: "558F521A56B47578"
+			rewards: [{
+				id: "7C0A87CD26BEDDEC"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“里面能放进去很多东西，完美的装饰品”"
+			tasks: [{
+				id: "7B19D07FD00F0CE8"
+				item: "supplementaries:jar"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			description: [
+				"背包内将彩色胶卷拖到摄像机右键即可将胶卷装入摄像机，手持摄像机右键进入摄像模式，右键摄像，shift可以调整摄像机参数"
+				"摄影结束后，将平凡的药水，粗制的药水，浓稠的药水与彩色胶卷合成，可以得到清洗后的胶卷，将胶卷放入暗室，放入对应的染料和纸张，随后即可得到照片"
+				"（啊，你也可以用黑白胶卷给你的朋友拍照）"
+			]
+			id: "115B3F07A50629A3"
+			rewards: [{
+				id: "14D35F91DA361B53"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“记录美景”"
+			tasks: [
+				{
+					id: "4109BE38484803C2"
+					item: {
+						Count: 1b
+						id: "exposure:camera"
+						tag: {
+							Active: 0b
+							Selfie: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "328378B884C345C2"
+					item: "exposure:lightroom"
+					type: "item"
+				}
+				{
+					id: "007169EE2DEFD216"
+					item: "exposure:color_film"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			description: [
+				"一个圆的西瓜，真的圆！"
+				"你甚至可以把它戴到头上"
+			]
+			id: "698DF50F4D8C72C2"
+			rewards: [{
+				id: "39B0AC1741B853B0"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“我看错了？这真是一个西瓜！”"
+			tasks: [{
+				id: "2F75765434225C05"
+				item: "locusazzurro_icaruswings:melon"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			description: [
+				"用于寻找魔鳉的工具，用鱼骨、黏液球和回声定位器可以合成，右击即可发射一道指向魔鳉生成区块的绿色声波。(鱼骨掉落自骷髅剑鱼，出没于海底沉船附近的亡灵鱼类，所以玩家经常可以在沉船附近发现它们）"
+				""
+				"类似找要塞地朝着这个方向行进，你最终便会在此区块的地下含水层中找到魔鳉。（这对应了现实中魔鳉所生活的魔鬼洞（位于美国内华达州死亡谷））"
+				""
+				"如果你已经站在魔鳉生成区块上，怪鱼寻觅器的动画将停止不动，中央箭头指向正下方："
+			]
+			id: "5B2B4E3F32641513"
+			rewards: [{
+				id: "1DA433AFA5CD4B23"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“去寻找最珍贵的鱼儿”"
+			tasks: [{
+				id: "3915C4219A3BC9AC"
+				item: {
+					Count: 1b
+					id: "alexsmobs:pupfish_locator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 9.0d
+		}
+		{
+			description: ["用弹幕击败ex露米娅即可获得"]
+			icon: {
+				Count: 1b
+				id: "youkaishomecoming:rumia_hairband"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2C0E65DA52B5959F"
+			rewards: [{
+				id: "6F1F45FE4304C330"
+				type: "xp"
+				xp: 2
+			}]
+			subtitle: "“老兄，她可不好惹”"
+			tasks: [{
+				id: "60CE6CB6A0E36C48"
+				item: {
+					Count: 1b
+					id: "youkaishomecoming:rumia_hairband"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "04B1A5B7953291A9"
+			tasks: [{
+				id: "40C7A389C53B7FBF"
+				item: {
+					Count: 1b
+					id: "youkaishomecoming:suwako_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "49FBB0EBDC1CBA27"
+			tasks: [{
+				id: "58A453499FAFFB2A"
+				item: {
+					Count: 1b
+					id: "youkaishomecoming:koishi_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+	]
+	title: "世界上有着很多神奇的物品"
+}

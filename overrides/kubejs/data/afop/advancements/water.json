@@ -1,0 +1,18 @@
+{
+    "display": {
+      "title": "水似乎变干净了？",
+      "description": "倒一倒就干净了？？？",
+      "icon": {
+        "item": "minecraft:water_bucket"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "trigger": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

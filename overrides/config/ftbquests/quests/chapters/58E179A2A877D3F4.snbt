@@ -1,0 +1,389 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "58E179A2A877D3F4"
+	group: "04B9982908550744"
+	icon: "corn_delight:corn"
+	id: "58E179A2A877D3F4"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7AC8F2C8BC4D52CC"]
+			description: [
+				"在控制—按键绑定—饮食均衡中绑定按键，可以打开饮食均衡，保持饮食的均衡可以提供自身防御属性。"
+				"(至少要达到50%)"
+				"当然最好保持在50%到70%，这样能够最好的利用饮食均衡带来的正面buff，规避负面buff"
+			]
+			icon: "minecraft:sunflower"
+			id: "3801D92C06E5ECC8"
+			rewards: [{
+				id: "68208B1402DC5F60"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "“饮食要均衡”"
+			tasks: [{
+				id: "43949F6C183004B8"
+				title: "检查按键打开均衡饮食界面"
+				type: "checkmark"
+			}]
+			title: "要好好吃饭哦"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3801D92C06E5ECC8"]
+			description: [
+				"玻璃瓶对着水右键就能打水了嗷，不过直接喝不太健康呢，因此你需要将水瓶放进熔炉或者篝火上烧开烧开。"
+				""
+				"如果直接喝生水，不仅会反胃，还会中毒。"
+				""
+				"其实着急的话，蹲下对着水右键也是可以的啦，就是脏东西太多了。"
+				""
+				"所以为了身体的健康，还是将水烧开再喝吧。"
+			]
+			id: "7A841978270CE072"
+			rewards: [{
+				id: "563E560EA8ED1FE6"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "“多喝水才健康”"
+			tasks: [{
+				id: "5455D6E74898615D"
+				item: "minecraft:glass_bottle"
+				type: "item"
+			}]
+			title: "喂，你怎么能不喝水啊！"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7A841978270CE072"]
+			description: ["反复烧俩次，就烧开了嗷，平时生活更不能直接喝！！！"]
+			id: "48F3E717032F132E"
+			rewards: [{
+				id: "774563E876103870"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "5722AFA533504827"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:water"
+						Purity: 3
+					}
+				}
+				type: "item"
+			}]
+			title: "要烧开了才能喝"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3801D92C06E5ECC8"]
+			description: ["有时候，盲目的控制饮食并不能有效减肥，肉还是得吃的啦，吃更多的食物，能更好的保持身体健康"]
+			id: "448D02AA563D3036"
+			rewards: [{
+				id: "2DFE22DFC66E328B"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					id: "61DB5A8F6A3613CA"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					id: "1CB272859C625C5D"
+					item: "minecraft:cooked_porkchop"
+					type: "item"
+				}
+				{
+					id: "024BCB67687C1EBF"
+					item: "minecraft:cooked_chicken"
+					type: "item"
+				}
+			]
+			title: "我是为了身体"
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"或许你并没有见过它们，但是你不能抗拒它们。"
+				"它们或许非常好吃呢？"
+			]
+			id: "0F2874A970795C92"
+			rewards: [{
+				id: "7EC5568C7E216095"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "3AFBEDA88C85579A"
+				item: "croptopia:turnip"
+				type: "item"
+			}]
+			title: "他们也很好吃哦~"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"或许你并没有见过它们，但是你不能抗拒它们。"
+				"它们或许非常好吃呢？"
+			]
+			id: "2D12359FE23F115F"
+			rewards: [{
+				id: "08E915723DC8AC26"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "1AE8C8FD18307DD3"
+				item: "croptopia:basil"
+				type: "item"
+			}]
+			title: "他们也很好吃哦~"
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"或许你并没有见过它们，但是你不能抗拒它们。"
+				"它们或许非常好吃呢？"
+			]
+			id: "6BA23AE6770D49A1"
+			rewards: [{
+				id: "3A63870E98D6B3E8"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "2954DABF65218DB2"
+				item: "croptopia:artichoke"
+				type: "item"
+			}]
+			title: "他们也很好吃哦~"
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"或许你并没有见过它们，但是你不能抗拒它们。"
+				"它们或许非常好吃呢？"
+			]
+			id: "08972BA221E2467E"
+			rewards: [{
+				id: "1014C4A6EFE0F733"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "24223BAE4249C126"
+				item: "croptopia:date"
+				type: "item"
+			}]
+			title: "他们也很好吃哦~"
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"或许你并没有见过它们，但是你不能抗拒它们。"
+				"它们或许非常好吃呢？"
+			]
+			id: "369676D83C5F3849"
+			rewards: [{
+				id: "0331526476CCDF78"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "263F618E3F10B419"
+				item: "croptopia:zucchini"
+				type: "item"
+			}]
+			title: "他们也很好吃哦~"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"或许你并没有见过它们，但是你不能抗拒它们。"
+				"它们或许非常好吃呢？"
+			]
+			id: "5A6060C6792D0298"
+			rewards: [{
+				id: "7920C8F6B5A70ED5"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "38CAE44899A8393C"
+				item: "croptopia:plum"
+				type: "item"
+			}]
+			title: "他们也很好吃哦~"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"或许你并没有见过它们，但是你不能抗拒它们。"
+				"它们或许非常好吃呢？"
+			]
+			id: "7E1E1E54C9BFA5CC"
+			rewards: [{
+				id: "70CBCD5B949583A0"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "26B7632AC8EDD7B1"
+				item: "croptopia:fig"
+				type: "item"
+			}]
+			title: "他们也很好吃哦~"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"或许你并没有见过它们，但是你不能抗拒它们。"
+				"它们或许非常好吃呢？"
+			]
+			id: "55DE66B5E033460F"
+			rewards: [{
+				id: "182E7A1698BDFCF7"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7B60C0745A1D3B7A"
+				item: "croptopia:starfruit"
+				type: "item"
+			}]
+			title: "他们也很好吃哦~"
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"或许你并没有见过它们，但是你不能抗拒它们。"
+				"它们或许非常好吃呢？"
+			]
+			id: "2AF9D357F429C7E7"
+			rewards: [{
+				id: "14C8D81FF03C65C1"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "29C588D7124B7FE5"
+				item: "croptopia:raspberry"
+				type: "item"
+			}]
+			title: "他们也很好吃哦~"
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["48F3E717032F132E"]
+			description: [
+				"有着和水瓶一样的功能——装水"
+				""
+				"可以使用4次"
+			]
+			id: "37798070BAACDC27"
+			rewards: [{
+				id: "38FE56194754F4A0"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "“便携的容器”"
+			tasks: [{
+				id: "37405F46E276830F"
+				item: "thirstcanteen:leather_canteen"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["37798070BAACDC27"]
+			description: [
+				"比皮革水壶更好"
+				""
+				"可以使用6次"
+			]
+			id: "1037C1012FB2C52D"
+			rewards: [{
+				id: "4BD81D750161A6EF"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "“更好的水壶”"
+			tasks: [{
+				id: "0F787203D222D9E1"
+				item: "thirstcanteen:military_bottle"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1037C1012FB2C52D"]
+			description: [
+				"作为一个水壶而言，它已经登峰造极了"
+				""
+				"可以使用12次"
+			]
+			id: "45F7A78281BA4F3E"
+			rewards: [{
+				id: "7B6240E84A92DEE5"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "“终极水壶！”"
+			tasks: [{
+				id: "167E7804C45D4B31"
+				item: "thirstcanteen:dragon_bottle"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			description: ["作物盛景为MC添加了上百种不同的作物和食物，共同组成了丰富且完善的食物系统"]
+			id: "2CB2F76BB11067B2"
+			subtitle: "“丰富的作物种类”"
+			tasks: [{
+				id: "11424D5C5E8421C1"
+				title: "更多的作物"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			description: ["挖深层岩石有概率掉落"]
+			icon: "minecraft:shulker_shell"
+			id: "6E102AD84EC7B48F"
+			tasks: [{
+				id: "61B9D6B4E107F667"
+				title: "潜影壳怎么获得呢"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+	]
+	title: "健健康康才是真"
+}

@@ -1,0 +1,18 @@
+{
+    "display": {
+      "title": "我不做人了！",
+      "description": "哈哈哈哈哈哈哈哈哈....",
+      "icon": {
+        "item": "kubejs:stone_mask"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "trigger": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

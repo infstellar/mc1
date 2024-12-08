@@ -1,0 +1,19 @@
+{
+    "display": {
+      "title": "这也能烧？！",
+      "description": "好臭啊喂",
+      "icon": {
+        "item": "kubejs:compressed_dry_manure"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "trigger": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

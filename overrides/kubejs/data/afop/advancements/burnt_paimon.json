@@ -1,0 +1,18 @@
+{
+    "display": {
+      "title": "不是，你真吃啊？",
+      "description": "派蒙好惨",
+      "icon": {
+        "item": "kubejs:burnt_paimon"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "trigger": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

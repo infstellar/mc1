@@ -1,0 +1,2125 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "73C02AD6350A32CA"
+	group: "04B9982908550744"
+	icon: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+	id: "73C02AD6350A32CA"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "05DB53D8E5326BC2"
+			rewards: [{
+				id: "127F2C3C51C5EC3B"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "“这些会帮助你更好的享受生活”"
+			tasks: [{
+				id: "111316C61DF016A0"
+				title: "知识"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05DB53D8E5326BC2"]
+			description: ["一切储存的起点"]
+			id: "5BFF67ABE655CA50"
+			rewards: [{
+				id: "3F2DAF45318F1D79"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "“从一个小小的箱子开始”"
+			tasks: [{
+				id: "0D688CBDC855E6AD"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0150E39474E36795"]
+			id: "7BA0272959708B5E"
+			rewards: [{
+				count: 32
+				id: "31CB9744644A826F"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38977A972F84CE88"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7BA0272959708B5E"]
+			id: "27014046EA840B16"
+			rewards: [
+				{
+					count: 16
+					id: "65773655353C8B7A"
+					item: "sophisticatedstorage:basic_tier_upgrade"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0A12D91800A7E47B"
+					item: "sophisticatedstorage:basic_to_copper_tier_upgrade"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "69E10AD8D6D47413"
+					item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "65124786E9EF0C2E"
+					item: "sophisticatedstorage:basic_to_gold_tier_upgrade"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "71A71896EED31AA7"
+					item: "sophisticatedstorage:basic_to_diamond_tier_upgrade"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "41EB3F9FD5E8EA09"
+					item: "sophisticatedstorage:basic_to_netherite_tier_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3B43F4BD6704A9FE"
+					item: "sophisticatedstorage:basic_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "6C91BE42DE503C87"
+					item: "sophisticatedstorage:basic_to_copper_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "4F124EDD5071FA81"
+					item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "571751A741C03767"
+					item: "sophisticatedstorage:basic_to_gold_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "59B8E010B69B3594"
+					item: "sophisticatedstorage:basic_to_diamond_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "61C7F99E5DEBB913"
+					item: "sophisticatedstorage:basic_to_netherite_tier_upgrade"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["27014046EA840B16"]
+			id: "6804CE2360A58611"
+			rewards: [{
+				count: 16
+				id: "57369E8C29447705"
+				item: "sophisticatedstorage:upgrade_base"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BD4D829E7587D4E"
+				item: "sophisticatedstorage:upgrade_base"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6804CE2360A58611"]
+			id: "0530E9CD715BCCC0"
+			tasks: [{
+				id: "7666C235F7A24A29"
+				title: "普通升级"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["6804CE2360A58611"]
+			id: "0FF23CE18ED3A798"
+			tasks: [{
+				id: "66FB5C6D0833DF8A"
+				title: "高级升级"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["0530E9CD715BCCC0"]
+			id: "785B85AB7AE7BD8A"
+			rewards: [{
+				id: "6BBC767A2D8E80ED"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "26D76E0849CE92BA"
+				item: "sophisticatedstorage:jukebox_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["0530E9CD715BCCC0"]
+			id: "167B66C4E62A14CA"
+			rewards: [{
+				id: "5A7B70D34CAC12D2"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "5810A4D0C2FF211A"
+				item: "sophisticatedstorage:pump_upgrade"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["0530E9CD715BCCC0"]
+			id: "7D60D19F5F7D551A"
+			rewards: [{
+				id: "3E1B1718841EB89D"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "4C6C194639C8832D"
+				item: "sophisticatedstorage:compression_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["0530E9CD715BCCC0"]
+			id: "00AE9E4575E973E0"
+			rewards: [{
+				id: "739858FB84D3B9F5"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "46A5410C33D31E8B"
+				item: "sophisticatedstorage:hopper_upgrade"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["0530E9CD715BCCC0"]
+			id: "365B1AF162EED207"
+			rewards: [{
+				id: "54BF645D0951D6DC"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "5BF989354B5A860B"
+				item: "sophisticatedstorage:pickup_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["0530E9CD715BCCC0"]
+			id: "6D945DD1570C336C"
+			rewards: [{
+				id: "664F1E55D8A4968D"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "6ED863A8D6546156"
+				item: "sophisticatedstorage:feeding_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["0530E9CD715BCCC0"]
+			id: "0EE1A988BFBECA62"
+			rewards: [{
+				id: "2D361793DD3ACFDB"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "62F23B0E9A42BAF8"
+				item: "sophisticatedstorage:smelting_upgrade"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["0530E9CD715BCCC0"]
+			id: "3B90215C5C3A586D"
+			rewards: [{
+				id: "015FE83EE8E953AC"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "1B34ED24557AF1C1"
+				item: "sophisticatedstorage:filter_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["0530E9CD715BCCC0"]
+			id: "1166E6AB5FD64B64"
+			rewards: [{
+				id: "474D6271E17CADE6"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "1E44E56EA1E1C52F"
+				item: "sophisticatedstorage:crafting_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["0530E9CD715BCCC0"]
+			id: "36151B5D5DA49E40"
+			rewards: [{
+				id: "27932B38096204EC"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "64A81AF80F39F47A"
+				item: "sophisticatedstorage:compacting_upgrade"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["0530E9CD715BCCC0"]
+			id: "080EB8AA7D452127"
+			rewards: [{
+				id: "2BD08C0107A0FE10"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "1F725043F630CA8C"
+				item: "sophisticatedstorage:smoking_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["0530E9CD715BCCC0"]
+			id: "3351314587415574"
+			rewards: [{
+				id: "6E506D09DEC29C7E"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "0BF6B34E7E1E4B24"
+				item: "sophisticatedstorage:stonecutter_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["0530E9CD715BCCC0"]
+			id: "587DBC9C63D7807D"
+			rewards: [{
+				id: "6C243195434B136F"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "65D510FCCAC03537"
+				item: "sophisticatedstorage:magnet_upgrade"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["0530E9CD715BCCC0"]
+			id: "3DAF8D38051FEA4B"
+			rewards: [{
+				id: "33615848A9D0CADC"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "51D5C00262E2192E"
+				item: "sophisticatedstorage:void_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -20.5d
+		}
+		{
+			dependencies: ["0530E9CD715BCCC0"]
+			id: "5E5478A5E22E2777"
+			rewards: [{
+				id: "2845DA053F7590B3"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "56B2EF834ABEC1B7"
+				item: "sophisticatedstorage:blasting_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["0FF23CE18ED3A798"]
+			id: "787F9FE37CC24136"
+			rewards: [{
+				id: "3748B7A67120EF4C"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [
+				{
+					id: "7E51A51F394542E7"
+					item: "sophisticatedstorage:stack_upgrade_tier_2"
+					type: "item"
+				}
+				{
+					id: "53D7585C0A9BB54F"
+					item: "sophisticatedstorage:stack_upgrade_tier_3"
+					type: "item"
+				}
+				{
+					id: "015D20AC4EE9B4E4"
+					item: "sophisticatedstorage:stack_upgrade_tier_4"
+					type: "item"
+				}
+				{
+					id: "0DA187D628CE8D77"
+					item: "sophisticatedstorage:stack_upgrade_tier_5"
+					type: "item"
+				}
+				{
+					id: "2792E67DB3038709"
+					item: "sophisticatedstorage:stack_upgrade_tier_1_plus"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["0FF23CE18ED3A798"]
+			id: "2C9127D5C68028E6"
+			rewards: [{
+				id: "1D787FEDCC844426"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					id: "742A0C9FBB00F5D6"
+					item: "sophisticatedstorage:advanced_pump_upgrade"
+					type: "item"
+				}
+				{
+					id: "465E1B423BAE8B27"
+					item: "sophisticatedstorage:xp_pump_upgrade"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["0FF23CE18ED3A798"]
+			id: "2AF04BAF23F62C5B"
+			rewards: [{
+				id: "1D27D10BD7DC3C7C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "4B523A46DB1D442F"
+				item: "sophisticatedstorage:advanced_hopper_upgrade"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["0FF23CE18ED3A798"]
+			id: "715F3DFF1456C52D"
+			rewards: [{
+				id: "100F06932B107085"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "16BF4783435FBA4F"
+				item: "sophisticatedstorage:auto_smelting_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["0FF23CE18ED3A798"]
+			id: "48DCFFFBA568BAAA"
+			rewards: [{
+				id: "35417804A46D7801"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "370B4948A7AE39B0"
+				item: "sophisticatedstorage:advanced_feeding_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["0FF23CE18ED3A798"]
+			id: "6270EFE37713F4E0"
+			rewards: [{
+				id: "1D4FF57886F492CC"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "3E2AA682A2A92E55"
+				item: "sophisticatedstorage:advanced_feeding_upgrade"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["0FF23CE18ED3A798"]
+			id: "0954E7C172A7ECC3"
+			rewards: [{
+				id: "058CBDF5F3BD624C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "26E65D5782E5AB02"
+				item: "sophisticatedstorage:advanced_pickup_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["0FF23CE18ED3A798"]
+			id: "5A934B1CBA79AF02"
+			rewards: [{
+				id: "39DD4EFDDB5CC1C0"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "10420570096582A6"
+				item: "sophisticatedstorage:auto_smoking_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["0FF23CE18ED3A798"]
+			id: "3E0AEE152D1D3BE0"
+			rewards: [{
+				id: "48C010C96D29D47B"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "5B9BB9ADAE4308AD"
+				item: "sophisticatedstorage:advanced_compacting_upgrade"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["0FF23CE18ED3A798"]
+			id: "41D288D212120792"
+			rewards: [{
+				id: "3752725804F8521C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "6861B0F8DF11FCF3"
+				item: "sophisticatedstorage:advanced_filter_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["0FF23CE18ED3A798"]
+			id: "32AB075C39BF2B55"
+			rewards: [{
+				id: "6338096E8D79895E"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "567F5C036D91261D"
+				item: "sophisticatedstorage:auto_blasting_upgrade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["0FF23CE18ED3A798"]
+			id: "0B243AFE6E33BA72"
+			rewards: [{
+				id: "191DC87EB56C57BC"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "312B98D258B206BD"
+				item: "sophisticatedstorage:advanced_void_upgrade"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["0FF23CE18ED3A798"]
+			id: "4EB0254956638C31"
+			rewards: [{
+				id: "7E2F0BD56C092332"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "60E1817F2848A776"
+				item: "sophisticatedstorage:advanced_magnet_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["05DB53D8E5326BC2"]
+			description: ["背背背....起了行囊"]
+			id: "279A1E4B92095342"
+			rewards: [{
+				id: "0027B521F89F8C8C"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "“旅行生存居家必备”"
+			tasks: [{
+				id: "5AC43C704F438EDB"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["279A1E4B92095342"]
+			description: ["随着旅途的前进，是否该升级你的背包了？"]
+			id: "54905BF233504288"
+			rewards: [{
+				id: "7E6290CE2671D291"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "“背包扩容代表着旅途的遥远”"
+			tasks: [{
+				id: "263F6EEA59B30231"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["54905BF233504288"]
+			description: ["随着旅途的前进，是否该升级你的背包了"]
+			id: "5B16C247EC0CDF9C"
+			rewards: [{
+				id: "3EF5E3FFB402EC8E"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "“进一步的升级”"
+			tasks: [{
+				id: "2AB607858ABB8C4A"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5B16C247EC0CDF9C"]
+			description: ["随着旅途的前进，是否该升级你的背包了"]
+			id: "1A3BB6F4D606EF15"
+			rewards: [{
+				id: "3B229C3F9138CDCF"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "“一名真正的旅行家”"
+			tasks: [{
+				id: "5B38A8592D0882AC"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A3BB6F4D606EF15"]
+			description: [
+				"当你重新踏上旅途之后，一定要记得旅途本身的意义。"
+				"&m提瓦特的飞鸟、诗和城邦，女皇、愚人和怪物&r……都是你旅途的一部分。"
+				"终点并不意味着一切，在抵达终点之前，用你的眼睛，多多观察这个世界吧……"
+			]
+			id: "012DF22FC3551C63"
+			rewards: [{
+				id: "4EDF1B4610CF2AD5"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "身为&m蒙德的荣誉骑士&r踏过无尽旅途的行者，有个下界合金背包不过分吧！"
+			tasks: [{
+				id: "024B3F6216FF2B74"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["279A1E4B92095342"]
+			description: ["使用升级模版令其有特异的功能"]
+			id: "0781523864DA0E6F"
+			rewards: [{
+				id: "74D0D0F825D7E269"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "“更多的功能，更好的旅行”"
+			tasks: [{
+				id: "1BC427876BADB717"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0781523864DA0E6F"]
+			id: "33C54DD646437EEE"
+			tasks: [{
+				id: "61D5802D4311F02B"
+				title: "普通升级"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0781523864DA0E6F"]
+			id: "3735FCA33E41C02D"
+			tasks: [{
+				id: "19DD7B9333240B22"
+				title: "高级升级"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "68C8F7F1E87014F2"
+			rewards: [{
+				id: "37273997A0CFE175"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "613536456D4AE2CE"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3735FCA33E41C02D"]
+			id: "21F666016C822401"
+			rewards: [{
+				id: "4F137FB997B1B710"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "017F9419C13C0F04"
+				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "6D1026F364562E8D"
+			rewards: [{
+				id: "44B865C4E4259031"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "2A2BC587BE8BE4A0"
+				item: "sophisticatedbackpacks:filter_upgrade"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3735FCA33E41C02D"]
+			id: "5CE850CEA4AC3BC2"
+			rewards: [{
+				id: "58B4238B7FAD22BF"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "17598288021511FE"
+				item: "sophisticatedbackpacks:advanced_filter_upgrade"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "7646D252162E83B9"
+			rewards: [{
+				id: "162EBF8A5931A1F8"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "1F4E6FE5D7056F2F"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3735FCA33E41C02D"]
+			id: "77DF15F23373A8A0"
+			rewards: [{
+				id: "2664DC338B796868"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "33D1ADDE89F0B38C"
+				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "2AB1AB0565F3A848"
+			rewards: [{
+				id: "188AA5A6324FC3BE"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "0ACAC752D58736F9"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3735FCA33E41C02D"]
+			id: "73309E9FC999FA05"
+			rewards: [{
+				id: "57DA81E82A63644C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7F599503D300C09C"
+				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "76133CA093EA9FC5"
+			rewards: [{
+				id: "4C7FD9CCB0A56ECD"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7F1BEC3DC6385DF1"
+				item: "sophisticatedbackpacks:void_upgrade"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3735FCA33E41C02D"]
+			id: "700781EA563F1AEC"
+			rewards: [{
+				id: "0BB92313F498A923"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "2851CDD24F029A65"
+				item: "sophisticatedbackpacks:advanced_void_upgrade"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "15A384F3AD04B1F0"
+			rewards: [{
+				id: "77423054DDAEABBC"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "2F8F9BFB62C9B10F"
+				item: "sophisticatedbackpacks:restock_upgrade"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3735FCA33E41C02D"]
+			id: "234CCA57E87316E1"
+			rewards: [{
+				id: "15CB3E4574843E75"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "32C14EE90EF55D40"
+				item: "sophisticatedbackpacks:advanced_restock_upgrade"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "2CE0147874EA13B0"
+			rewards: [{
+				id: "1DCC582A768DEA0A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7898D9DD671DDF31"
+				item: "sophisticatedbackpacks:deposit_upgrade"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3735FCA33E41C02D"]
+			id: "322D437C62E4EDCA"
+			rewards: [{
+				id: "21710566102E954C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "3A0E04F93199D8A1"
+				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "59F543F66DDC8E17"
+			rewards: [{
+				id: "223B33A2A2309677"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "206AE2485B236BFA"
+				item: "sophisticatedbackpacks:inception_upgrade"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "73A1536531164747"
+			rewards: [{
+				id: "110BCCA8D739359C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "0F1464A94688DDFA"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "6ADC6250C92382E4"
+			rewards: [{
+				id: "7EA9EFF87F611249"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "1D2CB3790BA11D27"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "1CD81B3B7F12A299"
+			rewards: [{
+				id: "43A756E6597A1FF5"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "0E8772B252575E83"
+				item: "sophisticatedbackpacks:stonecutter_upgrade"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "1DC84BCE02739860"
+			rewards: [{
+				id: "40C2D940DBC1B2E4"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "6338843FBFD647CA"
+				item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3735FCA33E41C02D"]
+			id: "6640BE34BBB8E4F0"
+			rewards: [{
+				id: "5CE5C382DD59A487"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [
+				{
+					id: "31A19946CDCDC466"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+					type: "item"
+				}
+				{
+					id: "75DC0E4C1FE1E824"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+					type: "item"
+				}
+				{
+					id: "3F36805B6987E82B"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+					type: "item"
+				}
+				{
+					id: "29F69C63CDBB852A"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+					type: "item"
+				}
+				{
+					id: "5933BE549AF0B37D"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "3C73F3EEBA9A30B0"
+			rewards: [{
+				id: "04A7CD5EC908612B"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "1A48465644DD0503"
+				item: "sophisticatedbackpacks:jukebox_upgrade"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "7D1E6DC7A8976AB2"
+			rewards: [{
+				id: "60881CDE63923B65"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7D2BD1F48B9D8D66"
+				item: "sophisticatedbackpacks:tool_swapper_upgrade"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3735FCA33E41C02D"]
+			id: "5FCBB17A5459F08D"
+			rewards: [{
+				id: "6633960E1ECF1B39"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "0E581DCF0AE0C274"
+				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "04CEA7F790D97C11"
+			rewards: [{
+				id: "40BF7EA580385F0B"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "001C60A4FD6F29FF"
+				item: "sophisticatedbackpacks:tank_upgrade"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3735FCA33E41C02D"]
+			id: "145F6AE5468D39F8"
+			rewards: [{
+				id: "44FFF7C39139266C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "19B0CD0D52755E4B"
+				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "2A1F314C5BD05E53"
+			rewards: [{
+				id: "789E43848E0BBBE2"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "2E81B781803A0616"
+				item: "sophisticatedbackpacks:pump_upgrade"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3735FCA33E41C02D"]
+			id: "78DC63D0B0C48AF4"
+			rewards: [{
+				id: "7F7B683B7823571E"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "2B6A38DD26606B60"
+				item: "sophisticatedbackpacks:advanced_pump_upgrade"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3735FCA33E41C02D"]
+			id: "496C5CB5174938A1"
+			rewards: [{
+				id: "411BBE02E109D8D0"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "4B34FC93495A32FD"
+				item: "sophisticatedbackpacks:xp_pump_upgrade"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "22377C98D43044D5"
+			rewards: [{
+				id: "50F2B3B41FB25C7D"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "49FDC94EE7DE7F25"
+				item: "sophisticatedbackpacks:smoking_upgrade"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3735FCA33E41C02D"]
+			id: "133D33113384A8B3"
+			rewards: [{
+				id: "06F65446344B71BB"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "58A57D97B21D9513"
+				item: "sophisticatedbackpacks:auto_smoking_upgrade"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["33C54DD646437EEE"]
+			id: "38E960B889B6BB8B"
+			rewards: [{
+				id: "324DFF785D3D9A7E"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "2A01FC894C57524E"
+				item: "sophisticatedbackpacks:blasting_upgrade"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3735FCA33E41C02D"]
+			id: "3DAD07199A1266ED"
+			rewards: [{
+				id: "5B4D270294C292C8"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "2F889473233146BB"
+				item: "sophisticatedbackpacks:auto_blasting_upgrade"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["05DB53D8E5326BC2"]
+			description: ["矿物树苗可以让你以另一种更便捷的方式获得矿物，搭配盆栽可以让你做到足不出户矿满箱"]
+			id: "2BBCBE883AD74E34"
+			subtitle: "“以种植获得矿物”"
+			tasks: [{
+				id: "231A20B41EE18DD9"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:saplings"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2BBCBE883AD74E34"]
+			description: ["要致富，先种树，对吧！！"]
+			id: "1E29EAFD8C07611A"
+			rewards: [{
+				id: "28C3A9E4DDDD6F5A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "25926E02A1E1E56E"
+				item: "ore_tree:quartz_tree_sapling"
+				type: "item"
+			}]
+			title: "哇！石英...树？ 我在主世界种植石英树是不是搞错了什么?"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2BBCBE883AD74E34"]
+			description: ["要致富，先种树，对吧！！"]
+			id: "3BCD5683FAD60EEC"
+			rewards: [{
+				id: "16FCC74B9515532C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "508B32666FB009DD"
+				item: "ore_tree:copper_tree_sapling"
+				type: "item"
+			}]
+			title: "哇!铜...树? 跨越时代的美学"
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2BBCBE883AD74E34"]
+			description: ["要致富，先种树，对吧！！"]
+			id: "473B94CDF879AC4E"
+			rewards: [{
+				id: "282920E02B97397A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "1AD1DF901239779E"
+				item: "ore_tree:redstone_tree_sapling"
+				type: "item"
+			}]
+			title: "哇！红石...树? 我是一名生电玩家douob"
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2BBCBE883AD74E34"]
+			description: ["要致富，先种树，对吧！！"]
+			id: "67CEBE6B5AF3DA8D"
+			rewards: [{
+				id: "78E27FBA28A8F1D9"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "4F8A3D920B57BDB7"
+				item: "ore_tree:lapis_tree_sapling"
+				type: "item"
+			}]
+			title: "哇!青金石...树? 剑与魔法的基石"
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2BBCBE883AD74E34"]
+			description: ["要致富，先种树，对吧！！"]
+			id: "60B9CE5EFF08674E"
+			rewards: [{
+				id: "17399318F30ED15E"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7D19DB788E1A3165"
+				item: "ore_tree:coal_tree_sapling"
+				type: "item"
+			}]
+			title: "哇!煤炭,,,树  革命的开章"
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2BBCBE883AD74E34"]
+			description: ["要致富，先种树，对吧！！"]
+			id: "7B2C11A513701376"
+			rewards: [{
+				id: "04E28AFBED982B8F"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "3EDFAAEF225CD2E9"
+				item: "ore_tree:gold_tree_sapling"
+				type: "item"
+			}]
+			title: "哇!金...树？树上会长金苹果吗？"
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2BBCBE883AD74E34"]
+			description: ["要致富，先种树，对吧！！"]
+			id: "478FD69EC4A141E5"
+			rewards: [{
+				id: "5296002CF04F9EF0"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "2F33BF39152BD36A"
+				item: "ore_tree:emerald_tree_sapling"
+				type: "item"
+			}]
+			title: "哇！绿宝石....树？附近真的不会滋生村民吗？"
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2BBCBE883AD74E34"]
+			description: ["要致富，先种树，对吧！！"]
+			id: "1F2F8765DD3F1519"
+			rewards: [{
+				id: "4998B71AAC63C278"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "43A105BBF55E53B5"
+				item: "ore_tree:diamond_tree_sapling"
+				type: "item"
+			}]
+			title: "哇！钻石...树？ 一闪一闪亮晶晶!"
+			x: -11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2BBCBE883AD74E34"]
+			description: ["要致富，先种树，对吧！！"]
+			id: "4582F7C55DEB0996"
+			rewards: [{
+				id: "43BF6F4F7201C0A5"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "64D360610F47B8D3"
+				item: "ore_tree:iron_tree_sapling"
+				type: "item"
+			}]
+			title: "哇！铁...树？ 用它去合成正义的伙伴吧！"
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2BBCBE883AD74E34"]
+			id: "7F11A9688F296D6E"
+			tasks: [{
+				id: "2FC05FFA9E64374C"
+				item: "ore_tree:quartz_tree_log"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2BBCBE883AD74E34"]
+			id: "5FF4025C4A3DCF27"
+			tasks: [{
+				id: "13D24AAD078C3340"
+				item: "ore_tree:copper_tree_log"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2BBCBE883AD74E34"]
+			id: "7ADE2AEACB0F92F3"
+			tasks: [{
+				id: "1E5ACB55A06C06F6"
+				item: "ore_tree:redstone_tree_log"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2BBCBE883AD74E34"]
+			id: "5B654FB2886EC673"
+			tasks: [{
+				id: "576ACC2314A578B7"
+				item: "ore_tree:lapis_tree_log"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2BBCBE883AD74E34"]
+			id: "17D1FA5C7D052084"
+			tasks: [{
+				id: "6BB1A007A505046E"
+				item: "ore_tree:coal_tree_log"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2BBCBE883AD74E34"]
+			id: "56EF793CDD556820"
+			tasks: [{
+				id: "42376E40783A3053"
+				item: "ore_tree:gold_tree_log"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2BBCBE883AD74E34"]
+			id: "7BDB487FFD46B79E"
+			tasks: [{
+				id: "679941E130CD2396"
+				item: "ore_tree:iron_tree_log"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2BBCBE883AD74E34"]
+			id: "54E2DFA301ECFEA5"
+			tasks: [{
+				id: "37A02266B44E9084"
+				item: "ore_tree:diamond_tree_log"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2BBCBE883AD74E34"]
+			id: "504F44DF8FFFD7A2"
+			tasks: [{
+				id: "27F273675FA3AE37"
+				item: "ore_tree:emerald_tree_log"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["05DB53D8E5326BC2"]
+			description: ["人类文明的本质就是烧开水与丢石头不是吗？"]
+			id: "174FF01938059E1C"
+			rewards: [
+				{
+					count: 64
+					id: "1D0C9E5BC5E4FFC7"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "621C361D027681AC"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 32L
+					id: "7670B5B019B634DF"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "2AC9CC324A9BD7F3"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			title: "工业革命 启动！"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["174FF01938059E1C"]
+			description: [
+				"“知道我们人类对探索天空从什么时候开始吗？”"
+				"“是你们第一次发明飞机的时候？”"
+				"“不。”"
+				"“那是你们在写幻想小说的时候？”"
+				"“也不是”"
+				"“那是？”"
+				"“从远古时期人类第一次抬头仰望天空时开始…”"
+			]
+			id: "7C74E83D14A52B40"
+			rewards: [{
+				id: "4EE5AE4D16B85076"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "记得改下机按键 初始为R 默认与重载光影冲突"
+			tasks: [
+				{
+					id: "559BFF84C52D8921"
+					item: "immersive_aircraft:hull"
+					type: "item"
+				}
+				{
+					id: "7EE9324AAD93AA35"
+					item: "immersive_aircraft:engine"
+					type: "item"
+				}
+				{
+					id: "3CDEA71A6F751973"
+					item: "immersive_aircraft:sail"
+					type: "item"
+				}
+				{
+					id: "55FBBFE93F0E3E9D"
+					item: "immersive_aircraft:propeller"
+					type: "item"
+				}
+				{
+					id: "3DB74316CAE571A8"
+					item: "immersive_aircraft:boiler"
+					type: "item"
+				}
+			]
+			title: "征服天空，就在此刻！！！"
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7C74E83D14A52B40"]
+			id: "019DCAFB7E26F21B"
+			rewards: [{
+				id: "49EE58028AB4DC45"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "112B2A881DC211E4"
+				item: "immersive_aircraft:gyrodyne"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7C74E83D14A52B40"]
+			id: "47D8DB6B75CAC55C"
+			rewards: [{
+				id: "63556B09F7B55B1D"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "46A2D509708329EE"
+				item: "immersive_aircraft:biplane"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7C74E83D14A52B40"]
+			id: "1195530C11BDBA9C"
+			rewards: [{
+				id: "63F747E0A1650F13"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "36FC1E1C81EEE772"
+				item: "immersive_aircraft:airship"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7C74E83D14A52B40"]
+			id: "7C7A294F3BCB741E"
+			rewards: [{
+				id: "786D82AFD644C6DD"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "711CDEA242874856"
+				item: "immersive_aircraft:cargo_airship"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7C74E83D14A52B40"]
+			id: "6448A932953D1761"
+			rewards: [{
+				id: "1C4583D0B886C699"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "070AC8B181893FAE"
+				item: "immersive_aircraft:quadrocopter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			description: ["飞机没有攻击力？？？重弩启动！！！"]
+			id: "55F6F664DE4B1689"
+			rewards: [{
+				id: "51256E170F866A0B"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "“皇牌空战”"
+			tasks: [{
+				id: "3ED539F4E191F910"
+				item: "immersive_aircraft:heavy_crossbow"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"174FF01938059E1C"
+				"7C74E83D14A52B40"
+			]
+			id: "06FAB7A7B470A946"
+			subtitle: "“科技永不停步”"
+			tasks: [{
+				id: "6DCCEE8C8B46D79D"
+				title: "升级"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["06FAB7A7B470A946"]
+			id: "53C861B8F44662AC"
+			rewards: [{
+				id: "62088454A1F2F6FA"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "73072BF932172DA6"
+				item: "immersive_aircraft:industrial_gears"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["06FAB7A7B470A946"]
+			id: "1976C34E49EBCDEF"
+			rewards: [{
+				id: "21B9092B98F33E2E"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "505D4C32E3909C12"
+				item: "immersive_aircraft:steel_boiler"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["06FAB7A7B470A946"]
+			description: [
+				"参考大多人都将本整合包用于多人游戏，这玩意会影响多人游戏体验，所有禁用了。"
+				"1.2"
+			]
+			id: "3A2AFCBCF688BA0E"
+			rewards: [{
+				id: "09F5D90690F20775"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "01610B19EAC71266"
+				item: "immersive_aircraft:enhanced_propeller"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["06FAB7A7B470A946"]
+			id: "7168689CF5DD060A"
+			rewards: [{
+				id: "0FC8C566922E618F"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "664FCCFCB5855185"
+				item: "immersive_aircraft:nether_engine"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["06FAB7A7B470A946"]
+			id: "55F7B4818DB8AD4C"
+			rewards: [{
+				id: "2C1B3CD7C0EECEFE"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "32B744F4468FF25A"
+				item: "immersive_aircraft:eco_engine"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["06FAB7A7B470A946"]
+			id: "5BBCA1C1E7F50A9C"
+			rewards: [{
+				id: "56A9AB36989F7717"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "3A00BA80B047B416"
+				item: "immersive_aircraft:sturdy_pipes"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["06FAB7A7B470A946"]
+			id: "702F9A38209635D6"
+			rewards: [{
+				id: "2789EBD3707E2455"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "1F00D5729F08AF4D"
+				item: "immersive_aircraft:gyroscope"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["06FAB7A7B470A946"]
+			id: "7B5373B44AA60E51"
+			rewards: [{
+				id: "70EE22A7542BDCEC"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "39B11504960ACF24"
+				item: "immersive_aircraft:hull_reinforcement"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["06FAB7A7B470A946"]
+			id: "081AB73C4A19392E"
+			rewards: [{
+				id: "3CFCEFB6962B649C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "5DB0C23687F16C27"
+				item: "immersive_aircraft:improved_landing_gear"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5BFF67ABE655CA50"]
+			description: ["简单且造价极低的储存方式，并且使用便捷，只需要将储存整合器放在箱子上，再放置一个储存终端，就可以访问箱子里面的内容，并且箱子与箱子之间仅需相邻，甚至不需要连接！"]
+			id: "463D145FBA43FDC6"
+			rewards: [{
+				id: "1EC2B40782F310C2"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "一种更省心的储存方式"
+			tasks: [
+				{
+					id: "5D79BDE716E27B6E"
+					item: "toms_storage:ts.inventory_connector"
+					type: "item"
+				}
+				{
+					id: "416EFA321E31C300"
+					item: "toms_storage:ts.storage_terminal"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "76EADE73C8254AB5"
+					item: { Count: 64b, id: "toms_storage:ts.inventory_cable" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7E3425F83F8F2B12"
+					item: { Count: 8b, id: "toms_storage:ts.trim" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["463D145FBA43FDC6"]
+			description: [
+				"带合成表的存储终端，允许玩家直接在AE界面合成物品"
+				""
+				"放置终端将当前区块设为强加载，&c若要搬家请用木斧拆卸终端来取消强加载&r"
+			]
+			id: "0150E39474E36795"
+			rewards: [{
+				id: "7829D77D517747F5"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "“就像是AE一样，对吧”"
+			tasks: [{
+				id: "6E950BB84625FF51"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0150E39474E36795"]
+			description: [
+				"无线终端可以让你在远程访问储存终端，当然，这个前提是你要将准心对准储存终端"
+				""
+				"放置终端将当前区块设为强加载，&c若要搬家请用木斧拆卸终端来取消强加载&r"
+			]
+			id: "71A2949B4A056D6A"
+			rewards: [{
+				id: "1767F481B1D67C35"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "\"无线访问\""
+			tasks: [{
+				id: "6B3E9B6A68E97521"
+				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["71A2949B4A056D6A"]
+			description: [
+				"高级无线终端拥有无线终端的全部功能，并且更强。"
+				""
+				"如果你在储存终端附近建造了一个1级的信标，那么你就可以在这个维度的任何地方访问储存终端。"
+				""
+				"如果你在储存终端附近建造了一个4级的信标，那么你就可以跨越维度，在任何世界访问储存终端。"
+				""
+				"放置终端将当前区块设为强加载，&c若要搬家请用木斧拆卸终端来取消强加载&r"
+			]
+			id: "2AD36D1E9994234A"
+			rewards: [{
+				id: "1F8D880477658A58"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "“跨越维度与空间”"
+			tasks: [{
+				id: "520224BA45FE59A3"
+				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["463D145FBA43FDC6"]
+			description: ["汤姆的简易储存支持各种箱子的访问，其中也包括精妙储存。"]
+			id: "29911FD60DE41C5B"
+			subtitle: "“1+1>2\""
+			tasks: [{
+				id: "04F64DBEF706698D"
+				title: "精妙储存与简易储存的双重应用"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			description: ["悄悄靠诉你，咱新加入了盆栽哦~"]
+			icon: "alexsmobs:potted_flutter"
+			id: "436076C2D4F24057"
+			rewards: [{
+				id: "40F3E2759E383078"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "21B55791656BAF30"
+				title: "这有个小秘密"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["463D145FBA43FDC6"]
+			description: ["some-assembly-required的东西不能往简易存储里放嗷，不然可能会崩溃"]
+			id: "23B041D03F377CBC"
+			tasks: [{
+				id: "0FA688FA59B7AF99"
+				title: "已知Bug"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			description: ["任意三本附魔书，可以合成一本经验修补"]
+			id: "0DB4C2B598E3B30F"
+			rewards: [{
+				id: "30704883451C47DA"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "“从未如此方便”"
+			tasks: [{
+				id: "0ED18511D84BC2D6"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "感谢恩赐！"
+			x: 2.5d
+			y: -2.5d
+		}
+	]
+	title: "知识就是力量"
+}

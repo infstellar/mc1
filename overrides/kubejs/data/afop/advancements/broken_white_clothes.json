@@ -1,0 +1,18 @@
+{
+    "display": {
+      "title": "君子立命，一生无悔！",
+      "description": "曾经的上苍之上一片漆黑，直到那位君姓...",
+      "icon": {
+        "item": "kubejs:broken_white_clothes"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "trigger": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

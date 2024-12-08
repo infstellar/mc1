@@ -1,0 +1,18 @@
+{
+    "display": {
+      "title": "这是什么物种？",
+      "description": "你好，我叫派蒙",
+      "icon": {
+        "item": "kubejs:paimon"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "trigger": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

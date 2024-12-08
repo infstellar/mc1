@@ -1,0 +1,18 @@
+{
+    "display": {
+      "title": "看起来很好玩呢",
+      "description": "似乎有点硌手",
+      "icon": {
+        "item": "kubejs:stone_mask"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "trigger": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

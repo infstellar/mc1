@@ -1,0 +1,18 @@
+{
+    "display": {
+      "title": "我居中央为大道，斗转星移抬手间！",
+      "description": "此道，已成！",
+      "icon": {
+        "item": "kubejs:season_selector"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "trigger": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

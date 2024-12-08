@@ -1,0 +1,18 @@
+{
+    "display": {
+      "title": "这个东西很危险！",
+      "description": "我的愿望是: 世界和平",
+      "icon": {
+        "item": "kubejs:warhead"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "trigger": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

@@ -1,0 +1,1345 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "78504E6234E4B9EE"
+	group: "7EBBEE73A93E306F"
+	icon: "drinkbeer:trade_box_normal"
+	id: "78504E6234E4B9EE"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["为了弥补你因末地和下界被抹除后旅途的遗憾，神明将下界和末地中的生物和物品保留了下来，并通过交换的方式给予身在主世界的你"]
+			id: "25C0D4D779ED4364"
+			tasks: [{
+				id: "700D997A5DD1826E"
+				title: "这里是神明的小商店"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -13.5d
+		}
+		{
+			id: "6D04642A105A2B6D"
+			tasks: [{
+				id: "629DB40E1A63AE8A"
+				title: "维度商店"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			can_repeat: true
+			description: ["诡异蟾蜍，来自于下界的诡异森林"]
+			icon: "alexsmobs:spawn_egg_warped_toad"
+			id: "4667EECBA83EC874"
+			rewards: [{
+				id: "1CC043C2AC800CCF"
+				item: "alexsmobs:spawn_egg_warped_toad"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "45819BBFCA264250"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6D04642A105A2B6D"]
+			id: "2CF2A6A8BA787F4C"
+			tasks: [{
+				id: "63B7BF3BCAF5A1AB"
+				title: "末地区"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6D04642A105A2B6D"]
+			id: "6BFEE1F3A7BCE878"
+			tasks: [{
+				id: "1E1EAE95BEF6FD46"
+				title: "下界区"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			description: ["宙游鲟，来自于末地，拥有飞行能力"]
+			icon: "alexsmobs:spawn_egg_cosmaw"
+			id: "62FAFE8B6A55A3DB"
+			rewards: [{
+				id: "0F40A4F624EC72A5"
+				item: "alexsmobs:spawn_egg_cosmaw"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 12L
+				id: "2064FB25CEEE736C"
+				item: { Count: 16b, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			title: "宙游鲟"
+			x: -10.5d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			description: ["宇宙鳕鱼，来自于末地，群居生物"]
+			icon: "alexsmobs:spawn_egg_cosmic_cod"
+			id: "353F76F4B6DDDD69"
+			rewards: [{
+				id: "4C392EFBE4DABDC2"
+				item: "alexsmobs:spawn_egg_cosmic_cod"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "22F7F4DBC30761DE"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "宇宙鳕鱼刷怪蛋"
+			x: -12.5d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			description: ["复刻怪，来自于末地城，掉落复刻凝胶"]
+			icon: "alexsmobs:spawn_egg_mimicube"
+			id: "1DBD37A8B24C3591"
+			rewards: [{
+				id: "648076E1320B4ABE"
+				item: "alexsmobs:spawn_egg_mimicube"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "3FC2B0963F04FAA8"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "复刻怪"
+			x: -8.5d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			description: ["末影噬菌体，来自于末地，掉落衣壳体"]
+			icon: "alexsmobs:spawn_egg_enderiophage"
+			id: "36E0D00382046E96"
+			rewards: [{
+				id: "79B68E652700E99A"
+				item: "alexsmobs:spawn_egg_enderiophage"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "176F797CB3CC45B6"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "末影噬菌体"
+			x: -8.5d
+			y: -11.5d
+		}
+		{
+			id: "446C70B8773C2C33"
+			tasks: [{
+				id: "1A0D89B4F382ED98"
+				title: "同名兑换"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["446C70B8773C2C33"]
+			id: "2BB3CC4E9768EA43"
+			tasks: [{
+				id: "774BAFCCCF3E7F53"
+				title: "种子区"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["446C70B8773C2C33"]
+			id: "727F12AC63FB2B37"
+			tasks: [{
+				id: "5F96B51020A665D4"
+				title: "树苗区"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:warped_fungus"
+			id: "0704D1F9FCBE6377"
+			rewards: [{
+				id: "422F26EF871CC73E"
+				item: "minecraft:warped_fungus"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "15D87044BBFD2213"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			title: "诡异菌"
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			description: ["用于部分特殊物品兑换"]
+			id: "754C8231D6631DA2"
+			tasks: [{
+				id: "2E92552C73529E2D"
+				title: "特殊兑换"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			description: ["用于召唤BOSS虚空蠕虫"]
+			id: "0B74E1D7B995D1A1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6AA6DD2EB96642FB"
+				item: "alexsmobs:spawn_egg_void_worm"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5FCCC7E82280D420"
+				item: "alexsmobs:mysterious_worm"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			icon: "locusazzurro_icaruswings:fallen_relic_core"
+			id: "153AD9AE399E2986"
+			rewards: [{
+				id: "431B51150940DCDA"
+				item: "locusazzurro_icaruswings:fallen_relic_core"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "5E9AB52CE44D2129"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			description: ["跨坐兽，来自下界的玄武岩三角洲，会掉玄武岩，跨坐晶石等"]
+			icon: "alexsmobs:spawn_egg_straddler"
+			id: "7453041194166213"
+			rewards: [{
+				id: "037F591E4A30E4E7"
+				item: "alexsmobs:spawn_egg_straddler"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 7L
+				id: "05F690D242466E53"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			title: "跨坐兽"
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"下届游荡的空中炮塔--恶魂 的掉落物"
+				"用于制作部分物品以及酿造再生药水"
+			]
+			icon: "minecraft:ghast_tear"
+			id: "16D4C23E9FC17161"
+			rewards: [{
+				id: "70867F10FE1302F0"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "35D64BA7ADFAD70C"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "youkaishomecoming:koishi_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7F0D1121785FE6F2"
+			rewards: [{
+				id: "48106844433605F0"
+				item: {
+					Count: 1b
+					id: "youkaishomecoming:koishi_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "7BF09D70EB2DC5BA"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "5FC49D18EA8451AF"
+					item: { Count: 5b, id: "minecraft:diamond" }
+					type: "item"
+				}
+			]
+			title: "帽子先生"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			description: ["前往另一个维度的钥匙"]
+			icon: "tropicraft:pina_colada"
+			id: "04516636435647BA"
+			rewards: [{
+				id: "2AFBC96A9F77530E"
+				item: "tropicraft:pina_colada"
+				type: "item"
+			}]
+			subtitle: "饮料？钥匙！"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "3261F711E81B392F"
+				item: { Count: 5b, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			title: "可乐达"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:crimson_fungus"
+			id: "762A712A3A10D92E"
+			rewards: [{
+				id: "6304F57C1BD86F85"
+				item: "minecraft:crimson_fungus"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "753EC4D006230622"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			title: "绯红菌"
+			x: -14.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			id: "4E8D313C65F8AB24"
+			rewards: [{
+				id: "12988BA20DF0E60B"
+				item: "bakery:strawberry_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "70206CDC12B35742"
+				item: "croptopia:strawberry_seed"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			id: "60F846C603CB99CA"
+			rewards: [{
+				id: "6D76F6AA80DED5F8"
+				item: "croptopia:strawberry_seed"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0DED90E98C51C5BC"
+				item: "bakery:strawberry_seeds"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -11.5d
+		}
+		{
+			can_repeat: true
+			id: "62820FECBC1C1ACB"
+			rewards: [{
+				id: "57348BCAFEB370C7"
+				item: "vintagedelight:oat_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "69069CF77C039B2D"
+				item: "croptopia:oat_seed"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			id: "6E6FBA144E179D1B"
+			rewards: [{
+				id: "574D49853028DC3E"
+				item: "croptopia:oat_seed"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1A94D641EB814DB0"
+				item: "vintagedelight:oat_seeds"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -11.5d
+		}
+		{
+			can_repeat: true
+			id: "1F93EA544A9B877F"
+			rewards: [{
+				id: "2068C7B92BCF1D33"
+				item: "bakery:oat_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "501B6CA94FD6D399"
+				item: "croptopia:oat_seed"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -13.0d
+		}
+		{
+			can_repeat: true
+			id: "3877BCAD5812D360"
+			rewards: [{
+				id: "1DF0CA0479B3FE26"
+				item: "croptopia:oat_seed"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0C0E1B7853E5254E"
+				item: "bakery:oat_seeds"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -14.5d
+		}
+		{
+			can_repeat: true
+			id: "73984F169E0414E7"
+			rewards: [{
+				id: "371F138908DF582C"
+				item: "fantasycraft:birdiseyechili_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "03F3756C8116C43D"
+				item: "croptopia:chile_pepper_seed"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			id: "1459D1A21CA8A9F6"
+			rewards: [{
+				id: "21405FC7953A5A84"
+				item: "croptopia:chile_pepper_seed"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6F5EC3FCA58E7952"
+				item: "fantasycraft:birdiseyechili_seeds"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -11.5d
+		}
+		{
+			can_repeat: true
+			id: "179F0267CB7A88E2"
+			rewards: [{
+				id: "1C0500445737B28C"
+				item: "tofucraft:seeds_chili"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2585AC432A09A004"
+				item: "croptopia:chile_pepper_seed"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -13.0d
+		}
+		{
+			can_repeat: true
+			id: "7EBBC32A1E6F9D1C"
+			rewards: [{
+				id: "794D1F6FE2E77CCE"
+				item: "croptopia:chile_pepper_seed"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0893B6BA765670C0"
+				item: "tofucraft:seeds_chili"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -14.5d
+		}
+		{
+			can_repeat: true
+			id: "3A1577A976C0F70B"
+			rewards: [{
+				id: "0CD51826196811C9"
+				item: "farmersdelight:tomato_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "267AA899557A6388"
+				item: "croptopia:tomato_seed"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			id: "2C4DAFC6E6921B17"
+			rewards: [{
+				id: "2EEF74CEC55F75AC"
+				item: "croptopia:tomato_seed"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "3FC595F39F1A54D1"
+				item: "farmersdelight:tomato_seeds"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -11.5d
+		}
+		{
+			can_repeat: true
+			id: "6838CF70EFAD2992"
+			rewards: [{
+				id: "256DB35D9E2961D7"
+				item: "candlelight:tomato_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6646A2A890ACB637"
+				item: "croptopia:tomato_seed"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -13.0d
+		}
+		{
+			can_repeat: true
+			id: "62BC6734545D0FE7"
+			rewards: [{
+				id: "189D1D4654B16565"
+				item: "croptopia:tomato_seed"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "024FD78D58985F3C"
+				item: "candlelight:tomato_seeds"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -14.5d
+		}
+		{
+			can_repeat: true
+			id: "753FEE8265D48F2B"
+			rewards: [{
+				id: "509E122564AC7EE3"
+				item: "farmersdelight:cabbage_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "136E3281C6E0D508"
+				item: "croptopia:cabbage_seed"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			id: "33AA436C25A17494"
+			rewards: [{
+				id: "0A1200E6EC9D91DE"
+				item: "croptopia:cabbage_seed"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "51D3670D89D29F3C"
+				item: "farmersdelight:cabbage_seeds"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -11.5d
+		}
+		{
+			can_repeat: true
+			id: "6B86443F7682F270"
+			rewards: [{
+				id: "0429679AEE693A11"
+				item: "brewery:barley_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4310496F11685CEF"
+				item: "croptopia:barley_seed"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			id: "43C2D8A939A39F51"
+			rewards: [{
+				id: "4CAF51C866E90999"
+				item: "croptopia:barley_seed"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0F5A829580B46920"
+				item: "brewery:barley_seeds"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -11.5d
+		}
+		{
+			can_repeat: true
+			id: "7C1C4733C7BFAFCA"
+			rewards: [{
+				id: "19786543CB2FDB57"
+				item: "vintagedelight:cucumber_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "59F63A07C0A563B2"
+				item: "croptopia:cucumber_seed"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			id: "6B5128FEF3FC43B7"
+			rewards: [{
+				id: "2D03CF097C2AB06B"
+				item: "croptopia:cucumber_seed"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2BABE4DF43E9F7CA"
+				item: "vintagedelight:cucumber_seeds"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -11.5d
+		}
+		{
+			can_repeat: true
+			id: "4CBD11F16126FE18"
+			rewards: [{
+				id: "59859685BDB79635"
+				item: "brewery:corn_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "23B3F7A379E19A1D"
+				item: "croptopia:corn_seed"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			id: "7B1D9C61AC69C5F7"
+			rewards: [{
+				id: "30D03EC44DE6E3D7"
+				item: "croptopia:corn_seed"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2D828959AA4C868D"
+				item: "brewery:corn_seeds"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -11.5d
+		}
+		{
+			can_repeat: true
+			id: "2473088EA707D757"
+			rewards: [{
+				id: "237E298135598A40"
+				item: "brewery:hops_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7991E94B8D8E7FEF"
+				item: "croptopia:hops_seed"
+				type: "item"
+			}]
+			x: 22.5d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			id: "4F31E477758D92A4"
+			rewards: [{
+				id: "04794A0368CAB77D"
+				item: "croptopia:hops_seed"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5F73C676E9CF376D"
+				item: "brewery:hops_seeds"
+				type: "item"
+			}]
+			x: 22.5d
+			y: -11.5d
+		}
+		{
+			can_repeat: true
+			id: "06CBABCB520B687A"
+			rewards: [{
+				id: "59B52A244D27CE47"
+				item: "fruitsdelight:hamimelon_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "10B65055E217D576"
+				item: "croptopia:cantaloupe_seed"
+				type: "item"
+			}]
+			x: 24.5d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			id: "3653367F1842C732"
+			rewards: [{
+				id: "25BE6802BD58750D"
+				item: "croptopia:cantaloupe_seed"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4BD8D10FFA0AEF17"
+				item: "fruitsdelight:hamimelon_seeds"
+				type: "item"
+			}]
+			x: 24.5d
+			y: -11.5d
+		}
+		{
+			can_repeat: true
+			id: "336632E3027EC74F"
+			rewards: [{
+				id: "6349EBFFDCB8EC0B"
+				item: "youkaishomecoming:coffee_beans"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5DFC56DE2365E595"
+				item: "croptopia:coffee_beans"
+				type: "item"
+			}]
+			x: 26.5d
+			y: -10.0d
+		}
+		{
+			can_repeat: true
+			id: "0D3CBB8DDF5903F7"
+			rewards: [{
+				id: "792EDAF796114213"
+				item: "croptopia:coffee_beans"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "78777820AF6D9167"
+				item: "youkaishomecoming:coffee_beans"
+				type: "item"
+			}]
+			x: 26.5d
+			y: -11.5d
+		}
+		{
+			can_repeat: true
+			id: "6D58274B02E9BDA6"
+			rewards: [{
+				id: "7CACE862D242E59B"
+				item: "herbalbrews:coffee_beans"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "06EEF22E13039610"
+				item: "croptopia:coffee_beans"
+				type: "item"
+			}]
+			x: 26.5d
+			y: -13.0d
+		}
+		{
+			can_repeat: true
+			id: "7747BC5A16985A04"
+			rewards: [{
+				id: "100406864489FE01"
+				item: "croptopia:coffee_beans"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "63596DD7668F2BE3"
+				item: "herbalbrews:coffee_beans"
+				type: "item"
+			}]
+			x: 26.5d
+			y: -14.5d
+		}
+		{
+			can_repeat: true
+			id: "4786D88115DC3B60"
+			rewards: [{
+				id: "41ACAABEB154D104"
+				item: "croptopia:lemon_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "02DD0561211DA488"
+				item: "fruitfulfun:lemon_sapling"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "712E3CBD4C1B6DC1"
+			rewards: [{
+				id: "6D78EA6DFDF864E2"
+				item: "fruitfulfun:lemon_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1873D343C08E5461"
+				item: "croptopia:lemon_sapling"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "205EAB47FE16AB31"
+			rewards: [{
+				id: "1354037C08906892"
+				item: "tropicraft:lemon_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "30D19069F5B0BA89"
+				item: "fruitfulfun:lemon_sapling"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "48ED1F5DF11B763B"
+			rewards: [{
+				id: "7AEA5BB460457906"
+				item: "fruitfulfun:lemon_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "42BD0540832DAA2C"
+				item: "tropicraft:lemon_sapling"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			id: "02DD55CA599D1449"
+			rewards: [{
+				id: "1388685DE6F1E37D"
+				item: "fruitsdelight:apple_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4F45726655D927DB"
+				item: "croptopia:apple_sapling"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "6E3E7D5757359F7F"
+			rewards: [{
+				id: "5D45DC1ABEBC3BC1"
+				item: "croptopia:apple_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6CF5D82B372598D8"
+				item: "fruitsdelight:apple_sapling"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "0A317D7A225D4B3A"
+			rewards: [{
+				id: "21DFB69253D1D999"
+				item: "vinery:apple_tree_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "143DE3C507E950D7"
+				item: "croptopia:apple_sapling"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "20829872E88D90FD"
+			rewards: [{
+				id: "53B98EA24349647E"
+				item: "croptopia:apple_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "302B6FF505B9F93D"
+				item: "vinery:apple_tree_sapling"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			id: "2E71A68AD91E6A91"
+			rewards: [{
+				id: "4EC912262D3ECB18"
+				item: "croptopia:cherry_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "3F2CA2920A36ADAB"
+				item: "fruitfulfun:cherry_sapling"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "6AD005D0C16F54AE"
+			rewards: [{
+				id: "5230416B530B35B0"
+				item: "fruitfulfun:cherry_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0D71D8389C3EC9FB"
+				item: "croptopia:cherry_sapling"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "30E92CF0B2B4267F"
+			rewards: [{
+				id: "24A122E04A985B78"
+				item: "fruitsdelight:orange_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "137195700FDE2FE6"
+				item: "fruitfulfun:tangerine_sapling"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "3B73DC52B74676FF"
+			rewards: [{
+				id: "61DEB651E74D6B27"
+				item: "fruitfulfun:tangerine_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5A8B6011CB4AC0BA"
+				item: "fruitsdelight:orange_sapling"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "68DC5B380293B471"
+			rewards: [{
+				id: "6307B17F3867A432"
+				item: "fruitsdelight:fig_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "77B1943684DC0989"
+				item: "croptopia:fig_sapling"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "563FD07AFA605136"
+			rewards: [{
+				id: "548C8D1019AE786F"
+				item: "croptopia:fig_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0112925543B3A7CC"
+				item: "fruitsdelight:fig_sapling"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "57CEA78E9150AEF3"
+			rewards: [{
+				id: "6A1C579DB3F9FFC8"
+				item: "caupona:fig_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7745D94CB4A8F62F"
+				item: "croptopia:fig_sapling"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "4931294FF12B04D3"
+			rewards: [{
+				id: "28D307FA89A3D9F8"
+				item: "croptopia:fig_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "35F53D953F54BEF3"
+				item: "caupona:fig_sapling"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			id: "3FE3B354F408ED47"
+			rewards: [{
+				id: "10885180EBB65695"
+				item: "tropicraft:grapefruit_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "05AE3CF2A0348170"
+				item: "fruitfulfun:grapefruit_sapling"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "3680F665638DAA76"
+			rewards: [{
+				id: "62588668D860ACE6"
+				item: "fruitfulfun:grapefruit_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2F2B3E2554313526"
+				item: "tropicraft:grapefruit_sapling"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "69D3DB5EA8DB3E28"
+			rewards: [{
+				id: "43CE1BE32A8484AC"
+				item: "tropicraft:lime_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "267D8F167C0FD03B"
+				item: "fruitfulfun:lime_sapling"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "1996D063D7B528B7"
+			rewards: [{
+				id: "24C23D1099F0214D"
+				item: "fruitfulfun:lime_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "768994D6AE3ED564"
+				item: "tropicraft:lime_sapling"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "07A83A5E1F6F03B7"
+			rewards: [{
+				id: "7D4510AC5ACD14F2"
+				item: "fruitsdelight:mango_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "278FDC82CB061C07"
+				item: "croptopia:mango_sapling"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "6F34135EA9893B42"
+			rewards: [{
+				id: "65DA180D67641C39"
+				item: "croptopia:mango_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "05CDB3C19BD324AE"
+				item: "fruitsdelight:mango_sapling"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "16AB423FC00C3FE3"
+			rewards: [{
+				id: "15818DC5793EA413"
+				item: "caupona:walnut_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "25382EDA32B7F4D6"
+				item: "croptopia:walnut_sapling"
+				type: "item"
+			}]
+			x: 22.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "70D6754AE541C808"
+			rewards: [{
+				id: "7E4BD04B61BDA7AC"
+				item: "croptopia:walnut_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1C23750B9F3B4536"
+				item: "caupona:walnut_sapling"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: "alexsmobs:mosquito_proboscis"
+			id: "79D63F8BFDC06F18"
+			rewards: [{
+				id: "18342249EBC685A0"
+				item: "alexsmobs:mosquito_proboscis"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "3958012A184772DE"
+				item: { Count: 2b, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			title: "绯红蚊子口器"
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:twisting_vines"
+			id: "0AAC2FA27702AE4A"
+			rewards: [{
+				id: "51FB91952FAD10C7"
+				item: "minecraft:twisting_vines"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "54CCE59660DC4368"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "缠怨藤"
+			x: -8.5d
+			y: 2.0d
+		}
+	]
+	title: "神明的小商店"
+}
